@@ -3,21 +3,23 @@
 import {
   ArrowUpDown,
   Filter,
-  Microscope,
   RotateCcw,
   Search,
-  Sparkles,
   X,
 } from "lucide-react";
 import * as React from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
+  ReadingModeBanner,
+  ReadingModeToggle,
+} from "@/components/wiki/reading-mode-toggle";
 import {
   ORGAN_ICONS,
   SubstanceCard,
 } from "@/components/wiki/substance-card";
+import { useReadingMode } from "@/context/reading-mode-context";
 import {
   ALL_CATEGORIES,
   ALL_ORGANS,
@@ -28,7 +30,6 @@ import {
 } from "@/lib/catalog-utils";
 import type {
   OrganId,
-  ReadingMode,
   Substance,
   SubstanceCategory,
 } from "@/lib/schemas/substance";
@@ -36,7 +37,6 @@ import { cn } from "@/lib/utils";
 
 interface SubstanceExplorerProps {
   substances: Substance[];
-  defaultReadingMode?: ReadingMode;
 }
 
 const QUICK_SEARCH_SUGGESTIONS = [
@@ -48,10 +48,9 @@ const QUICK_SEARCH_SUGGESTIONS = [
   "Cocaetileno",
 ];
 
-export function SubstanceExplorer({
-  substances,
-  defaultReadingMode = "general",
-}: SubstanceExplorerProps) {
+export function SubstanceExplorer({ substances }: SubstanceExplorerProps) {
+  const { readingMode } = useReadingMode();
+
   const [query, setQuery] = React.useState("");
   const [selectedCategory, setSelectedCategory] = React.useState<
     SubstanceCategory | "all"
@@ -60,8 +59,6 @@ export function SubstanceExplorer({
     "all"
   );
   const [sortBy, setSortBy] = React.useState<SortCriterion>("addiction");
-  const [readingMode, setReadingMode] =
-    React.useState<ReadingMode>(defaultReadingMode);
 
   const searchInputRef = React.useRef<HTMLInputElement>(null);
 
@@ -141,10 +138,13 @@ export function SubstanceExplorer({
   };
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-6">
+      {/* Persistent Global Reading Mode Status Banner */}
+      <ReadingModeBanner />
+
       {/* Search & Filter Control Panel */}
       <div className="rounded-2xl border border-slate-800/90 bg-slate-950/85 p-5 sm:p-6 shadow-xl backdrop-blur-md space-y-6">
-        {/* Top Row: Instant Search Input + Reading Mode Toggle */}
+        {/* Top Row: Instant Search Input + Global Reading Mode Toggle */}
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
           <div className="relative flex-1">
             <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-cyan-400" />
@@ -173,26 +173,12 @@ export function SubstanceExplorer({
             </div>
           </div>
 
-          {/* Reading Mode Switcher */}
+          {/* Synchronized Global Reading Mode Switcher */}
           <div className="flex items-center justify-between sm:justify-end gap-3">
             <span className="text-xs font-mono text-slate-400 hidden xl:inline">
-              Nivel de explicación:
+              Nivel de lectura:
             </span>
-            <Tabs
-              value={readingMode}
-              onValueChange={(val) => setReadingMode(val as ReadingMode)}
-            >
-              <TabsList className="h-11">
-                <TabsTrigger value="general" className="gap-1.5 px-3.5 py-2">
-                  <Sparkles className="h-3.5 w-3.5" />
-                  Modo General
-                </TabsTrigger>
-                <TabsTrigger value="technical" className="gap-1.5 px-3.5 py-2">
-                  <Microscope className="h-3.5 w-3.5" />
-                  Modo Técnico
-                </TabsTrigger>
-              </TabsList>
-            </Tabs>
+            <ReadingModeToggle showShortcutHint />
           </div>
         </div>
 
@@ -396,7 +382,6 @@ export function SubstanceExplorer({
             <SubstanceCard
               key={substance.id}
               substance={substance}
-              readingMode={readingMode}
               activeOrgan={selectedOrgan}
               onSelectOrgan={(organId) =>
                 setSelectedOrgan(selectedOrgan === organId ? "all" : organId)
@@ -424,4 +409,3 @@ export function SubstanceExplorer({
     </div>
   );
 }
-

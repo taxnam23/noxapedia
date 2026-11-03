@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { ReadingModeProvider } from "@/context/reading-mode-context";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -29,7 +30,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} dark h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-cyan-500/30 selection:text-cyan-200">
-        {children}
+        <ReadingModeProvider>{children}</ReadingModeProvider>
       </body>
     </html>
   );

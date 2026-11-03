@@ -13,6 +13,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { ReadingModeToggle } from "@/components/wiki/reading-mode-toggle";
 import { SubstanceExplorer } from "@/components/wiki/substance-explorer";
 import { getAllSubstances } from "@/lib/data";
 
@@ -43,8 +44,12 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
-            <Badge variant="low" className="font-mono text-xs">
+          <div className="flex items-center gap-3">
+            <ReadingModeToggle size="sm" />
+            <Badge
+              variant="low"
+              className="hidden md:inline-flex font-mono text-xs"
+            >
               <Database className="h-3.5 w-3.5" />
               {substances.length}{" "}
               {substances.length === 1

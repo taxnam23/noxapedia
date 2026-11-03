@@ -4,12 +4,14 @@ import {
   Activity,
   AlertTriangle,
   Brain,
+  Clock,
   Droplets,
   FlaskConical,
   HeartPulse,
+  Microscope,
   Wind,
 } from "lucide-react";
-import type * as React from "react";
+import * as React from "react";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -18,6 +20,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { useReadingMode } from "@/context/reading-mode-context";
 import {
   ALL_ORGANS,
   CATEGORY_LABELS,
@@ -50,32 +53,68 @@ const SEVERITY_DOT_COLORS: Record<SeverityLevel, string> = {
   critical: "bg-rose-500 shadow-sm shadow-rose-500/60",
 };
 
+type CardNarrativeTab = "summary" | "mechanism" | "addiction";
+
 interface SubstanceCardProps {
   substance: Substance;
-  readingMode: ReadingMode;
+  readingMode?: ReadingMode;
   activeOrgan: OrganId | "all";
   onSelectOrgan?: (organ: OrganId) => void;
 }
 
 export function SubstanceCard({
   substance,
-  readingMode,
+  readingMode: propReadingMode,
   activeOrgan,
   onSelectOrgan,
 }: SubstanceCardProps) {
+  const { readingMode: contextReadingMode } = useReadingMode();
+  const activeReadingMode = propReadingMode ?? contextReadingMode;
+  const isTechnical = activeReadingMode === "technical";
+
+  const [narrativeTab, setNarrativeTab] =
+    React.useState<CardNarrativeTab>("summary");
+
   const focusedOrganImpact =
     activeOrgan !== "all" ? substance.organImpacts[activeOrgan] : undefined;
+
+  const activeNarrativeText = React.useMemo(() => {
+    switch (narrativeTab) {
+      case "mechanism":
+        return substance.mechanism[activeReadingMode];
+      case "addiction":
+        return substance.addictionExplanation[activeReadingMode];
+      case "summary":
+      default:
+        return substance.summary[activeReadingMode];
+    }
+  }, [substance, narrativeTab, activeReadingMode]);
 
   return (
     <Card className="group relative flex flex-col justify-between border-slate-800/90 bg-slate-950/75 hover:border-cyan-500/45 transition-all duration-200 overflow-hidden">
       {/* Top accent line */}
-      <div className="h-1 w-full bg-gradient-to-r from-cyan-500 via-sky-500 to-rose-500 opacity-75 group-hover:opacity-100 transition-opacity" />
+      <div
+        className={cn(
+          "h-1 w-full bg-gradient-to-r transition-opacity",
+          isTechnical
+            ? "from-rose-500 via-amber-500 to-cyan-500 opacity-90"
+            : "from-cyan-500 via-sky-500 to-rose-500 opacity-75 group-hover:opacity-100"
+        )}
+      />
 
       <CardHeader className="pb-3 space-y-2.5">
         <div className="flex flex-wrap items-center justify-between gap-2">
-          <Badge variant="default">
-            {CATEGORY_LABELS[substance.category].label}
-          </Badge>
+          <div className="flex items-center gap-1.5">
+            <Badge variant="default">
+              {CATEGORY_LABELS[substance.category].label}
+            </Badge>
+            <Badge
+              variant={isTechnical ? "critical" : "secondary"}
+              className="font-mono text-[10px]"
+            >
+              {isTechnical ? "MODO TÉCNICO" : "MODO GENERAL"}
+            </Badge>
+          </div>
           <div className="flex items-center gap-2 font-mono text-xs text-slate-400">
             <span className="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-cyan-300">
               {substance.formula}
@@ -113,11 +152,63 @@ export function SubstanceCard({
       </CardHeader>
 
       <CardContent className="flex-1 flex flex-col justify-between space-y-5">
-        {/* Summary in selected reading mode */}
+        {/* Narrative Section Tabs + Dual-Mode Text */}
         <div className="space-y-3">
+          <div className="flex items-center gap-1 rounded-lg border border-slate-800/90 bg-slate-900/70 p-1">
+            {(
+              [
+                { id: "summary", label: "Resumen" },
+                { id: "mechanism", label: "Mecanismo" },
+                { id: "addiction", label: "Adicción" },
+              ] as const
+            ).map((tab) => (
+              <button
+                key={tab.id}
+                type="button"
+                onClick={() => setNarrativeTab(tab.id)}
+                className={cn(
+                  "flex-1 rounded-md px-2.5 py-1 text-xs font-medium transition-all cursor-pointer",
+                  narrativeTab === tab.id
+                    ? isTechnical
+                      ? "bg-rose-500/20 text-rose-200 border border-rose-500/40"
+                      : "bg-cyan-500/20 text-cyan-200 border border-cyan-500/40"
+                    : "text-slate-400 hover:text-slate-200"
+                )}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+
           <p className="text-sm text-slate-300 leading-relaxed">
-            {substance.summary[readingMode]}
+            {activeNarrativeText}
           </p>
+
+          {/* Pharmacokinetics Telemetry Strip unlocked in Technical Mode */}
+          {isTechnical && (
+            <div className="rounded-lg border border-rose-500/30 bg-rose-950/15 p-3 space-y-2">
+              <div className="flex items-center justify-between text-[11px] font-mono text-rose-300">
+                <span className="flex items-center gap-1.5 font-semibold uppercase tracking-wider">
+                  <Microscope className="h-3.5 w-3.5 text-rose-400" />
+                  Parámetros Farmacocinéticos
+                </span>
+                <span className="flex items-center gap-1 text-rose-200">
+                  <Clock className="h-3 w-3" />
+                  t½: {substance.pharmacokinetics.halfLife.split(";")[0]}
+                </span>
+              </div>
+              <div className="grid grid-cols-1 gap-1.5 text-[11px] font-mono text-slate-300">
+                <div>
+                  <span className="text-slate-500">Biodisponibilidad: </span>
+                  <span>{substance.pharmacokinetics.bioavailability}</span>
+                </div>
+                <div>
+                  <span className="text-slate-500">Metabolismo: </span>
+                  <span>{substance.pharmacokinetics.metabolism}</span>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Highlighted Organ Telemetry Callout when an organ filter is active */}
           {activeOrgan !== "all" && focusedOrganImpact && (
@@ -147,8 +238,16 @@ export function SubstanceCard({
                 {focusedOrganImpact.headline}
               </p>
               <p className="text-xs text-slate-300 leading-relaxed">
-                {focusedOrganImpact.explanation[readingMode]}
+                {focusedOrganImpact.explanation[activeReadingMode]}
               </p>
+              {isTechnical && focusedOrganImpact.toxicMetabolite && (
+                <div className="pt-1 font-mono text-[11px] text-amber-300">
+                  Metabolito / Mediador Tóxico:{" "}
+                  <span className="text-amber-200 font-semibold">
+                    {focusedOrganImpact.toxicMetabolite}
+                  </span>
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -255,6 +354,7 @@ export function SubstanceCard({
                 <Badge
                   key={nt.id}
                   variant="secondary"
+                  title={nt.explanation[activeReadingMode]}
                   className="font-mono text-[10px]"
                 >
                   {nt.name}{" "}
@@ -263,6 +363,11 @@ export function SubstanceCard({
                       ? `+${nt.changePercent}%`
                       : `${nt.changePercent}%`}
                   </span>
+                  {isTechnical && nt.receptorTargets.length > 0 && (
+                    <span className="ml-1 text-rose-300">
+                      [{nt.receptorTargets.slice(0, 2).join(", ")}]
+                    </span>
+                  )}
                 </Badge>
               ))}
             </div>
@@ -285,4 +390,3 @@ export function SubstanceCard({
     </Card>
   );
 }
-
