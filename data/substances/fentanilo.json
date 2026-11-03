@@ -1,0 +1,624 @@
+{
+  "id": "fentanyl",
+  "slug": "fentanilo",
+  "name": "Fentanilo",
+  "aliases": [
+    "Citrato de fentanilo",
+    "Fenta",
+    "M30 falsificadas (pastillas prensadas)",
+    "China White",
+    "Tranq Dope (mezclado con xilacina)"
+  ],
+  "chemicalName": "N-fenil-N-[1-(2-feniletil)piperidin-4-il]propanamida",
+  "formula": "C22H28N2O",
+  "molecularWeight": "336.47 g/mol",
+  "casNumber": "437-38-7",
+  "category": "opioid",
+  "origin": "synthetic",
+  "legalStatus": "Fiscalizada internacionalmente (Lista I de la Convención Única de 1961; medicamento esencial hospitalario sujeto a control estricto de receta especial para anestesia y dolor oncológico/agudo severo).",
+  "pharmacokinetics": {
+    "routesOfAdministration": [
+      "Intravenosa / Transdérmica / Epidural (uso clínico controlado)",
+      "Oral / Sublingual (pastillas ilícitas prensadas)",
+      "Inhalada por pirolisis (fumada en papel aluminio) o intranasal"
+    ],
+    "halfLife": "3 – 7 horas en administración única (hasta 12–24 h en uso repetido por redistribución desde el tejido adiposo)",
+    "bioavailability": "Intravenosa: 100% | Transmucosa/Intranasal: ~50–89% | Oral: ~30–50%",
+    "metabolism": "N-desalquilación oxidativa hepática principalmente vía CYP3A4 hacia norfentanilo (metabolito inactivo); alto aclaramiento hepático sensible a inhibidores de CYP3A4.",
+    "excretion": "Renal (>75% como metabolitos hidroxilados y norfentanilo; <10% como fármaco inalterado)."
+  },
+  "riskMetrics": {
+    "addictionPotential": 9.9,
+    "physicalHarm": 9.8,
+    "neurotoxicity": 8.9,
+    "cardiotoxicity": 8.4,
+    "hepatotoxicity": 6.2,
+    "withdrawalSeverity": 9.8,
+    "socialImpact": 9.7
+  },
+  "summary": {
+    "general": "El fentanilo es un opioide sintético entre 50 y 100 veces más potente que la morfina. En el ámbito hospitalario es un anestésico y analgésico fundamental administrado en microgramos bajo monitoreo constante. Fuera del control médico, su extrema potencia hace que una cantidad casi invisible al ojo humano (apenas 2 miligramos) pueda apagar el centro cerebral que ordena respirar, causando la muerte por falta de oxígeno en cuestión de minutos.",
+    "technical": "Agonista selectivo de alta afinidad y eficacia intrínseca sobre los receptores opioides μ (MOR) acoplados a proteínas Gi/o. Su elevada lipofilicidad (logP ~4.05) le permite atravesar la barrera hematoencefálica en 1 a 3 minutos, produciendo analgesia supraespinal profunda, desinhibición dopaminérgica mesolímbica y depresión crítica del complejo pre-Bötzinger en el tronco encefálico."
+  },
+  "mechanism": {
+    "general": "El fentanilo se acopla a los receptores opioides del cerebro y la médula espinal para bloquear las señales de dolor. Al mismo tiempo, desactiva las neuronas que frenan la liberación de dopamina, generando una sensación intensa de alivio y desconexión. Sin embargo, esos mismos receptores están en el tronco cerebral, la zona que controla la respiración automática: al activarlos en exceso, el cerebro deja de detectar el dióxido de carbono acumulado en la sangre y detiene el impulso de inhalar.",
+    "technical": "Al activar los receptores MOR acoplados a proteína Gi/o, inhibe la adenilato ciclasa, reduce el AMPc intracelular, cierra canales de calcio voltaje-dependientes tipo N/P/Q presinápticos y abre canales de potasio rectificadores de entrada (GIRK) postsinápticos, hiperpolarizando las neuronas nociceptivas. En el área tegmental ventral (VTA), hiperpolariza interneuronas GABAérgicas inhibitorias, provocando desinhibición masiva de neuronas dopaminérgicas proyectadas al núcleo accumbens. En el bulbo raquídeo, suprime la sensibilidad quimiorreceptora a la hipercapnia en el complejo pre-Bötzinger."
+  },
+  "addictionExplanation": {
+    "general": "El cuerpo desarrolla tolerancia al fentanilo a una velocidad extraordinaria: las neuronas esconden sus receptores opioides y dejan de producir endorfinas naturales. En pocos días de uso continuo, la persona ya no consume para buscar euforia, sino para evitar un síndrome de abstinencia física agonizante (dolores óseos y musculares intensos, vómitos, diarrea, sudoración fría, taquicardia y pánico extremo) cuando baja el nivel de la sustancia en sangre.",
+    "technical": "La activación sostenida de MOR induce fosforilación del receptor por quinasas GRK, reclutamiento de β-arrestina-2 e internalización/desensibilización acelerada. Como respuesta homeostática, las neuronas noradrenérgicas del locus coeruleus sobreexpresan la vía adenilato ciclasa/AMPc/PKA. Al cesar el agonista opioide, se desencadena una tormenta noradrenérgica de rebote en el locus coeruleus junto con hipodopaminergia severa en el estriado ventral y activación del factor liberador de corticotropina (CRF) en la amígdala extendida."
+  },
+  "prescriptionVsIllicitContext": {
+    "general": "Existe una diferencia abismal entre el fentanilo médico y el ilícito. En un quirófano o unidad de terapia intensiva, se dosifica en microgramos exactos (millonésimas de gramo) mientras un anestesiólogo monitorea el oxígeno y la respiración del paciente. En el mercado ilegal, se fabrica en laboratorios clandestinos y se mezcla de forma desigual en polvos o pastillas falsificadas: una sola pastilla puede tener puntos concentrados ('hotspots') con dosis mortales.",
+    "technical": "El citrato de fentanilo farmacéutico se administra en microgramos (50–100 μg IV) con soporte ventilatorio inmediato y titulación precisa. El fentanilo ilícito (y análogos como carfentanilo o fluorofentanilo) carece de homogeneización farmacéutica (efecto 'chocolate chip cookie' en comprimidos prensados falsificados como oxicodona M30 o alprazolam), exponiendo al usuario a bolos miligrámicos letales (>2 mg) y a adulterantes no opioides como la xilacina."
+  },
+  "neurotransmitters": [
+    {
+      "id": "endorphins",
+      "name": "Sistema Opioide Endógeno (MOR)",
+      "changePercent": 500,
+      "receptorTargets": ["Receptores μ-opioides (MOR)", "Receptores δ (DOR)", "Receptores κ (KOR)"],
+      "explanation": {
+        "general": "Sustituye y multiplica cientos de veces la señal de las endorfinas naturales, anulando el dolor físico pero suprimiendo también el reflejo automático de respirar.",
+        "technical": "Agonismo completo de alta potencia sobre MOR (Ki ~1.3 nM), superando drásticamente la actividad fisiológica de β-endorfinas y encefalinas e induciendo rápida desensibilización mediada por β-arrestina."
+      }
+    },
+    {
+      "id": "dopamine",
+      "name": "Dopamina (DA)",
+      "changePercent": 280,
+      "receptorTargets": ["Interneuronas GABA del VTA", "Receptores D1 / D2 en Núcleo Accumbens"],
+      "explanation": {
+        "general": "Al apagar el freno natural del circuito de recompensa, libera una oleada de dopamina que graba un refuerzo adictivo inmediato.",
+        "technical": "Inhibición presináptica de la liberación de GABA en el área tegmental ventral (VTA), desinhibiendo el disparo fásico de neuronas dopaminérgicas mesolímbicas."
+      }
+    },
+    {
+      "id": "norepinephrine",
+      "name": "Noradrenalina (NE)",
+      "changePercent": -70,
+      "receptorTargets": ["Locus Coeruleus", "Receptores MOR presinápticos"],
+      "explanation": {
+        "general": "Durante el efecto agudo frena el estado de alerta provocando sedación profunda; durante la abstinencia se dispara en sentido contrario causando temblores, sudoración y pánico.",
+        "technical": "Supresión aguda del disparo neuronal en el locus coeruleus; la adaptación crónica de AMPc provoca hiperactividad noradrenérgica masiva al retirar el opioide."
+      }
+    }
+  ],
+  "organImpacts": {
+    "brain": {
+      "organ": "brain",
+      "overallSeverity": "critical",
+      "headline": "Parálisis del centro respiratorio en el tronco encefálico e hipoxia cerebral irreversible",
+      "explanation": {
+        "general": "El peligro más grave del fentanilo ocurre en la base del cerebro (el tronco encefálico), donde reside el marcapasos automático de la respiración. El fentanilo adormece esas neuronas hasta que la persona deja de respirar mientras está inconsciente. En solo 3 a 5 minutos sin oxígeno, las neuronas de la corteza y el hipocampo comienzan a morir.",
+        "technical": "Depresión directa de las neuronas marcapasos inspiratorias del complejo pre-Bötzinger y del núcleo retrotrapezoides en el bulbo raquídeo, aboliendo la respuesta ventilatoria a la hipercapnia e hipoxemia. La apnea resultante produce encefalopatía hipóxica-isquémica, edema cerebral citotóxico y necrosis neuronal laminar."
+      },
+      "highlightedBrainRegions": [
+        "brainstem",
+        "nucleus_accumbens",
+        "amygdala",
+        "hippocampus"
+      ],
+      "hotspots": [
+        {
+          "id": "brainstem_prebotzinger",
+          "label": "Tronco Encefálico (Complejo pre-Bötzinger)",
+          "position": [0, -0.55, -0.15],
+          "severity": "critical",
+          "description": {
+            "general": "Centro vital que genera el ritmo automático de la respiración. El fentanilo silencia sus neuronas y detiene la ventilación pulmonar.",
+            "technical": "Hiperpolarización mediada por canales GIRK en neuronas inspiratorias MOR+ del complejo pre-Bötzinger, induciendo bradipnea severa y apnea central."
+          }
+        },
+        {
+          "id": "nac_vta",
+          "label": "Núcleo Accumbens y VTA",
+          "position": [0.15, -0.1, 0.3],
+          "severity": "critical",
+          "description": {
+            "general": "Circuito de recompensa que sufre una adaptación rápida, bloqueando la capacidad de sentir bienestar sin la sustancia.",
+            "technical": "Desinhibición dopaminérgica por silenciamiento GABAérgico e internalización acelerada de receptores MOR."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Control respiratorio automático intacto y niveles normales de endorfinas y dopamina.",
+            "technical": "Quimiorrecepción central de CO2/O2 normofuncionante y tono opioide endógeno basal."
+          }
+        },
+        "acute": {
+          "severity": "high",
+          "stressIndex": 0.82,
+          "description": {
+            "general": "Sedación intensa, bloqueo del dolor, pupilas puntiformes (miosis) y enlentecimiento peligroso de la respiración.",
+            "technical": "Ocupación masiva de MOR centrales, miosis por estimulación del núcleo de Edinger-Westphal y depresión del centro respiratorio bulbar."
+          }
+        },
+        "withdrawal": {
+          "severity": "critical",
+          "stressIndex": 0.9,
+          "description": {
+            "general": "Tormenta de abstinencia: ansiedad extrema, insomnio total, hipersensibilidad al dolor (hiperalgesia) y deseo desesperado de consumir.",
+            "technical": "Hiperactividad noradrenérgica de rebote en el locus coeruleus, activación de CRF amigdalino e hiperalgesia inducida por opioides."
+          }
+        },
+        "chronic": {
+          "severity": "critical",
+          "stressIndex": 0.88,
+          "description": {
+            "general": "Tolerancia extrema, daño cognitivo por episodios repetidos de baja oxigenación (hipoxia silenciosa) y depresión severa.",
+            "technical": "Leucoencefalopatía hipóxica acumulativa, remodelación sináptica estriatal y supresión del eje hipotálamo-hipófisis-gonadal."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Coma profundo, pérdida total del reflejo respiratorio y daño cerebral hipóxico irreversible en menos de 5 minutos sin oxígeno o naloxona.",
+            "technical": "Apnea central completa, hipoxemia arterial crítica, acidosis respiratoria/metabólica y muerte neuronal excitotóxica por anoxia."
+          }
+        }
+      }
+    },
+    "lungs": {
+      "organ": "lungs",
+      "overallSeverity": "critical",
+      "headline": "Depresión respiratoria severa (<4 RPM) y 'Síndrome del Tórax Leñoso' (rigidez muscular torácica)",
+      "explanation": {
+        "general": "A diferencia de otros opioides, el fentanilo no solo apaga la orden cerebral de respirar, sino que en dosis altas provoca una contracción rígida y repentina de los músculos del pecho, el abdomen y la laringe ('tórax de madera'). Esto impide que entre aire a los pulmones e incluso dificulta la respiración artificial hasta que se administra naloxona.",
+        "technical": "Produce bradipnea central progresiva hasta la apnea y desencadena el 'Wooden Chest Syndrome' (rigidez muscular toracoabdominal y cierre glótico/laríngeo mediado por vías noradrenérgicas y colinérgicas centrales), reduciendo drásticamente la distensibilidad pulmonar y provocando edema pulmonar agudo por presión negativa."
+      },
+      "simulatedRpm": 4,
+      "hotspots": [
+        {
+          "id": "chest_wall_glottis",
+          "label": "Musculatura Intercostal y Vía Aérea Superior",
+          "position": [0, 0.25, 0.35],
+          "severity": "critical",
+          "description": {
+            "general": "Contracción involuntaria y rigidez de la pared del pecho y las cuerdas vocales que bloquea la entrada de oxígeno.",
+            "technical": "Rigidez torácica inducida por fentanilo (FIR) y laringoespasmo central que comprometen la ventilación alveolar."
+          }
+        },
+        {
+          "id": "alveolar_bed",
+          "label": "Lecho Alveolar",
+          "position": [0.28, -0.15, 0.2],
+          "severity": "critical",
+          "description": {
+            "general": "Los alvéolos dejan de recibir aire fresco, cae el oxígeno en sangre (cianosis) y puede acumularse líquido en los pulmones.",
+            "technical": "Hipoventilación alveolar severa, hipercapnia aguda, atelectasia y edema pulmonar no cardiogénico post-obstructivo."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedRpm": 14,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Frecuencia respiratoria normal (14 respiraciones por minuto) con oxigenación arterial completa.",
+            "technical": "Eupnea fisiológica (12–16 RPM), PaO2 y PaCO2 dentro de rangos normales."
+          }
+        },
+        "acute": {
+          "severity": "critical",
+          "simulatedRpm": 6,
+          "stressIndex": 0.85,
+          "description": {
+            "general": "Respiración lenta, superficial e irregular (6 respiraciones por minuto o menos) con caída de la saturación de oxígeno.",
+            "technical": "Bradipnea hipoventilatoria con retención de CO2 (hipercapnia) y desaturación arterial progresiva."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "simulatedRpm": 22,
+          "stressIndex": 0.55,
+          "description": {
+            "general": "Hiperventilación por ansiedad aguda, bostezos incontrolables y secreción nasal abundante.",
+            "technical": "Taquipnea simpática de rebote y rinorrea por hiperreactividad autonómica."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "simulatedRpm": 9,
+          "stressIndex": 0.78,
+          "description": {
+            "general": "Apnea central del sueño crónica, infecciones respiratorias por aspiración y daño bronquial si se fuma en papel aluminio.",
+            "technical": "Hipoventilación crónica nocturna, neumonía aspirativa recurrente y neumonitis química por vapores de pirolisis."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "simulatedRpm": 2,
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Paro respiratorio inminente (0–2 respiraciones agónicas), labios azulados (cianosis), tórax rígido y edema pulmonar.",
+            "technical": "Apnea central, síndrome de tórax leñoso, hipoxemia refractaria (SpO2 <60%) y edema pulmonar hemorrágico."
+          }
+        }
+      }
+    },
+    "heart": {
+      "organ": "heart",
+      "overallSeverity": "critical",
+      "headline": "Bradicardia severa, hipotensión arterial y paro cardíaco secundario a la falta de oxígeno",
+      "explanation": {
+        "general": "A diferencia de los estimulantes que aceleran el corazón, el fentanilo enlentece los latidos (bradicardia) y baja la presión arterial. Cuando la respiración se detiene en una sobredosis, el músculo cardíaco se queda sin oxígeno y entra rápidamente en paro cardíaco.",
+        "technical": "Estimulación vagal central que induce bradicardia sinusal e hipotensión ortostática por vasodilatación periférica. En sobredosis, la hipoxemia severa y la acidosis respiratoria precipitan bradiarritmias extremas, actividad eléctrica sin pulso (AESP) y asistolia."
+      },
+      "simulatedBpm": 42,
+      "vasoconstriction": 0.15,
+      "hotspots": [
+        {
+          "id": "sa_av_node",
+          "label": "Nodo Sinusal y Conducción Vagal",
+          "position": [0.15, 0.25, 0.3],
+          "severity": "high",
+          "description": {
+            "general": "El marcapasos del corazón reduce drásticamente su velocidad de disparo bajo el efecto del opioide y la falta de oxígeno.",
+            "technical": "Hipertonía parasimpática vagal e hipoxia miocárdica que deprimen el automatismo del nodo sinoauricular."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedBpm": 70,
+          "vasoconstriction": 0.1,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Frecuencia cardíaca y presión arterial normales (70 BPM).",
+            "technical": "Ritmo sinusal normocárdico y gasto cardíaco conservado."
+          }
+        },
+        "acute": {
+          "severity": "high",
+          "simulatedBpm": 48,
+          "vasoconstriction": 0.15,
+          "stressIndex": 0.65,
+          "description": {
+            "general": "Pulso lento y débil (~45–50 BPM) acompañado de mareo y caída de la presión arterial.",
+            "technical": "Bradicardia sinusal mediada por tono vagal central y disminución de la resistencia vascular periférica."
+          }
+        },
+        "withdrawal": {
+          "severity": "high",
+          "simulatedBpm": 118,
+          "vasoconstriction": 0.6,
+          "stressIndex": 0.75,
+          "description": {
+            "general": "Durante la abstinencia ocurre el efecto opuesto: taquicardia intensa, palpitaciones y subida brusca de la presión arterial.",
+            "technical": "Taquicardia e hipertensión de rebote por descarga catecolaminérgica masiva del locus coeruleus."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "simulatedBpm": 56,
+          "vasoconstriction": 0.3,
+          "stressIndex": 0.72,
+          "description": {
+            "general": "Riesgo de infección grave en las válvulas del corazón (endocarditis infecciosa) en usuarios por vía inyectable y daño vascular por xilacina.",
+            "technical": "Endocarditis bacteriana tricuspídea/izquierda asociada a venopunción no estéril y disfunción autonómica crónica."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "simulatedBpm": 28,
+          "vasoconstriction": 0.2,
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Bradicardia extrema (<30 BPM) que progresa rápidamente a paro cardíaco por asfixia.",
+            "technical": "Colapso hemodinámico hipóxico, bradicardia agónica, actividad eléctrica sin pulso (AESP) y asistolia."
+          }
+        }
+      }
+    },
+    "liver": {
+      "organ": "liver",
+      "overallSeverity": "moderate",
+      "headline": "Metabolismo crítico por CYP3A4 e interacciones letales con inhibidores enzimáticos",
+      "explanation": {
+        "general": "El fentanilo no destruye directamente las células del hígado en dosis aisladas, pero depende casi por completo de una enzima hepática (CYP3A4) para ser eliminado. Si el hígado está enfermo o si se toman otros medicamentos o drogas que ocupan esa enzima, el fentanilo se acumula en la sangre hasta niveles mortales.",
+        "technical": "Biotransformación hepática de alto flujo mediante N-desalquilación por CYP3A4 hacia norfentanilo. La insuficiencia hepática o la coadministración de inhibidores de CYP3A4 (macrólidos, azoles, antirretrovirales, jugo de pomelo) reduce el aclaramiento plasmático y prolonga peligrosamente la depresión respiratoria."
+      },
+      "toxicMetabolite": "Acumulación de Fentanilo libre por inhibición de CYP3A4",
+      "hotspots": [
+        {
+          "id": "cyp3a4_pathway",
+          "label": "Sistema Microsomal CYP3A4",
+          "position": [0.1, 0.05, 0.35],
+          "severity": "moderate",
+          "description": {
+            "general": "Vía principal de limpieza del fentanilo; si se bloquea por otros fármacos o daño hepático, provoca sobredosis retardada.",
+            "technical": "Saturación o inhibición competitiva del citocromo P450 3A4 que incrementa el área bajo la curva (AUC) plasmática."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Capacidad metabólica hepática normal.",
+            "technical": "Aclaramiento hepático intrínseco y actividad CYP3A4 conservados."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "stressIndex": 0.4,
+          "description": {
+            "general": "El hígado procesa activamente el compuesto hacia metabolitos inactivos mientras una parte se guarda en la grasa corporal.",
+            "technical": "N-desalquilación microsomal activa y secuestro lipofílico en tejido adiposo periférico."
+          }
+        },
+        "withdrawal": {
+          "severity": "low",
+          "stressIndex": 0.25,
+          "description": {
+            "general": "Liberación lenta de residuos acumulados en el tejido graso hacia el hígado.",
+            "technical": "Eliminación terminal prolongada por redistribución lenta desde compartimentos periféricos profundos."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "stressIndex": 0.7,
+          "description": {
+            "general": "Alta prevalencia de hepatitis viral (VHC/VHB) en contextos de uso compartido de material y sobrecarga por adulterantes.",
+            "technical": "Riesgo elevado de hepatopatía crónica viral secundaria a prácticas de inyección y toxicidad por contaminantes de síntesis."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 0.9,
+          "description": {
+            "general": "Daño hepático agudo por falta total de oxígeno (hígado de shock) durante el paro cardiorrespiratorio.",
+            "technical": "Hepatitis hipóxica/isquémica centrolobulillar secundaria a hipoperfusión sistémica e hipoxemia severa."
+          }
+        }
+      }
+    },
+    "kidneys": {
+      "organ": "kidneys",
+      "overallSeverity": "high",
+      "headline": "Fallo renal agudo por rabdomiólisis posicional (inmovilidad prolongada en coma) e hipoxia",
+      "explanation": {
+        "general": "Durante una intoxicación o sedación profunda por fentanilo, la persona puede quedar inmóvil en la misma posición durante horas sobre una superficie dura. El peso del propio cuerpo aplasta los músculos, liberando mioglobina a la sangre que destruye los riñones, sumado a la falta de oxígeno y la retención urinaria.",
+        "technical": "La inmovilización comatosa prolongada produce síndrome compartimental y rabdomiólisis por compresión muscular, desencadenando necrosis tubular aguda pigmentaria por mioglobinuria. Adicionalmente, el agonismo MOR aumenta el tono del esfínter vesical causando retención urinaria aguda."
+      },
+      "hotspots": [
+        {
+          "id": "renal_tubules",
+          "label": "Túbulos Renales y Glomérulos",
+          "position": [0.2, 0, 0.25],
+          "severity": "high",
+          "description": {
+            "general": "Los filtros renales se obstruyen por las proteínas liberadas de músculos aplastados durante estados de inconsciencia prolongada.",
+            "technical": "Precipitación intratubular de mioglobina con proteína de Tamm-Horsfall e isquemia medular hipóxica."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Filtración glomerular y excreción urinaria normales.",
+            "technical": "Función tubular y glomerular dentro de parámetros fisiológicos."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "stressIndex": 0.45,
+          "description": {
+            "general": "Dificultad para orinar (retención urinaria) y disminución leve de la filtración por caída de la presión arterial.",
+            "technical": "Aumento del tono del esfínter uretral externo/interno mediado por MOR e hipoperfusión renal leve."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "stressIndex": 0.55,
+          "description": {
+            "general": "Deshidratación severa y pérdida de electrolitos provocada por vómitos, diarrea y sudoración profusa de la abstinencia.",
+            "technical": "Azoemia prerrenal secundaria a depleción de volumen gastrointestinal y diaforesis durante la abstinencia opioide."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "stressIndex": 0.75,
+          "description": {
+            "general": "Nefropatía crónica por infecciones sistémicas recurrentes y episodios repetidos de hipoxia y deshidratación.",
+            "technical": "Glomerulonefritis asociada a infecciones crónicas o amiloidosis secundaria en usuarios de larga evolución."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 0.96,
+          "description": {
+            "general": "Insuficiencia renal aguda grave por destrucción muscular (rabdomiólisis) y falta de oxígeno renal.",
+            "technical": "Necrosis tubular aguda isquémica y mioglobinúrica que requiere terapia de reemplazo renal (hemodiálisis) de urgencia."
+          }
+        }
+      }
+    }
+  },
+  "timelineStages": [
+    {
+      "stage": "onset",
+      "label": "Inicio Ultrarrápido",
+      "timeRange": "30 seg – 2 min (IV / fumado) | 5–15 min (intranasal / oral)",
+      "intensity": 80,
+      "rewardToneIndex": 260,
+      "description": {
+        "general": "Cruza al cerebro casi de inmediato: desaparece el dolor, aparece calor corporal, pesadez extrema y las pupilas se vuelven diminutas.",
+        "technical": "Equilibrio sangre-cerebro ultrarrápido (t½ ke0 ~4.7 min) por alta lipofilicidad con saturación inmediata de receptores MOR."
+      }
+    },
+    {
+      "stage": "peak",
+      "label": "Pico y Depresión Respiratoria",
+      "timeRange": "5–30 min",
+      "intensity": 100,
+      "rewardToneIndex": 290,
+      "description": {
+        "general": "Sedación profunda ('cabeceo' o nodding), desconexión del entorno y caída peligrosa de la frecuencia respiratoria.",
+        "technical": "Efecto máximo analgésico y depresor ventilatorio central; ventana crítica de apnea y rigidez torácica."
+      }
+    },
+    {
+      "stage": "offset",
+      "label": "Descenso Corto",
+      "timeRange": "45–120 min",
+      "intensity": 45,
+      "rewardToneIndex": 85,
+      "description": {
+        "general": "El efecto principal cede mucho más rápido que el de la heroína o la morfina, lo que lleva a consumir varias veces al día.",
+        "technical": "Redistribución rápida desde el SNC hacia músculo esquelético y tejido adiposo, acortando la duración de acción clínica."
+      }
+    },
+    {
+      "stage": "withdrawal",
+      "label": "Síndrome de Abstinencia Agudo",
+      "timeRange": "6–72 horas (pico a las 24–48 h)",
+      "intensity": 95,
+      "rewardToneIndex": 20,
+      "description": {
+        "general": "Dolor muscular y óseo insoportable, náuseas, vómitos, diarrea, escalofríos, piel de gallina, insomnio total y angustia extrema.",
+        "technical": "Hiperactividad noradrenérgica del locus coeruleus, hiperalgesia espinal, disfunción autonómica gastrointestinal y disforia severa."
+      }
+    }
+  ],
+  "shortTermEffects": {
+    "psychological": [
+      "Alivio profundo del dolor físico y anestesia emocional temporal",
+      "Somnolencia extrema, letargo y desconexión ('cabeceo')",
+      "Confusión mental, embotamiento y enlentecimiento del habla",
+      "Disforia o agitación paradójica al disiparse el efecto"
+    ],
+    "physiological": [
+      "Depresión respiratoria marcada (respiración lenta y superficial)",
+      "Miosis intensa (pupilas del tamaño de la cabeza de un alfiler)",
+      "Bradicardia (descenso de los latidos cardíacos) e hipotensión",
+      "Rigidez muscular en el pecho ('tórax leñoso'), náuseas y estreñimiento agudo"
+    ]
+  },
+  "longTermEffects": {
+    "psychological": [
+      "Dependencia física y psicológica severa con tolerancia rápida",
+      "Anhedonia profunda y depresión resistente al tratamiento",
+      "Deterioro de la memoria y la atención por hipoxia cerebral repetida",
+      "Aislamiento social y pérdida del control conductual"
+    ],
+    "physiological": [
+      "Hiperalgesia inducida por opioides (mayor sensibilidad al dolor físico)",
+      "Úlceras cutáneas necróticas profundas cuando está adulterado con xilacina",
+      "Parálisis intestinal crónica (íleo/estreñimiento severo) y supresión hormonal",
+      "Daño cerebral hipóxico acumulativo y alto riesgo de muerte por sobredosis"
+    ]
+  },
+  "overdoseSigns": [
+    "Respiración ausente, extremadamente lenta (<8 por minuto) o ronquidos/estertores de ahogo ('death rattle')",
+    "Pupilas puntiformes (extremadamente contraídas) que no responden a la luz",
+    "Labios, uñas y piel de color azulado, violáceo o grisáceo ceniza (cianosis por falta de oxígeno)",
+    "Inconsciencia total: la persona no despierta al gritarle ni al frotar con fuerza el esternón",
+    "Rigidez en el pecho y mandíbula junto con pulso muy lento o imperceptible"
+  ],
+  "interactions": [
+    {
+      "withSubstance": "Alcohol o Benzodiacepinas (Alprazolam / Clonazepam / Diazepam)",
+      "riskLevel": "lethal",
+      "effectSummary": "Sinergia depresora fulminante sobre el tronco encefálico que multiplica el riesgo de paro respiratorio.",
+      "explanation": {
+        "general": "Tanto el alcohol como las benzodiacepinas y el fentanilo frenan el sistema nervioso central por vías distintas. Al tomarlos juntos, sus efectos no solo se suman sino que se multiplican, apagando por completo el reflejo de respirar incluso con dosis que por separado no habrían sido letales.",
+        "technical": "Potenciación farmacodinámica supraaditiva entre el agonismo MOR (hiperpolarización vía canales GIRK) y la modulación alostérica positiva de receptores GABA-A (influjo de Cl-), suprimiendo sinérgicamente el impulso ventilatorio bulbar."
+      }
+    },
+    {
+      "withSubstance": "Xilacina ('Tranq' — sedante veterinario α2-adrenérgico)",
+      "riskLevel": "lethal",
+      "effectSummary": "Sedación profunda que NO responde a la naloxona (Narcan) y necrosis grave de la piel.",
+      "explanation": {
+        "general": "La xilacina es un sedante para animales grandes que hoy se mezcla con el fentanilo callejero. Como no es un opioide, el antídoto de emergencia (naloxona) no revierte la sedación ni la bajada de presión de la xilacina, haciendo las sobredosis mucho más difíciles de reanimar.",
+        "technical": "La xilacina actúa como agonista de receptores α2-adrenérgicos centrales, induciendo bradicardia, hipotensión y depresión del SNC independientes del receptor MOR. En sobredosis mixtas, la naloxona revierte la apnea opioide pero no el coma α2-adrenérgico."
+      }
+    },
+    {
+      "withSubstance": "Estimulantes (Cocaína / Metanfetamina)",
+      "riskLevel": "lethal",
+      "effectSummary": "Enmascaramiento temporal de la sobredosis opioide y colapso cardiorrespiratorio.",
+      "explanation": {
+        "general": "El estimulante oculta temporalmente el sueño del fentanilo o bien el fentanilo contamina muestras de cocaína en personas que no tienen ninguna tolerancia a los opioides, provocando un paro respiratorio súbito.",
+        "technical": "Desajuste farmacocinético entre el estimulante y el opioide, o exposición accidental en usuarios opioid-naive donde dosis >2 mg de fentanilo inducen apnea letal."
+      }
+    }
+  ],
+  "commonAdulterants": [
+    {
+      "name": "Xilacina ('Tranq')",
+      "frequency": "very_common",
+      "severity": "critical",
+      "purpose": "Sedante veterinario no opioide añadido para alargar la duración aparente del efecto corto del fentanilo.",
+      "organRisk": {
+        "general": "Provoca heridas y úlceras abiertas con tejido muerto (necrosis) en brazos y piernas —incluso en zonas donde no se inyectó— que pueden requerir amputación, además de complicar la reanimación con naloxona.",
+        "technical": "Agonista α2-adrenérgico periférico y central que causa vasoconstricción cutánea severa, isquemia tisular y úlceras necróticas profundas, además de depresión cardiorrespiratoria resistente a antagonistas opioides."
+      }
+    },
+    {
+      "name": "Nitazenos (Isotonitazeno / Metonitazeno / Protonitazeno)",
+      "frequency": "common",
+      "severity": "critical",
+      "purpose": "Opioides sintéticos de benzimidazol aún más potentes que el propio fentanilo usados en pastillas prensadas ilegales.",
+      "organRisk": {
+        "general": "Pueden ser hasta 10 veces más fuertes que el fentanilo (y hasta 500–1000 veces más fuertes que la morfina), requiriendo múltiples dosis de naloxona para intentar revertir el paro respiratorio.",
+        "technical": "Superagonistas de receptores MOR con altísima afinidad y disociación lenta del receptor, generando depresión respiratoria refractaria a dosis estándar de naloxona."
+      }
+    }
+  ],
+  "myths": [
+    {
+      "myth": "Tocar polvo de fentanilo accidentalmente con la piel o estar cerca de alguien en sobredosis provoca una sobredosis inmediata en quien lo auxilia.",
+      "reality": {
+        "general": "Las sociedades médicas de toxicología (ACMT/AACT) han demostrado que el fentanilo en polvo NO atraviesa la piel intacta por contacto casual ni se absorbe en el aire al asistir a una víctima. Este mito es peligroso porque retrasa la reanimación cardiopulmonar y la aplicación de naloxona que salvan vidas.",
+        "technical": "El fentanilo requiere parches transdérmicos formulados con matrices químicas específicas y horas de contacto oclusivo para atravesar el estrato córneo. El contacto cutáneo incidental con polvo no alcanza concentraciones plasmáticas farmacológicamente activas."
+      }
+    },
+    {
+      "myth": "Las pastillas azules 'M30' o calmantes comprados fuera de farmacia son medicamentos reales de laboratorio.",
+      "reality": {
+        "general": "Según análisis forenses de la DEA y agencias sanitarias, la inmensa mayoría de las pastillas compradas fuera del circuito farmacéutico legal son imitaciones prensadas en máquinas clandestinas con fentanilo y dosis letales desiguales.",
+        "technical": "Los comprimidos ilícitos prensados imitan troqueles comerciales (ej. oxicodona 30 mg o alprazolam 2 mg) pero contienen fentanilo mal homogeneizado, donde hasta 7 de cada 10 comprimidos incautados superan la dosis letal media (LD50 ~2 mg)."
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Fentanyl and Other New Psychoactive Synthetic Opioids: Challenges to Prevention and Treatment",
+      "authors": "Volkow ND, Blanco C",
+      "source": "American Journal of Psychiatry / NIDA",
+      "year": 2021,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33054384/",
+      "doi": "10.1176/appi.ajp.2020.20040389"
+    },
+    {
+      "title": "Wooden Chest Syndrome: Fentanyl-Induced Muscle Rigidity and Vocal Cord Closure",
+      "authors": "Torralva R, Janowsky A",
+      "source": "Journal of Pharmacology and Experimental Therapeutics",
+      "year": 2019,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31444239/",
+      "doi": "10.1124/jpet.119.258566"
+    },
+    {
+      "title": "ACMT and AACT Position Statement: Preventing Occupational Fentanyl and Fentanyl Analog Exposure to Emergency Responders",
+      "authors": "Moss MJ, Warrick BJ, Nelson LS, et al.",
+      "source": "Clinical Toxicology",
+      "year": 2018,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28767292/",
+      "doi": "10.1080/15563650.2017.1373782"
+    }
+  ]
+}
+

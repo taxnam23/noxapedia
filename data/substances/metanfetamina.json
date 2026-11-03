@@ -1,0 +1,638 @@
+{
+  "id": "methamphetamine",
+  "slug": "metanfetamina",
+  "name": "Metanfetamina",
+  "aliases": [
+    "Cristal / Crystal Meth",
+    "Ice / Hielo",
+    "Tina",
+    "Shabu",
+    "Yaba (comprimidos con cafeína)"
+  ],
+  "chemicalName": "(S)-N-metil-1-fenilpropan-2-amina (d-Metanfetamina)",
+  "formula": "C10H15N",
+  "molecularWeight": "149.23 g/mol",
+  "casNumber": "537-46-2",
+  "category": "stimulant",
+  "origin": "synthetic",
+  "legalStatus": "Fiscalizada internacionalmente (Lista II del Convenio sobre Sustancias Sicotrópicas de 1971; la producción y tráfico de cristal ilícito está estrictamente prohibida a nivel mundial).",
+  "pharmacokinetics": {
+    "routesOfAdministration": [
+      "Inhalada por vaporización (fumada en pipa de vidrio)",
+      "Intranasal (insuflación)",
+      "Intravenosa",
+      "Oral"
+    ],
+    "halfLife": "9 – 15 horas (vida media plasmática muy prolongada frente a los ~60 min de la cocaína)",
+    "bioavailability": "Fumada: ~67–90% | Intranasal: ~79% | Oral: ~67% | Intravenosa: 100%",
+    "metabolism": "N-desmetilación e hidroxilación aromática hepática mediada por CYP2D6 hacia anfetamina (metabolito activo) y 4-hidroximetanfetamina.",
+    "excretion": "Renal (30–54% excretada como metanfetamina inalterada y 10–23% como anfetamina; altamente dependiente del pH urinario)."
+  },
+  "riskMetrics": {
+    "addictionPotential": 9.7,
+    "physicalHarm": 9.4,
+    "neurotoxicity": 9.8,
+    "cardiotoxicity": 9.3,
+    "hepatotoxicity": 7.5,
+    "withdrawalSeverity": 8.6,
+    "socialImpact": 9.4
+  },
+  "summary": {
+    "general": "La metanfetamina es un estimulante sintético extremadamente potente y duradero. A diferencia de la cocaína, que solo impide que la dopamina se reabsorba, la metanfetamina entra directamente dentro de las neuronas y las obliga a vaciar por la fuerza todas sus reservas de dopamina y noradrenalina, elevando la dopamina más de un 1,000% sobre su nivel normal durante 8 a 16 horas seguidas y dañando físicamente las terminales nerviosas.",
+    "technical": "Amina simpaticomimética lipofílica que actúa como sustrato e inversor del flujo de los transportadores de membrana DAT y NET, disruptor del transportador vesicular de monoaminas 2 (VMAT2), agonista del receptor intracelular TAAR1 e inhibidor parcial de la monoaminooxidasa (MAO). Induce neurotoxicidad dopaminérgica estriatal directa mediada por estrés oxidativo (quinonas de dopamina), excitotoxicidad glutamatérgica y activación microglial."
+  },
+  "mechanism": {
+    "general": "El grupo metilo en su estructura química hace que la metanfetamina cruce al cerebro con enorme facilidad. Una vez allí, engaña a los canales de transporte de las neuronas para meterse en su interior, rompe las pequeñas bolsas (vesículas) donde la neurona guarda la dopamina y hace que las bombas funcionen en reversa, expulsando una avalancha masiva de dopamina y noradrenalina hacia las sinapsis.",
+    "technical": "Ingresa a la terminal presináptica como falso sustrato de DAT/NET y difunde hacia las vesículas sinápticas donde colapsa el gradiente de protones (pH) de VMAT2, desplazando la dopamina vesicular hacia el citosol. Simultáneamente, la activación de TAAR1 y proteína quinasa C (PKC) fosforila a DAT invirtiendo su dirección de transporte (eflujo no exocitótico), elevando la dopamina extracelular en el núcleo accumbens entre 800% y 1,200% del nivel basal."
+  },
+  "addictionExplanation": {
+    "general": "Debido a que provoca la mayor descarga de dopamina conocida entre las drogas y su efecto dura más de 10 horas, el cerebro sufre un desgaste devastador. Con el uso repetido (especialmente en maratones o 'binges' de varios días sin dormir ni comer), las terminales nerviosas que producen dopamina se queman por oxidación. Al suspender el consumo, la persona cae en una anhedonia y depresión tan profundas que puede tardar más de un año de abstinencia en recuperar parcialmente sus receptores.",
+    "technical": "El exceso de dopamina citosólica y extracelular sufre autooxidación no enzimática formando quinonas reactivas y radicales hidroxilo que dañan proteínas mitocondriales y degeneran los axones dopaminérgicos nigroestriatales y mesocorticolímbicos. La neuroimagen PET en usuarios crónicos demuestra una reducción severa de la densidad de transportadores DAT y receptores D2 estriatales, acompañada de hipofunción orbitofrontal y disforia prolongada resistente."
+  },
+  "prescriptionVsIllicitContext": {
+    "general": "Aunque en muy pocos países existe una formulación farmacéutica oral en dosis mínimas (5 mg) de último recurso para casos excepcionales de narcolepsia o TDAH refractario, la metanfetamina cristalina ilícita ('Crystal Meth') se consume fumada o inyectada en dosis de cientos de miligramos, llegando al cerebro en segundos con efectos neurotóxicos y cardiovasculares radicalmente distintos.",
+    "technical": "La absorción oral lenta de dosis terapéuticas bajas (5–10 mg) presenta una cinética gradual sin picos estriatales neurotóxicos. Por el contrario, el clorhidrato de d-metanfetamina ilícito vaporizado o intravenoso (50–500+ mg/día en patrones 'binge') alcanza concentraciones micromolares cerebrales en segundos, desencadenando neurotoxicidad oxidativa, psicosis inducida y cardiotoxicidad catecolaminérgica."
+  },
+  "neurotransmitters": [
+    {
+      "id": "dopamine",
+      "name": "Dopamina (DA)",
+      "changePercent": 1100,
+      "receptorTargets": ["DAT (inversión)", "VMAT2", "TAAR1", "Receptores D1 / D2"],
+      "explanation": {
+        "general": "Obliga a las neuronas a vaciar todas sus reservas de dopamina, multiplicando más de 10 veces su nivel normal y causando neurotoxicidad directa.",
+        "technical": "Desplazamiento vesicular vía VMAT2 e inversión del flujo de DAT mediada por TAAR1/PKC, con acumulación neurotóxica de quinonas dopaminérgicas."
+      }
+    },
+    {
+      "id": "norepinephrine",
+      "name": "Noradrenalina (NE)",
+      "changePercent": 600,
+      "receptorTargets": ["NET (inversión)", "Receptores α1 y β1 adrenérgicos"],
+      "explanation": {
+        "general": "Mantiene al cuerpo en estado de alerta extrema durante más de 12 horas: suprime el sueño y el hambre, dispara el pulso y contrae las arterias.",
+        "technical": "Eflujo masivo de noradrenalina central y periférica que sostiene hiperactividad simpática prolongada, hipertensión arterial e hipertermia."
+      }
+    },
+    {
+      "id": "glutamate",
+      "name": "Glutamato (Excitotoxicidad)",
+      "changePercent": 210,
+      "receptorTargets": ["Receptores NMDA", "Receptores AMPA"],
+      "explanation": {
+        "general": "Su exceso sobreexcita las neuronas hasta agotarlas y dañarlas, contribuyendo a la psicosis paranoide y al daño de memoria.",
+        "technical": "Liberación excesiva de glutamato corticostriatal que activa receptores NMDA, provocando influjo masivo de Ca2+, activación de óxido nítrico sintasa (nNOS) y estrés nitrosativo."
+      }
+    }
+  ],
+  "organImpacts": {
+    "brain": {
+      "organ": "brain",
+      "overallSeverity": "critical",
+      "headline": "Neurotoxicidad directa en terminales de dopamina, neuroinflamación y psicosis paranoide",
+      "explanation": {
+        "general": "La metanfetamina no solo altera temporalmente los neurotransmisores: quema físicamente las puntas de las neuronas (axones) que manejan la dopamina y la serotonina debido al calor interno y a la oxidación química. Esto provoca pérdida severa de memoria, comportamiento agresivo o impulsivo, alucinaciones visuales y auditivas (psicosis por metanfetamina) y la sensación de tener insectos caminando bajo la piel.",
+        "technical": "Degeneración de terminales axónicas dopaminérgicas y serotoninérgicas en el cuerpo estriado, corteza prefrontal e hipocampo por estrés oxidativo mitocondrial, formación de peroxinitrito y activación microglial inflamatoria. Se asocia a disrupción de la barrera hematoencefálica, psicosis esquizofreniforme y un riesgo duplicado o triplicado de desarrollar enfermedad de Parkinson prematura."
+      },
+      "highlightedBrainRegions": [
+        "nucleus_accumbens",
+        "prefrontal_cortex",
+        "amygdala",
+        "hippocampus"
+      ],
+      "vasoconstriction": 0.85,
+      "hotspots": [
+        {
+          "id": "striatum_nac",
+          "label": "Cuerpo Estriado y Núcleo Accumbens",
+          "position": [0.16, -0.08, 0.3],
+          "severity": "critical",
+          "description": {
+            "general": "Zona donde se destruyen las terminales de dopamina por exceso de oxidación, dejando una incapacidad prolongada de sentir placer.",
+            "technical": "Pérdida de terminales DAT+, depleción de tirosina hidroxilasa y gliosis reactiva estriatal."
+          }
+        },
+        {
+          "id": "amygdala_limbic",
+          "label": "Amígdala y Circuito Límbico",
+          "position": [-0.18, -0.15, 0.15],
+          "severity": "critical",
+          "description": {
+            "general": "Su hiperactivación combinada con la falta de sueño dispara paranoia extrema, pánico, agresividad y alucinaciones.",
+            "technical": "Sensibilización límbica catecolaminérgica que subyace a la psicosis paranoide y desregulación emocional severa."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "vasoconstriction": 0.1,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Terminales de dopamina sanas y barrera hematoencefálica intacta.",
+            "technical": "Densidad fisiológica de VMAT2 y DAT estriatales sin neuroinflamación microglial."
+          }
+        },
+        "acute": {
+          "severity": "critical",
+          "vasoconstriction": 0.8,
+          "stressIndex": 0.88,
+          "description": {
+            "general": "Descarga masiva de dopamina (>1,000%): euforia intensa, insomnio total, hiperconcentración obsesiva y aumento de la temperatura cerebral.",
+            "technical": "Inversión de DAT/VMAT2 con inundación monoaminérgica, hipertermia central e inicio de estrés oxidativo citosólico."
+          }
+        },
+        "withdrawal": {
+          "severity": "critical",
+          "vasoconstriction": 0.4,
+          "stressIndex": 0.85,
+          "description": {
+            "general": "Colapso profundo ('tweaking' seguido de 'crash'): agotamiento extremo, hipersomnia, depresión severa, paranoia e ideación suicida.",
+            "technical": "Depleción severa de reservas monoaminérgicas vesiculares y estado hipodopaminérgico agudo."
+          }
+        },
+        "chronic": {
+          "severity": "critical",
+          "vasoconstriction": 0.75,
+          "stressIndex": 0.96,
+          "description": {
+            "general": "Daño estructural en neuronas de dopamina, deterioro cognitivo, psicosis persistente y pérdida de control de impulsos.",
+            "technical": "Neurotoxicidad axónica dopaminérgica, reducción persistente de DAT/D2, atrofia cortical frontal y microgliosis crónica."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "vasoconstriction": 0.96,
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Hipertermia cerebral (>41 °C), rotura de la barrera hematoencefálica, convulsiones y hemorragia cerebral.",
+            "technical": "Edema cerebral vasogénico por ruptura de barrera hematoencefálica, estatus epiléptico, ACV hemorrágico y muerte neuronal térmica."
+          }
+        }
+      }
+    },
+    "heart": {
+      "organ": "heart",
+      "overallSeverity": "critical",
+      "headline": "Miocardiopatía asociada a metanfetamina, disección aórtica e hipertensión sostenida",
+      "explanation": {
+        "general": "Como el efecto de la metanfetamina dura entre 10 y 15 horas, el corazón queda sometido a taquicardia y presión arterial alta durante jornadas enteras sin descanso. Esto mata fibras del músculo cardíaco, las reemplaza por tejido cicatrizal rígido y estira el corazón hasta provocar insuficiencia cardíaca severa en adultos jóvenes.",
+        "technical": "Exposición catecolaminérgica prolongada que induce necrosis en bandas de contracción, inflamación miocárdica, fibrosis intersticial y remodelado excéntrico (miocardiopatía dilatada por metanfetamina con fracción de eyección <30%). Eleva drásticamente el riesgo de disección aórtica aguda e infarto de miocardio."
+      },
+      "simulatedBpm": 156,
+      "vasoconstriction": 0.9,
+      "hotspots": [
+        {
+          "id": "myocardium_ventricles",
+          "label": "Ventrículos y Pared Aórtica",
+          "position": [-0.15, -0.2, 0.35],
+          "severity": "critical",
+          "description": {
+            "general": "El músculo cardíaco sufre daño directo por exceso de adrenalina durante horas y la arteria aorta puede desgarrarse por la presión extrema.",
+            "technical": "Toxicidad directa mediada por receptores β1/α1, apoptosis de cardiomiocitos y estrés parietal aórtico crítico."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedBpm": 70,
+          "vasoconstriction": 0.1,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Frecuencia cardíaca y presión arterial en reposo normales.",
+            "technical": "Función ventricular y tono vascular simpático fisiológicos."
+          }
+        },
+        "acute": {
+          "severity": "critical",
+          "simulatedBpm": 156,
+          "vasoconstriction": 0.88,
+          "stressIndex": 0.9,
+          "description": {
+            "general": "Taquicardia sostenida durante más de 10 horas, hipertensión severa y vasoconstricción intensa.",
+            "technical": "Hiperestimulación simpaticomimética prolongada con vasoespasmo coronario y sobrecarga de presión ventricular."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "simulatedBpm": 92,
+          "vasoconstriction": 0.45,
+          "stressIndex": 0.5,
+          "description": {
+            "general": "Agotamiento cardiovascular tras horas o días de estimulación continua.",
+            "technical": "Desensibilización β-adrenérgica y fatiga miocárdica post-taquicardia."
+          }
+        },
+        "chronic": {
+          "severity": "critical",
+          "simulatedBpm": 108,
+          "vasoconstriction": 0.78,
+          "stressIndex": 0.95,
+          "description": {
+            "general": "Miocardiopatía por metanfetamina (corazón agrandado y débil), enfermedad coronaria acelerada y arritmias crónicas.",
+            "technical": "Miocardiopatía dilatada catecolaminérgica, fibrosis miocárdica difusa y prolongación crónica del intervalo QTc."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "simulatedBpm": 195,
+          "vasoconstriction": 0.98,
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Colapso circulatorio, infarto masivo, disección de la arteria aorta o fibrilación ventricular.",
+            "technical": "Shock cardiogénico, disección aórtica tipo A, taquicardia ventricular polimórfica y paro cardíaco."
+          }
+        }
+      }
+    },
+    "kidneys": {
+      "organ": "kidneys",
+      "overallSeverity": "critical",
+      "headline": "Rabdomiólisis masiva por hipertermia y agitación muscular con fallo renal agudo",
+      "explanation": {
+        "general": "La combinación de fiebre interna extrema (>40 °C), deshidratación por pasar días sin beber agua y contracción muscular continua destruye el músculo esquelético. Los fragmentos musculares (mioglobina) viajan por la sangre y bloquean por completo los túbulos de los riñones.",
+        "technical": "Necrosis tubular aguda inducida por rabdomiólisis severa (elevación masiva de creatina quinasa y mioglobinuria), agravada por vasoconstricción renal simpática, hipovolemia y coagulación intravascular diseminada secundaria a hipertermia."
+      },
+      "vasoconstriction": 0.85,
+      "hotspots": [
+        {
+          "id": "proximal_tubules",
+          "label": "Túbulos Contorneados y Médula Renal",
+          "position": [0.2, -0.05, 0.25],
+          "severity": "critical",
+          "description": {
+            "general": "Obstrucción y muerte celular en los túbulos renales por el pigmento liberado al destruirse el tejido muscular.",
+            "technical": "Precipitación de cilindros de mioglobina, peroxidación lipídica tubular por hierro libre e isquemia medular."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "vasoconstriction": 0.1,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Filtración glomerular normal.",
+            "technical": "Perfusión renal y equilibrio hidroelectrolítico conservados."
+          }
+        },
+        "acute": {
+          "severity": "high",
+          "vasoconstriction": 0.75,
+          "stressIndex": 0.72,
+          "description": {
+            "general": "Reducción del flujo sanguíneo al riñón, sudoración intensa y deshidratación progresiva.",
+            "technical": "Vasoconstricción de arteriolas aferentes/eferentes y depleción de volumen intravascular."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "vasoconstriction": 0.4,
+          "stressIndex": 0.5,
+          "description": {
+            "general": "Eliminación lenta de metanfetamina y anfetamina residuales en la orina durante varios días.",
+            "technical": "Excreción renal prolongada dependiente del pH urinario y recuperación gradual de la tasa de filtración."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "vasoconstriction": 0.75,
+          "stressIndex": 0.84,
+          "description": {
+            "general": "Enfermedad renal crónica por hipertensión arterial maligna y episodios repetidos de daño muscular.",
+            "technical": "Nefroesclerosis hipertensiva maligna y lesión tubulointersticial crónica."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "vasoconstriction": 0.96,
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Insuficiencia renal aguda anúrica por rabdomiólisis e hiperpotasemia letal.",
+            "technical": "Fallo renal agudo oligoanúrico por rabdomiólisis masiva, hiperkalemia arritmogénica y acidosis metabólica severa."
+          }
+        }
+      }
+    },
+    "lungs": {
+      "organ": "lungs",
+      "overallSeverity": "high",
+      "headline": "Hipertensión arterial pulmonar ('Pulmón de Cristal') y daño térmico por vaporización",
+      "explanation": {
+        "general": "Fumar vapores de cristal de metanfetamina e impurezas químicas de síntesis lesiona los pulmones y estrecha de forma permanente las arterias pulmonares (hipertensión arterial pulmonar), obligando al lado derecho del corazón a trabajar hasta agotarse.",
+        "technical": "Asociación demostrada con hipertensión arterial pulmonar idiopática/tóxica (remodelado proliferativo de arteriolas pulmonares mediado por serotonina y acumulación pulmonar del fármaco), además de neumotórax por maniobras de Valsalva e injuria inhalatoria aguda."
+      },
+      "simulatedRpm": 26,
+      "vasoconstriction": 0.8,
+      "hotspots": [
+        {
+          "id": "pulmonary_arterioles",
+          "label": "Arteriolas Pulmonares",
+          "position": [0.25, 0.05, 0.25],
+          "severity": "high",
+          "description": {
+            "general": "Las arterias dentro del pulmón se engrosan y estrechan, causando falta de aire progresiva e insuficiencia cardíaca derecha.",
+            "technical": "Remodelado vascular pulmonar plexiforme e hipertensión arterial pulmonar inducida por metanfetamina (METH-PAH)."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedRpm": 14,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Ventilación y presión pulmonar normales.",
+            "technical": "Presión arterial pulmonar media (<20 mmHg) e intercambio gaseoso normales."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "simulatedRpm": 26,
+          "stressIndex": 0.65,
+          "description": {
+            "general": "Respiración rápida, dilatación bronquial temporal e irritación por vapores calientes.",
+            "technical": "Taquipnea simpaticomimética y estrés oxidativo epitelial alveolar por inhalación de vapores."
+          }
+        },
+        "withdrawal": {
+          "severity": "low",
+          "simulatedRpm": 15,
+          "stressIndex": 0.35,
+          "description": {
+            "general": "Tos crónica e inflamación bronquial residual.",
+            "technical": "Inflamación mucosa traqueobronquial subaguda."
+          }
+        },
+        "chronic": {
+          "severity": "critical",
+          "simulatedRpm": 24,
+          "stressIndex": 0.88,
+          "description": {
+            "general": "Hipertensión arterial pulmonar severa con falta de aire ante mínimos esfuerzos y fallo del ventrículo derecho.",
+            "technical": "Hipertensión arterial pulmonar (METH-PAH) con sobrecarga y dilatación del ventrículo derecho (cor pulmonale)."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "simulatedRpm": 34,
+          "stressIndex": 0.95,
+          "description": {
+            "general": "Edema agudo de pulmón y fallo respiratorio hipóxico.",
+            "technical": "Edema pulmonar agudo no cardiogénico/cardiogénico y síndrome de distrés respiratorio agudo."
+          }
+        }
+      }
+    },
+    "liver": {
+      "organ": "liver",
+      "overallSeverity": "high",
+      "headline": "Daño hepatocelular por hipertermia, estrés oxidativo y contaminantes de síntesis (plomo/fósforo)",
+      "explanation": {
+        "general": "El hígado sufre tanto por el calor extremo y la oxidación que produce la metanfetamina como por los residuos químicos tóxicos (disolventes, fósforo rojo, litio, sales de plomo) que quedan atrapados en el cristal fabricado en laboratorios clandestinos.",
+        "technical": "Metabolizada por CYP2D6; en dosis altas o hipertermia produce agotamiento de glutatión, peroxidación lipídica mitocondrial, degeneración balonizante hepatocelular y necrosis centrolobulillar, agravada por metales pesados y solventes residuales de la síntesis clandestina (método P2P o reducción con ácido yodhídrico/fósforo rojo)."
+      },
+      "toxicMetabolite": "Especies Reactivas de Oxígeno + Impurezas de Síntesis (P2P / Metales)",
+      "hotspots": [
+        {
+          "id": "liver_parenchyma",
+          "label": "Hepatocitos y Mitocondrias Hepáticas",
+          "position": [0.12, 0.05, 0.32],
+          "severity": "high",
+          "description": {
+            "general": "Inflamación y muerte de células hepáticas por golpe de calor interno y acumulación de toxinas químicas.",
+            "technical": "Disfunción mitocondrial hepatocelular inducida por hipertermia y estrés oxidativo dependiente de CYP2D6."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Función hepática normal.",
+            "technical": "Actividad CYP2D6 y transaminasas hepáticas en rango basal."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "stressIndex": 0.58,
+          "description": {
+            "general": "Metabolismo lento de la sustancia (convirtiéndola parcialmente en anfetamina activa) y estrés oxidativo.",
+            "technical": "N-desmetilación hepática hacia d-anfetamina activa e incremento de radicales libres."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "stressIndex": 0.45,
+          "description": {
+            "general": "Aclaramiento hepático prolongado por la larga vida media del compuesto.",
+            "technical": "Eliminación metabólica gradual de metanfetamina y para-hidroximetanfetamina."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "stressIndex": 0.78,
+          "description": {
+            "general": "Inflamación hepática crónica, desnutrición severa y toxicidad acumulada por contaminantes químicos.",
+            "technical": "Elevación crónica de transaminasas, fibrosis portal y alta coinfección por VHC en uso parenteral."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 0.96,
+          "description": {
+            "general": "Fallo hepático fulminante secundario al golpe de calor extremo (>41 °C) y shock circulatorio.",
+            "technical": "Necrosis hepática masiva por hipertermia maligna, isquemia esplácnica y coagulación intravascular diseminada."
+          }
+        }
+      }
+    }
+  },
+  "timelineStages": [
+    {
+      "stage": "onset",
+      "label": "Inicio ('Rush')",
+      "timeRange": "10–30 seg (fumada/IV) | 3–5 min (intranasal)",
+      "intensity": 85,
+      "rewardToneIndex": 650,
+      "description": {
+        "general": "Oleada súbita de energía física, euforia extrema, aceleración del corazón y desaparición inmediata del sueño y el hambre.",
+        "technical": "Penetración rápida de la barrera hematoencefálica e inicio de la inversión del flujo de DAT y VMAT2."
+      }
+    },
+    {
+      "stage": "peak",
+      "label": "Meseta Estimulante Prolongada",
+      "timeRange": "1–8 horas",
+      "intensity": 100,
+      "rewardToneIndex": 1050,
+      "description": {
+        "general": "Hiperactividad continua, movimientos repetitivos, bruxismo (apretar la mandíbula), verborrea, grandiosidad e insomnio absoluto.",
+        "technical": "Concentraciones estriatales de dopamina >1,000% del basal con estimulación simpática periférica sostenida."
+      }
+    },
+    {
+      "stage": "offset",
+      "label": "Fase de 'Tweaking' (Peligro Psicológico)",
+      "timeRange": "8–24 horas (o tras varios días de 'binge')",
+      "intensity": 80,
+      "rewardToneIndex": 120,
+      "description": {
+        "general": "La euforia desaparece pero el cuerpo sigue hiperactivo y sin poder dormir: aparece paranoia extrema, irritabilidad, alucinaciones y rascado compulsivo de la piel.",
+        "technical": "Agotamiento agudo de dopamina vesicular con persistencia de hiperactividad noradrenérgica y privación severa de sueño que precipita psicosis aguda."
+      }
+    },
+    {
+      "stage": "withdrawal",
+      "label": "Colapso ('Crash') y Anhedonia Prolongada",
+      "timeRange": "2–14 días (fase aguda) | Meses (fase protráctil)",
+      "intensity": 90,
+      "rewardToneIndex": 25,
+      "description": {
+        "general": "Sueño exhausto de 24 a 48 horas seguido de depresión profunda, falta total de energía, ansiedad y deseo intenso de recaer.",
+        "technical": "Neurotoxicidad de terminales dopaminérgicas e hipofunción estriatal/prefrontal severa que requiere meses de neuroplasticidad para su recuperación parcial."
+      }
+    }
+  ],
+  "shortTermEffects": {
+    "psychological": [
+      "Euforia intensa e hipervigilancia prolongada (8–16 horas)",
+      "Pérdida total de la necesidad de dormir y del apetito",
+      "Conductas repetitivas y obsesivas (punding) y bruxismo severo",
+      "Agresividad, agitación psicomotora, paranoia y alucinaciones ('tweaking')"
+    ],
+    "physiological": [
+      "Taquicardia sostenida, hipertensión arterial y vasoconstricción",
+      "Hipertermia (aumento peligroso de la temperatura corporal) y diaforesis",
+      "Midriasis marcada y sequedad extrema de boca (xerostomía)",
+      "Temblores, hiperreflexia y tensión muscular"
+    ]
+  },
+  "longTermEffects": {
+    "psychological": [
+      "Psicosis inducida por metanfetamina (delirios paranoides y alucinaciones auditivas/táctiles que pueden persistir meses)",
+      "Anhedonia severa y depresión crónica por destrucción de terminales de dopamina",
+      "Deterioro de la memoria verbal, velocidad motora y funciones ejecutivas",
+      "Alucinaciones de formicación ('meth bugs': sentir parásitos bajo la piel provocando heridas por rascado)"
+    ],
+    "physiological": [
+      "Destrucción dental severa ('Meth Mouth') por falta de saliva, vasoconstricción de encías y bruxismo",
+      "Miocardiopatía dilatada e insuficiencia cardíaca juvenil",
+      "Pérdida extrema de peso, desnutrición y envejecimiento cutáneo acelerado",
+      "Aumento significativo del riesgo de desarrollar enfermedad de Parkinson en la edad adulta"
+    ]
+  },
+  "overdoseSigns": [
+    "Temperatura corporal extremadamente alta (>40–41 °C) con piel caliente o sudoración profusa ('sobrecalentamiento' letal)",
+    "Dolor de pecho opresivo, pulso desbocado (>160 BPM) o dificultad severa para respirar",
+    "Delirio agitado extremo, paranoia violenta, confusión total o alucinaciones terroríficas",
+    "Convulsiones repetidas, rigidez muscular severa u orina de color marrón oscuro (signo de rabdomiólisis renal)",
+    "Pérdida de consciencia o parálisis súbita por derrame cerebral (ACV hemorrágico)"
+  ],
+  "interactions": [
+    {
+      "withSubstance": "Antidepresivos IMAO / ISRS o MDMA / Cocaína",
+      "riskLevel": "lethal",
+      "effectSummary": "Crisis hipertensiva fulminante, hipertermia maligna y síndrome serotoninérgico o catecolaminérgico.",
+      "explanation": {
+        "general": "Combinar metanfetamina con otros estimulantes o con antidepresivos impide que el cuerpo elimine el exceso masivo de neurotransmisores, provocando fiebre interna letal, convulsiones o derrame cerebral.",
+        "technical": "La inhibición de MAO o el bloqueo/inversión simultánea de transportadores de monoaminas desencadena una tormenta simpaticomimética y serotoninérgica con hipertermia >41 °C, rabdomiólisis y colapso cardiovascular."
+      }
+    },
+    {
+      "withSubstance": "Opioides (Fentanilo / Heroína — 'Goofball')",
+      "riskLevel": "lethal",
+      "effectSummary": "Sobrecarga cardíaca extrema y riesgo de paro respiratorio oculto o contaminación cruzada con fentanilo.",
+      "explanation": {
+        "general": "Mezclar metanfetamina con opioides somete al corazón a señales opuestas de aceleración y falta de oxígeno, además del altísimo riesgo de sobredosis letal por fentanilo.",
+        "technical": "Desajuste entre la demanda miocárdica de oxígeno inducida por catecolaminas y la hipoxemia inducida por agonismo MOR."
+      }
+    },
+    {
+      "withSubstance": "Inhibidores de CYP2D6 (Fluoxetina, Paroxetina, Bupropión)",
+      "riskLevel": "dangerous",
+      "effectSummary": "Bloquean la enzima hepática que elimina la metanfetamina, elevando sus niveles en sangre a rangos tóxicos.",
+      "explanation": {
+        "general": "Ciertos medicamentos psiquiátricos ocupan la enzima del hígado encargada de degradar la metanfetamina, haciendo que una dosis habitual alcance concentraciones de sobredosis.",
+        "technical": "Inhibición competitiva de CYP2D6 que reduce el aclaramiento metabólico de d-metanfetamina y duplica su concentración plasmática máxima."
+      }
+    }
+  ],
+  "commonAdulterants": [
+    {
+      "name": "Metilsulfonilmetano (MSM) e Isopropilbencilamina",
+      "frequency": "very_common",
+      "severity": "moderate",
+      "purpose": "Compuestos que cristalizan con una forma visual idéntica a los cristales de d-metanfetamina para diluir el producto.",
+      "organRisk": {
+        "general": "Al ser inhalados o inyectados generan irritación pulmonar y vascular, además de hacer que la pureza entre distintas muestras varíe de forma impredecible.",
+        "technical": "La isopropilbencilamina es un isómero estructural que co-cristaliza con el clorhidrato de metanfetamina, produciendo cefalea, confusión y toxicidad vascular al pirolizarse."
+      }
+    },
+    {
+      "name": "Contaminantes de Síntesis P2P (Sales de Plomo, Mercurio, Litio y Fósforo Rojo)",
+      "frequency": "common",
+      "severity": "critical",
+      "purpose": "Residuos catalíticos no purificados de la síntesis química clandestina a partir de fenil-2-propanona (P2P) o pseudoefedrina.",
+      "organRisk": {
+        "general": "La presencia de metales pesados y reactivos corrosivos multiplica el daño neurológico, hepático y renal, asociándose a cuadros psicóticos mucho más rápidos y severos.",
+        "technical": "Intoxicación subaguda por plomo/mercurio inorgánico e impurezas de síntesis P2P racémica que agravan la neurotoxicidad y la lesión hepatorenal."
+      }
+    },
+    {
+      "name": "Fentanilo (Contaminación cruzada)",
+      "frequency": "common",
+      "severity": "critical",
+      "purpose": "Contaminación accidental o mezcla en cadenas de distribución ilícita.",
+      "organRisk": {
+        "general": "Provoca paro respiratorio súbito en usuarios de estimulantes que no poseen tolerancia a los opioides.",
+        "technical": "Depresión respiratoria bulbar letal mediada por MOR en individuos sin tolerancia opioide."
+      }
+    }
+  ],
+  "myths": [
+    {
+      "myth": "El deterioro extremo de los dientes ('Meth Mouth') ocurre porque el humo corroe directamente el esmalte al fumar.",
+      "reality": {
+        "general": "Incluso quienes consumen metanfetamina por vía nasal o inyectada sufren pérdida dental severa. Ocurre porque la droga seca por completo las glándulas salivales (sin saliva las bacterias destruyen el diente en semanas), cierra las arterias que nutren las encías y provoca un rechinamiento mandibular constante.",
+        "technical": "La xerostomía severa mediada por estimulación α2-adrenérgica central/periférica elimina la capacidad amortiguadora y antimicrobiana de la saliva; sumada a la isquemia gingival vasoconstrictora y al bruxismo, produce caries rampante cervical y necrosis periodontal."
+      }
+    },
+    {
+      "myth": "La metanfetamina y la cocaína actúan exactamente igual en el cerebro.",
+      "reality": {
+        "general": "Aunque ambas son estimulantes, la cocaína dura menos de una hora y solo tapa el canal de salida de la dopamina (~300% de aumento). La metanfetamina dura más de 10 horas, entra dentro de la neurona, vacía todas sus bolsas de reserva (>1,000% de aumento) y quema directamente las terminales nerviosas.",
+        "technical": "La cocaína es un bloqueador competitivo de DAT de vida media corta (~60 min), mientras que la metanfetamina (t½ ~10–12 h) es un sustrato translocable que colapsa VMAT2, invierte DAT y genera especies reactivas de oxígeno intraneuronales neurotóxicas."
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Methamphetamine Toxicity and Messengers of Death",
+      "authors": "Krasnova IN, Cadet JL",
+      "source": "Brain Research Reviews / NIDA",
+      "year": 2009,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19328213/",
+      "doi": "10.1016/j.brainresrev.2009.03.002"
+    },
+    {
+      "title": "Methamphetamine-Associated Cardiomyopathy: Clinical Characteristics and Pathophysiology",
+      "authors": "Reddy PKV, Ng TMH, Oh EE, et al.",
+      "source": "Journal of the American Heart Association (JAHA)",
+      "year": 2020,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32290754/",
+      "doi": "10.1161/JAHA.119.016704"
+    },
+    {
+      "title": "Clinical Features and Management of Methamphetamine Use Disorder",
+      "authors": "Paulus MP, Stewart JL",
+      "source": "JAMA Psychiatry",
+      "year": 2020,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32211881/",
+      "doi": "10.1001/jamapsychiatry.2020.0326"
+    }
+  ]
+}
+

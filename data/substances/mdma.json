@@ -1,0 +1,623 @@
+{
+  "id": "mdma",
+  "slug": "mdma",
+  "name": "MDMA (Éxtasis / Molly)",
+  "aliases": [
+    "Éxtasis (pastillas prensadas)",
+    "Molly (cristal / polvo)",
+    "M",
+    "Rola / Pasti",
+    "3,4-Metilendioximetanfetamina"
+  ],
+  "chemicalName": "3,4-Metilendioxi-N-metilanfetamina",
+  "formula": "C11H15NO2",
+  "molecularWeight": "193.25 g/mol",
+  "casNumber": "42542-10-9",
+  "category": "empathogen",
+  "origin": "synthetic",
+  "legalStatus": "Fiscalizada internacionalmente (Lista I del Convenio sobre Sustancias Sicotrópicas de 1971; en investigación clínica fase III estrictamente controlada para psicoterapia asistida en TEPT).",
+  "pharmacokinetics": {
+    "routesOfAdministration": [
+      "Oral (comprimidos prensados o cápsulas/cristal)",
+      "Intranasal (insuflación de cristal triturado)"
+    ],
+    "halfLife": "7 – 9 horas (presenta farmacocinética NO lineal: la propia droga bloquea la enzima que la elimina, por lo que duplicar la dosis multiplica desproporcionadamente su nivel en sangre)",
+    "bioavailability": "Oral: ~65–85%",
+    "metabolism": "O-desmetilenación hepática vía CYP2D6 (la cual sufre autoinhibición por mecanismo suicida) y N-desmetilación vía CYP1A2/CYP3A4 hacia MDA (metabolito activo) y metabolitos catecol/tioéter neurotóxicos.",
+    "excretion": "Renal (80% excretada como metabolitos conjugados con glucurónido/sulfato y ~15–20% como MDMA inalterada)."
+  },
+  "riskMetrics": {
+    "addictionPotential": 6.4,
+    "physicalHarm": 7.6,
+    "neurotoxicity": 8.6,
+    "cardiotoxicity": 7.9,
+    "hepatotoxicity": 7.8,
+    "withdrawalSeverity": 6.8,
+    "socialImpact": 6.2
+  },
+  "summary": {
+    "general": "El MDMA (conocido como éxtasis en pastillas o 'Molly' en cristal) es un empatógeno y estimulante sintético derivado de la familia de las anfetaminas. Actúa vaciando de forma masiva las reservas cerebrales de serotonina (junto con noradrenalina y dopamina) y liberando oxitocina, lo que produce euforia, empatía emocional intensa y distorsión sensorial, pero desregula peligrosamente la temperatura corporal, la retención de agua y deja al cerebro sin serotonina durante varios días.",
+    "technical": "Derivado anfetamínico sustituido en el anillo aromático que actúa como agente liberador e inhibidor de la recaptación de monoaminas con preferencia por el transportador de serotonina (SERT > NET > DAT), agonista de receptores 5-HT2A/5-HT1A y estimulador de la liberación hipotalámica de oxitocina y vasopresina (ADH). Exhibe farmacocinética no lineal por autoinhibición de CYP2D6 y potencial neurotóxico serotoninérgico e hipertérmico."
+  },
+  "mechanism": {
+    "general": "A diferencia de los estimulantes clásicos que actúan sobre todo en la dopamina, el MDMA entra a las neuronas de serotonina e invierte sus bombas de transporte, vaciando en pocas horas las reservas de serotonina que el cerebro tarda semanas en fabricar. Además, bloquea la enzima (triptófano hidroxilasa) necesaria para producir serotonina nueva y dispara la hormona antidiurética, impidiendo que el cuerpo orine normalmente.",
+    "technical": "Sustrato competitivo de SERT, NET y DAT que colapsa el gradiente vesicular de VMAT2 e invierte el flujo de SERT hacia el espacio sináptico, elevando la 5-HT extracelular hasta un 900%. Paralelamente, la estimulación de receptores 5-HT1A y 5-HT2A induce liberación de oxitocina y arginina-vasopresina (ADH) en el núcleo paraventricular y supraóptico del hipotálamo, mientras que el estrés oxidativo inhibe de forma subaguda la enzima limitante triptófano hidroxilasa (TPH)."
+  },
+  "addictionExplanation": {
+    "general": "El MDMA genera una tolerancia inmediata muy particular: como la primera dosis vacía las reservas de serotonina de las neuronas, tomar más pastillas la misma noche o en días seguidos ya no produce empatía ni bienestar, sino que solo aumenta el efecto tóxico y la aceleración cardíaca. Tras el consumo, el cerebro queda con un déficit severo de serotonina ('bajón de mitad de semana') caracterizado por tristeza, apatía, irritabilidad y trastornos del sueño.",
+    "technical": "Presenta taquifilaxia aguda por depleción de los depósitos vesiculares de 5-HT e inactivación oxidativa de la triptófano hidroxilasa durante 48 a 96 horas. La redosificación intrasesión (agravada por la autoinhibición irreversible de CYP2D6 mediante formación de complejo metabolito-intermediario) incrementa exponencialmente las concentraciones plasmáticas de MDMA, desplazando el perfil clínico hacia toxicidad simpaticomimética, hipertermia e injuria axónica serotoninérgica."
+  },
+  "prescriptionVsIllicitContext": {
+    "general": "En ensayos clínicos psiquiátricos para estrés postraumático (TEPT), se utiliza MDMA farmacéutico puro en solo 2 o 3 sesiones espaciadas por meses, en un consultorio climatizado, con control de signos vitales y acompañamiento psicoterapéutico. En cambio, las pastillas de 'éxtasis' o cristales callejeros suelen tener dosis altísimas (250–300+ mg por pastilla) o ni siquiera contener MDMA, sino catinonas sintéticas ('sales de baño'), metanfetamina o PMMA letal, consumidos en ambientes calurosos y con ejercicio físico intenso.",
+    "technical": "Los protocolos clínicos en investigación emplean clorhidrato de MDMA grado GMP (80–120 mg) en reposo normotérmico y bajo monitoreo médico. En el mercado ilícito, la variabilidad de dosis en comprimidos prensados (50 a >300 mg) sumada a la hipertermia ambiental, el ejercicio prolongado y la adulteración con derivados de catinona (eutilona, mefedrona) o para-metoximetanfetamina (PMMA) dispara la incidencia de síndrome serotoninérgico y fallo multiorgánico."
+  },
+  "neurotransmitters": [
+    {
+      "id": "serotonin",
+      "name": "Serotonina (5-HT)",
+      "changePercent": 850,
+      "receptorTargets": ["SERT (inversión)", "VMAT2", "5-HT1A", "5-HT2A", "Oxitocina"],
+      "explanation": {
+        "general": "Vacía de golpe los depósitos de serotonina produciendo empatía emocional intensa, cercanía social y alteración de la percepción visual y táctil, seguido de un agotamiento de varios días.",
+        "technical": "Eflujo no exocitótico masivo vía SERT que activa receptores 5-HT1A (liberación de oxitocina prosocial) y 5-HT2A corticales, seguido de depleción intraneuronal e inhibición de TPH."
+      }
+    },
+    {
+      "id": "norepinephrine",
+      "name": "Noradrenalina (NE)",
+      "changePercent": 380,
+      "receptorTargets": ["NET", "Receptores α1 y β1 adrenérgicos"],
+      "explanation": {
+        "general": "Acelera el pulso, sube la presión arterial, provoca tensión en la mandíbula (bruxismo) e impide que la piel disipe el calor corporal.",
+        "technical": "Liberación de noradrenalina periférica y central que induce taquicardia, hipertensión y vasoconstricción cutánea, bloqueando la termólisis."
+      }
+    },
+    {
+      "id": "dopamine",
+      "name": "Dopamina (DA)",
+      "changePercent": 240,
+      "receptorTargets": ["DAT", "Receptores D1 / D2"],
+      "explanation": {
+        "general": "Aporta el componente de euforia y energía motora; en dosis altas o con calor entra por error en las neuronas de serotonina y las oxida.",
+        "technical": "Liberación moderada de dopamina estriatal; en hipertermia, la dopamina es captada de forma aberrante por SERT hacia terminales serotoninérgicas donde se oxida por MAO-B generando peróxido de hidrógeno neurotóxico."
+      }
+    }
+  ],
+  "organImpacts": {
+    "brain": {
+      "organ": "brain",
+      "overallSeverity": "critical",
+      "headline": "Depleción serotoninérgica, hipertermia central (>41 °C) y edema cerebral por hiponatremia (exceso de agua)",
+      "explanation": {
+        "general": "El MDMA presenta un doble peligro cerebral único: por un lado, desregula el termostato del hipotálamo pudiendo elevar la temperatura del cerebro a niveles fatales; por otro lado, obliga al cerebro a liberar una hormona (ADH) que impide a los riñones eliminar agua. Si la persona bebe litros de agua pura por sed o calor, la sangre se diluye (hiponatremia) y el agua entra a presión en las neuronas, provocando inflamación cerebral mortal.",
+        "technical": "Desregulación termorreguladora hipotalámica serotoninérgica e injuria axónica de proyecciones 5-HT del rafe hacia neocorteza e hipocampo. Simultáneamente, induce secreción inadecuada de hormona antidiurética (SIADH); si se combina con ingesta hipotónica excesiva, precipita hiponatremia dilucional aguda (<125 mEq/L), edema cerebral citotóxico y herniación amigdalina."
+      },
+      "highlightedBrainRegions": [
+        "hippocampus",
+        "prefrontal_cortex",
+        "amygdala",
+        "nucleus_accumbens"
+      ],
+      "hotspots": [
+        {
+          "id": "hypothalamus_thermo",
+          "label": "Hipotálamo (Termostato y Hormona ADH)",
+          "position": [0, -0.2, 0.1],
+          "severity": "critical",
+          "description": {
+            "general": "Pierde el control de la temperatura corporal (disparando fiebre interna) y libera hormona antidiurética que retiene el agua en el cuerpo.",
+            "technical": "Hiperestimulación serotoninérgica del área preóptica hipotalámica y liberación no osmótica de arginina-vasopresina (SIADH)."
+          }
+        },
+        {
+          "id": "hippocampus_5ht",
+          "label": "Hipocampo y Proyecciones de Serotonina",
+          "position": [0.22, -0.15, 0.05],
+          "severity": "high",
+          "description": {
+            "general": "Las fibras nerviosas de serotonina encargadas de la memoria verbal y la regulación del ánimo sufren desgaste oxidativo con el uso repetido.",
+            "technical": "Reducción de la densidad de transportadores SERT en corteza e hipocampo inducida por metabolitos tioéter de MDMA y estrés oxidativo."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Reservas normales de serotonina, temperatura cerebral regulada y equilibrio de sodio en sangre.",
+            "technical": "Tono serotoninérgico basal, normotermia y osmolaridad plasmática fisiológica (280–295 mOsm/kg)."
+          }
+        },
+        "acute": {
+          "severity": "high",
+          "stressIndex": 0.78,
+          "description": {
+            "general": "Liberación masiva de serotonina y oxitocina, aumento de la temperatura corporal y retención de agua por hormona ADH.",
+            "technical": "Vaciado vesicular de 5-HT vía SERT, hipertermia central moderada y secreción de vasopresina."
+          }
+        },
+        "withdrawal": {
+          "severity": "high",
+          "stressIndex": 0.72,
+          "description": {
+            "general": "Agotamiento de serotonina ('bajón'): tristeza, fatiga mental, dificultad para concentrarse e insomnio durante 3 a 5 días.",
+            "technical": "Depleción aguda de 5-HT sináptica e inhibición temporal de la triptófano hidroxilasa."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "stressIndex": 0.85,
+          "description": {
+            "general": "Pérdida de terminales de serotonina con deterioro de la memoria a corto plazo, ansiedad y depresión persistente.",
+            "technical": "Poda axónica distal de neuronas serotoninérgicas del rafe y reducción de unión a SERT cortical/hipocampal."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Síndrome serotoninérgico con fiebre >41 °C, convulsiones o edema cerebral grave por intoxicación de agua (hiponatremia).",
+            "technical": "Tormenta serotoninérgica maligna (clonus, rigidez, hipertermia >41.5 °C) o encefalopatía hiponatrémica con edema cerebral."
+          }
+        }
+      }
+    },
+    "heart": {
+      "organ": "heart",
+      "overallSeverity": "high",
+      "headline": "Taquicardia, hipertensión aguda y daño valvular cardíaco en consumo frecuente",
+      "explanation": {
+        "general": "El MDMA acelera el corazón y eleva la presión arterial de forma similar a las anfetaminas, impidiendo además que los vasos sanguíneos de la piel se abran para enfriar el cuerpo. Con el uso frecuente a largo plazo, estimula receptores específicos en las válvulas del corazón que hacen que se vuelvan gruesas y rígidas (valvulopatía).",
+        "technical": "Estimulación simpaticomimética α1 y β1 que eleva el gasto cardíaco y la presión arterial mientras produce vasoconstricción cutánea (impidiendo la disipación térmica). La activación repetida de receptores 5-HT2B en células intersticiales valvulares induce proliferación fibroblástica y valvulopatía cardíaca fibrótica."
+      },
+      "simulatedBpm": 136,
+      "vasoconstriction": 0.72,
+      "hotspots": [
+        {
+          "id": "heart_valves",
+          "label": "Válvulas Cardíacas (Receptores 5-HT2B) y Miocardio",
+          "position": [0.1, 0.05, 0.35],
+          "severity": "high",
+          "description": {
+            "general": "Sobrecarga de latidos durante horas de esfuerzo físico y calor; el uso crónico engrosa las válvulas del corazón.",
+            "technical": "Taquicardia sinusal adrenérgica aguda y mitogénesis valvular mediada por agonismo 5-HT2B crónico."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedBpm": 70,
+          "vasoconstriction": 0.1,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Ritmo cardíaco y temperatura normales.",
+            "technical": "Hemodinamia basal fisiológica."
+          }
+        },
+        "acute": {
+          "severity": "high",
+          "simulatedBpm": 136,
+          "vasoconstriction": 0.72,
+          "stressIndex": 0.78,
+          "description": {
+            "general": "Aumento marcado de los latidos (~130–145 BPM), subida de la presión arterial y cierre de vasos de la piel que atrapa el calor.",
+            "technical": "Taquicardia simpaticomimética, hipertensión sistólica y vasoconstricción periférica termogénica."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "simulatedBpm": 84,
+          "vasoconstriction": 0.3,
+          "stressIndex": 0.4,
+          "description": {
+            "general": "Cansancio físico y palpitaciones ocasionales tras el desgaste cardiovascular.",
+            "technical": "Recuperación hemodinámica con fatiga autonómica subaguda."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "simulatedBpm": 86,
+          "vasoconstriction": 0.5,
+          "stressIndex": 0.75,
+          "description": {
+            "general": "Riesgo de insuficiencia en las válvulas del corazón (valvulopatía) e hipertrofia cardíaca.",
+            "technical": "Fibroplasia valvular mitral/aórtica mediada por 5-HT2B y remodelado ventricular."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "simulatedBpm": 180,
+          "vasoconstriction": 0.92,
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Taquicardia extrema, arritmias por desbalance de potasio/sodio y colapso cardiovascular por golpe de calor.",
+            "technical": "Taquiarritmias ventriculares, hiperkalemia secundaria a rabdomiólisis y shock distributivo/cardiogénico hipertérmico."
+          }
+        }
+      }
+    },
+    "kidneys": {
+      "organ": "kidneys",
+      "overallSeverity": "critical",
+      "headline": "Retención de agua inducida por hormona ADH (hiponatremia) o fallo renal por rabdomiólisis",
+      "explanation": {
+        "general": "Los riñones sufren dos extremos peligrosos con el MDMA: por un lado, la droga ordena al riñón retener toda el agua (por lo que beber agua en exceso sin sales diluye el sodio de la sangre a niveles mortales); por otro lado, el sobrecalentamiento corporal y el baile extenuante destruyen fibras musculares que taponan los filtros renales.",
+        "technical": "En presencia de secreción inadecuada de ADH (SIADH) inducida por MDMA, los túbulos colectores reabsorben agua libre impidiendo la excreción de cargas hídricas (hiponatremia dilucional). Paralelamente, la hipertermia maligna y la hiperactividad muscular producen rabdomiólisis con necrosis tubular aguda mioglobinúrica."
+      },
+      "hotspots": [
+        {
+          "id": "nephron_adh",
+          "label": "Nefrona Distal y Túbulos Colectores",
+          "position": [0.2, -0.05, 0.25],
+          "severity": "critical",
+          "description": {
+            "general": "Bloqueados por la hormona antidiurética para no dejar salir el agua, o dañados por las proteínas de músculos sobrecalentados.",
+            "technical": "Hiperexpresión de canales de acuaporina-2 por SIADH e injuria tubular pigmentaria por mioglobina."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Regulación normal de agua y sodio.",
+            "technical": "Aclaramiento de agua libre y tasa de filtración glomerular normales."
+          }
+        },
+        "acute": {
+          "severity": "high",
+          "stressIndex": 0.72,
+          "description": {
+            "general": "Disminución de la capacidad de orinar por exceso de hormona antidiurética mientras se pierde sodio por el sudor.",
+            "technical": "Antidiuresis farmacológica mediada por vasopresina y pérdida transcutánea de Na+."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "stressIndex": 0.45,
+          "description": {
+            "general": "Normalización gradual de la producción de orina y eliminación de metabolitos.",
+            "technical": "Resolución del estado de SIADH y excreción renal de metabolitos conjugados (HMMA)."
+          }
+        },
+        "chronic": {
+          "severity": "moderate",
+          "stressIndex": 0.6,
+          "description": {
+            "general": "Sobrecarga renal repetida por episodios de deshidratación e hipertensión.",
+            "technical": "Estrés oxidativo tubular acumulativo."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 0.98,
+          "description": {
+            "general": "Insuficiencia renal aguda por destrucción muscular masiva (rabdomiólisis) e hiponatremia severa.",
+            "technical": "Necrosis tubular aguda mioglobinúrica, hiperpotasemia crítica y coagulación intravascular diseminada."
+          }
+        }
+      }
+    },
+    "liver": {
+      "organ": "liver",
+      "overallSeverity": "high",
+      "headline": "Autoinhibición de la enzima CYP2D6 y fallo hepático agudo por hipertermia o metabolitos",
+      "explanation": {
+        "general": "El MDMA tiene una trampa química en el hígado: la primera dosis desactiva la propia enzima hepática (CYP2D6) encargada de destruirla. Por eso, si la persona toma una segunda mitad o una segunda pastilla horas después, el hígado ya no puede procesarla y la concentración en sangre se dispara provocando toxicidad severa.",
+        "technical": "Inhibición basada en mecanismo (inactivación suicida) del citocromo CYP2D6 por el grupo metilendioxifenilo, anulando el metabolismo de primer paso en dosis subsecuentes. La O-desmetilenación genera catecoles reactivos (HHMA) que depleta glutatión, sumado al riesgo de necrosis hepática isquémica/térmica en hipertermia."
+      },
+      "toxicMetabolite": "Catecoles/Orto-quinonas (HHMA/HMA) + Autoinhibición CYP2D6",
+      "hotspots": [
+        {
+          "id": "hepatic_cyp2d6",
+          "label": "Enzima CYP2D6 y Hepatocitos",
+          "position": [0.12, 0.05, 0.35],
+          "severity": "high",
+          "description": {
+            "general": "La enzima se bloquea tras la primera toma, haciendo que cualquier redosificación se acumule de forma desproporcionada.",
+            "technical": "Formación de complejo metabolito-hierro con el grupo hemo de CYP2D6 (cinética no lineal) y peroxidación lipídica."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Enzimas hepáticas funcionando con normalidad.",
+            "technical": "Actividad CYP2D6/CYP3A4 basal intacta."
+          }
+        },
+        "acute": {
+          "severity": "high",
+          "stressIndex": 0.7,
+          "description": {
+            "general": "Bloqueo rápido de la enzima CYP2D6; si se redosifica, el fármaco se acumula en sangre.",
+            "technical": "Inactivación rápida de CYP2D6 y formación de metabolitos tioéter conjugados con glutatión."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "stressIndex": 0.5,
+          "description": {
+            "general": "La enzima CYP2D6 del hígado tarda hasta 10 días en regenerarse por completo.",
+            "technical": "Fenocopia temporal de metabolizador lento de CYP2D6 durante 5 a 10 días hasta síntesis de novo de la enzima."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "stressIndex": 0.75,
+          "description": {
+            "general": "Hepatitis tóxica inducida por consumo frecuente y contaminantes de síntesis.",
+            "technical": "Fibrosis e inflamación portal inducida por estrés oxidativo de orto-quinonas."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 0.98,
+          "description": {
+            "general": "Fallo hepático fulminante por golpe de calor interno (>41 °C) y coagulación descontrolada.",
+            "technical": "Necrosis hepatocelular masiva centrolobulillar secundaria a hipertermia maligna y CID (una de las principales causas de trasplante hepático de urgencia por tóxicos en jóvenes)."
+          }
+        }
+      }
+    },
+    "lungs": {
+      "organ": "lungs",
+      "overallSeverity": "moderate",
+      "headline": "Taquipnea por hipertermia y riesgo de edema pulmonar por sobrecarga hídrica",
+      "explanation": {
+        "general": "Durante el efecto agudo la respiración se acelera para intentar enfriar el cuerpo sobrecalentado. En casos de intoxicación por agua (hiponatremia) o fallo cardíaco por calor, los pulmones pueden llenarse de líquido (edema pulmonar).",
+        "technical": "Taquipnea compensatoria ante el incremento de la tasa metabólica e hipertermia; en sobredosis complicada con SIADH o SDRA hipertérmico se desarrolla edema pulmonar no cardiogénico."
+      },
+      "simulatedRpm": 22,
+      "hotspots": [
+        {
+          "id": "pulmonary_capillaries",
+          "label": "Capilares Alveolares",
+          "position": [0.25, -0.1, 0.25],
+          "severity": "moderate",
+          "description": {
+            "general": "Aumento de la frecuencia respiratoria y vulnerabilidad al paso de líquido si cae el sodio en sangre.",
+            "technical": "Aumento de la permeabilidad capilar alveolar en cuadros de hiponatremia aguda o hipertermia."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedRpm": 14,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Respiración normal en reposo.",
+            "technical": "Intercambio gaseoso fisiológico."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "simulatedRpm": 22,
+          "stressIndex": 0.5,
+          "description": {
+            "general": "Respiración más rápida acompañada de aumento del pulso y del calor corporal.",
+            "technical": "Taquipnea simpaticomimética y broncodilatación β2 leve."
+          }
+        },
+        "withdrawal": {
+          "severity": "low",
+          "simulatedRpm": 14,
+          "stressIndex": 0.2,
+          "description": {
+            "general": "Función respiratoria normalizada.",
+            "technical": "Ventilación basal recuperada."
+          }
+        },
+        "chronic": {
+          "severity": "moderate",
+          "simulatedRpm": 16,
+          "stressIndex": 0.45,
+          "description": {
+            "general": "Irritación de las vías aéreas superiores cuando el cristal se tritura y aspira por vía nasal.",
+            "technical": "Lesión mucosa rinosinusal en administración intranasal repetida."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "simulatedRpm": 32,
+          "stressIndex": 0.9,
+          "description": {
+            "general": "Edema pulmonar agudo y dificultad respiratoria severa.",
+            "technical": "Edema pulmonar neurogénico/hiponatrémico y síndrome de distrés respiratorio agudo."
+          }
+        }
+      }
+    }
+  },
+  "timelineStages": [
+    {
+      "stage": "onset",
+      "label": "Subida ('Come-up')",
+      "timeRange": "30–60 min",
+      "intensity": 55,
+      "rewardToneIndex": 220,
+      "description": {
+        "general": "Hormigueo corporal, dilatación de las pupilas, leve náusea o inquietud inicial mientras comienza la descarga de serotonina.",
+        "technical": "Absorción gastrointestinal e inicio de la inversión del transportador SERT con activación 5-HT3 vagal e incremento simpático."
+      }
+    },
+    {
+      "stage": "peak",
+      "label": "Pico Empatógeno",
+      "timeRange": "1.5–3.5 horas",
+      "intensity": 95,
+      "rewardToneIndex": 480,
+      "description": {
+        "general": "Sensación intensa de conexión emocional y empatía, euforia, intensificación de la música y el tacto, bruxismo, calor y sed.",
+        "technical": "Pico de eflujo de 5-HT, NE y DA junto con liberación hipotalámica de oxitocina y vasopresina (ADH)."
+      }
+    },
+    {
+      "stage": "offset",
+      "label": "Bajada y Agotamiento de Reservas",
+      "timeRange": "4–6 horas",
+      "intensity": 45,
+      "rewardToneIndex": 95,
+      "description": {
+        "general": "El efecto empático desaparece porque las neuronas se quedaron sin serotonina, aunque persiste la mandíbula tensa y el insomnio.",
+        "technical": "Depleción vesicular de 5-HT con persistencia de metabolitos simpaticomiméticos (MDA) y autoinhibición de CYP2D6."
+      }
+    },
+    {
+      "stage": "withdrawal",
+      "label": "Bajón Serotoninérgico ('Suicide Tuesday')",
+      "timeRange": "24–96 horas post-consumo",
+      "intensity": 75,
+      "rewardToneIndex": 45,
+      "description": {
+        "general": "Caída anímica entre 2 y 4 días después: tristeza, apatía, irritabilidad, fatiga mental y falta de concentración mientras el cerebro vuelve a sintetizar serotonina.",
+        "technical": "Déficit subagudo de 5-HT cerebral por inhibición de la triptófano hidroxilasa (TPH) y desensibilización de receptores 5-HT."
+      }
+    }
+  ],
+  "shortTermEffects": {
+    "psychological": [
+      "Empatía emocional pronunciada, desinhibición afectiva y sensación de cercanía social",
+      "Intensificación de la percepción sensorial (colores, tacto y música)",
+      "Ansiedad o ataques de pánico durante la subida inicial",
+      "Confusión temporal y alteración de la percepción del tiempo"
+    ],
+    "physiological": [
+      "Bruxismo intenso (apretar la mandíbula y rechinar los dientes) y trismo",
+      "Hipertermia (aumento de la temperatura corporal) y sudoración profusa",
+      "Midriasis extrema (pupilas muy dilatadas) y visión borrosa o movimiento ocular rápido (nistagmo)",
+      "Taquicardia, hipertensión y retención urinaria (dificultad para orinar por hormona ADH)"
+    ]
+  },
+  "longTermEffects": {
+    "psychological": [
+      "Deterioro de la memoria de trabajo y la memoria verbal por daño en terminales de serotonina del hipocampo",
+      "Episodios depresivos recurrentes y mayor vulnerabilidad a trastornos de ansiedad",
+      "Pérdida del efecto positivo de la sustancia ('pérdida de la magia') por tolerancia neurobiológica crónica",
+      "Trastornos crónicos de la arquitectura del sueño"
+    ],
+    "physiological": [
+      "Desgaste del esmalte dental y dolor en la articulación temporomandibular por bruxismo",
+      "Fibrosis en las válvulas del corazón (valvulopatía por activación 5-HT2B) en consumidores frecuentes",
+      "Daño hepático acumulativo",
+      "Neurotoxicidad axónica en vías serotoninérgicas"
+    ]
+  },
+  "overdoseSigns": [
+    "Fiebre muy alta (>40 °C), piel extremadamente caliente y dejar de sudar (signo de golpe de calor maligno inminente)",
+    "Confusión severa, dolor de cabeza intenso, vómitos y somnolencia tras haber bebido mucha agua (signo de edema cerebral por hiponatremia)",
+    "Rigidez muscular, espasmos o sacudidas involuntarias en las piernas (clonus por síndrome serotoninérgico)",
+    "Frecuencia cardíaca descontrolada, dolor en el pecho o convulsiones",
+    "Orina escasa y de color oscuro (destrucción muscular / rabdomiólisis)"
+  ],
+  "interactions": [
+    {
+      "withSubstance": "Antidepresivos IMAO, ISRS / IRSN (Fluoxetina, Sertralina, Venlafaxina) o Tramadol",
+      "riskLevel": "lethal",
+      "effectSummary": "Riesgo crítico de Síndrome Serotoninérgico mortal (con IMAO) o bloqueo del efecto con acumulación tóxica en sangre.",
+      "explanation": {
+        "general": "Combinar MDMA con inhibidores de la MAO (o suplementos como 5-HTP/hierba de San Juan) provoca una inundación de serotonina que no puede eliminarse, disparando fiebre superior a 41 °C, rigidez muscular, convulsiones y muerte. Con antidepresivos ISRS además se bloquea la enzima hepática CYP2D6.",
+        "technical": "Los IMAO impiden la degradación de la 5-HT liberada masivamente por el MDMA, precipitando síndrome serotoninérgico fulminante. Los ISRS compiten por SERT e inhiben CYP2D6, elevando las concentraciones plasmáticas de MDMA."
+      }
+    },
+    {
+      "withSubstance": "Otros Estimulantes (Cocaína, Anfetaminas, Cafeína en altas dosis)",
+      "riskLevel": "dangerous",
+      "effectSummary": "Aumenta drásticamente la hipertermia cerebral, la neurotoxicidad y la sobrecarga cardíaca.",
+      "explanation": {
+        "general": "Sumar otro estimulante eleva aún más la temperatura del cerebro y la presión arterial; además, el exceso de dopamina con calor entra en las neuronas de serotonina vacías y las quema.",
+        "technical": "Potenciación hipertermizante y simpaticomimética; además, la cocaína bloquea SERT atenuando la experiencia subjetiva empática pero multiplicando el estrés cardiovascular y oxidativo."
+      }
+    },
+    {
+      "withSubstance": "Alcohol (Etanol)",
+      "riskLevel": "unsafe",
+      "effectSummary": "Agrava la deshidratación, el estrés hepático y oculta las señales de agotamiento térmico.",
+      "explanation": {
+        "general": "El alcohol deshidrata el cuerpo mientras el MDMA sube la temperatura interna y sobrecarga el hígado, aumentando el riesgo de golpe de calor y daño hepático.",
+        "technical": "Sinergia hepatotóxica oxidativa y desregulación combinada del balance hídrico y termorregulador."
+      }
+    }
+  ],
+  "commonAdulterants": [
+    {
+      "name": "PMMA / PMA (Para-metoximetanfetamina / 'Dr. Death')",
+      "frequency": "occasional",
+      "severity": "critical",
+      "purpose": "Sustituto sintético barato vendido falsamente como comprimidos de éxtasis.",
+      "organRisk": {
+        "general": "Es uno de los adulterantes más letales: tarda mucho más en subir que el MDMA (más de 1 a 2 horas), por lo que la persona cree que la pastilla era débil, toma otra, y de repente sufre una fiebre interna superior a 42 °C y paro multiorgánico.",
+        "technical": "Potente liberador de 5-HT e inhibidor simultáneo de la MAO-A de absorción retardada; presenta un margen terapéutico nulo entre la dosis psicoactiva y la hipertermia maligna letal."
+      }
+    },
+    {
+      "name": "Catinonas Sintéticas ('Sales de Baño': Eutilona, Mefedrona, Metilona, α-PVP)",
+      "frequency": "very_common",
+      "severity": "high",
+      "purpose": "Cristales o polvos sintéticos de bajo costo vendidos como 'Molly' o prensados en pastillas.",
+      "organRisk": {
+        "general": "Producen un efecto mucho más ansioso, compulsivo y paranoico que el MDMA, con alta frecuencia de taquicardia severa, insomnio prolongado y psicosis aguda.",
+        "technical": "Inhibidores/liberadores potentes de DAT y NET con mayor potencial de redosificación compulsiva, vasoconstricción coronaria y toxicidad neuropsiquiátrica."
+      }
+    },
+    {
+      "name": "Metanfetamina y Cafeína en altas dosis",
+      "frequency": "common",
+      "severity": "high",
+      "purpose": "Añadidos en comprimidos prensados para simular energía estimulante.",
+      "organRisk": {
+        "general": "Prolongan el insomnio y la taquicardia a más de 12–16 horas y multiplican el riesgo de golpe de calor y neurotoxicidad.",
+        "technical": "Incremento sinérgico de la temperatura central y de la toxicidad oxidativa dopaminérgica."
+      }
+    }
+  ],
+  "myths": [
+    {
+      "myth": "El 'Molly' en cristal o polvo siempre es MDMA 100% puro, a diferencia de las pastillas prensadas.",
+      "reality": {
+        "general": "Los análisis químicos de laboratorio en festivales y hospitales demuestran que el cristal o polvo vendido como 'Molly' se adultera o sustituye con la misma frecuencia (a menudo con catinonas sintéticas como eutilona o metanfetamina) que las pastillas prensadas.",
+        "technical": "Las sales cristalinas de catinonas sintéticas (ej. N-etilpentilona, eutilona) e isómeros estructurales son visualmente indistinguibles de los cristales de clorhidrato de MDMA sin análisis colorimétrico/espectrométrico (GC-MS / FTIR)."
+      }
+    },
+    {
+      "myth": "Para evitar los riesgos del éxtasis hay que beber la mayor cantidad de litros de agua posible sin parar.",
+      "reality": {
+        "general": "Beber litros de agua pura de golpe bajo el efecto del MDMA ha causado numerosas muertes por inflamación cerebral (hiponatremia), porque la droga activa una hormona que impide orinar el agua sobrante. La hidratación segura ante el calor debe ser moderada (~250–500 ml/hora) y contener electrolitos/sales, descansando en lugares frescos.",
+        "technical": "Debido a que el MDMA induce secreción inadecuada de hormona antidiurética (SIADH), la ingesta masiva de líquidos libres de electrolitos provoca hiponatremia dilucional aguda y edema cerebral fatal."
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Human Pharmacology of MDMA: Pharmacokinetics, Metabolism, and Disposition",
+      "authors": "de la Torre R, Farré M, Roset PN, et al.",
+      "source": "Therapeutic Drug Monitoring",
+      "year": 2004,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15226677/",
+      "doi": "10.1097/00007691-200404000-00009"
+    },
+    {
+      "title": "MDMA (Ecstasy)-Induced Hyponatremia: Mechanisms and Clinical Management",
+      "authors": "Hartung TK, Schofield E, Short AI, et al.",
+      "source": "QJM: An International Journal of Medicine",
+      "year": 2002,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12096147/",
+      "doi": "10.1093/qjmed/95.7.431"
+    },
+    {
+      "title": "Serotonin Neurotoxicity in MDMA Users: A Review of Neuroimaging Findings",
+      "authors": "Vegting Y, Reneman L, Booij J",
+      "source": "Current Neuropharmacology",
+      "year": 2016,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26813122/",
+      "doi": "10.2174/1570159X14666160121121614"
+    }
+  ]
+}
+

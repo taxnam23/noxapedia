@@ -40,12 +40,14 @@ interface SubstanceExplorerProps {
 }
 
 const QUICK_SEARCH_SUGGESTIONS = [
+  "Fentanilo",
   "Cocaína",
-  "Benzoilmetilecgonina",
-  "Dopamina",
-  "Corazón",
-  "Levamisol",
+  "Metanfetamina",
+  "MDMA",
+  "Xilacina",
   "Cocaetileno",
+  "Acetaldehído",
+  "CB1",
 ];
 
 export function SubstanceExplorer({ substances }: SubstanceExplorerProps) {

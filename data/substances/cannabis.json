@@ -1,0 +1,613 @@
+{
+  "id": "cannabis",
+  "slug": "cannabis",
+  "name": "Cannabis (THC)",
+  "aliases": [
+    "Marihuana / Mota / Porro",
+    "Delta-9-Tetrahidrocannabinol (Δ9-THC)",
+    "Hachís / Resina",
+    "Extractos de alta potencia (Wax / Rosin / Destilados BHO >80% THC)",
+    "Comestibles (Edibles)"
+  ],
+  "chemicalName": "(-)-trans-Δ9-Tetrahidrocannabinol",
+  "formula": "C21H30O2",
+  "molecularWeight": "314.47 g/mol",
+  "casNumber": "1972-08-3",
+  "category": "cannabinoid",
+  "origin": "natural",
+  "legalStatus": "Estatus mixto global: regulado para uso médico y/o adulto en diversas jurisdicciones (ej. Uruguay, Canadá, Alemania, varios estados de EE. UU.) y fiscalizado en otras.",
+  "pharmacokinetics": {
+    "routesOfAdministration": [
+      "Inhalada por combustión (cigarrillo/porro) o vaporización de flores/extractos",
+      "Oral (aceites, cápsulas o comestibles con paso hepático)"
+    ],
+    "halfLife": "Fase inicial rápida de distribución (30–90 min), pero vida media terminal de eliminación de 20 a 36 horas (hasta varios días en usuarios crónicos por acumulación en el tejido graso)",
+    "bioavailability": "Inhalada: 10–35% (pico en 5–10 min) | Oral: 4–12% (inicio lento en 60–120 min pero mayor conversión al metabolito más potente 11-OH-THC)",
+    "metabolism": "Hidroxilación hepática primaria por CYP2C9 y CYP3A4 hacia 11-hidroxi-Δ9-THC (11-OH-THC, metabolito psicoactivo más potente que cruza con mayor facilidad al cerebro, especialmente alto tras ingesta oral), seguido de oxidación a 11-nor-9-carboxi-THC (THC-COOH, inactivo).",
+    "excretion": "Fecal (~65% vía biliar) y renal (~20% como glucurónidos ácidos; detectable en orina durante semanas en uso crónico por liberación lenta desde el tejido adiposo)."
+  },
+  "riskMetrics": {
+    "addictionPotential": 4.8,
+    "physicalHarm": 4.2,
+    "neurotoxicity": 4.6,
+    "cardiotoxicity": 4.5,
+    "hepatotoxicity": 2.5,
+    "withdrawalSeverity": 4.4,
+    "socialImpact": 5.0
+  },
+  "summary": {
+    "general": "El Δ9-THC es el principal compuesto psicoactivo de la planta Cannabis sativa. Aunque no provoca sobredosis letales por paro respiratorio porque casi no hay receptores cannabinoides en el tronco cerebral, el THC secuestra temporalmente el sistema endocannabinoide del cerebro: altera la memoria a corto plazo, la percepción del tiempo y la coordinación, acelera el corazón y, cuando se consume en dosis altas o durante la adolescencia, interfiere en la maduración de la corteza prefrontal y aumenta significativamente el riesgo de brotes psicóticos y ansiedad.",
+    "technical": "Agonista parcial de los receptores acoplados a proteína Gi/o CB1 (sistema nervioso central) y CB2 (sistema inmune). Suprime de forma retrógrada la liberación presináptica de GABA y glutamato en hipocampo, corteza prefrontal, ganglios basales y cerebelo. El incremento histórico de la concentración de Δ9-THC (de ~3–4% en los años 80 a >20–25% en flores actuales y >80% en extractos) sin proporción amortiguadora de cannabidiol (CBD) ha elevado la incidencia de trastorno por consumo de cannabis, síndrome de hiperémesis cannabinoide y psicosis inducida."
+  },
+  "mechanism": {
+    "general": "Nuestro cerebro produce sus propios endocannabinoides naturales (como la anandamida) que funcionan como reguladores finos y puntuales entre neuronas. El THC imita a esas moléculas pero activa todos los receptores CB1 del cerebro al mismo tiempo y durante horas. Esto frena la comunicación en el hipocampo (impidiendo retener lo que pasó hace unos minutos), estimula artificialmente la dopamina y, en dosis altas, sobreexcita la amígdala provocando paranoia o ataques de pánico.",
+    "technical": "A diferencia de los endocannabinoides endógenos (anandamida y 2-AG), que se sintetizan a demanda de forma local y son degradados rápidamente por las enzimas FAAH y MAGL, el Δ9-THC activa de manera global y sostenida los receptores CB1 presinápticos. Esto inhibe los canales de calcio voltaje-dependientes y reduce la liberación de GABA y glutamato, suprimiendo la potenciación a largo plazo (LTP) hipocampal y desinhibiendo las neuronas dopaminérgicas del VTA."
+  },
+  "addictionExplanation": {
+    "general": "Existe la creencia errónea de que el cannabis no genera adicción ni abstinencia física. En realidad, aproximadamente 1 de cada 10 adultos que lo usan (y hasta 1 de cada 6 si empiezan en la adolescencia, o más con extractos concentrados) desarrolla dependencia. Con el uso diario, las neuronas esconden hasta el 50% de sus receptores CB1: al dejar de consumir aparecen insomnio marcado, sueños muy vívidos, irritabilidad, pérdida total del apetito, sudoración nocturna y ansiedad durante 1 a 3 semanas.",
+    "technical": "La exposición crónica diaria a Δ9-THC produce desensibilización y regulación a la baja (downregulation) reversible pero pronunciada de los receptores CB1 corticales y límbicos, junto con alteración de la señalización de anandamida y aumento de CRF en la amígdala. El síndrome de abstinencia de cannabis (reconocido en el DSM-5) se manifiesta entre las 24 y 72 horas tras el cese, aunque los receptores CB1 suelen recuperar su densidad basal tras ~4 semanas de abstinencia sostenida."
+  },
+  "prescriptionVsIllicitContext": {
+    "general": "En medicina se utilizan cannabinoides específicos y dosificados: por ejemplo, el cannabidiol (CBD, que NO es intoxicante ni adictivo) para epilepsias infantiles refractarias, o formulaciones controladas de THC/CBD para dolor neuropático y náuseas por quimioterapia. Esto contrasta con los productos recreativos de altísima concentración de THC sin CBD (como resinas 'wax' o vapeadores del mercado negro), que maximizan la ansiedad, la tolerancia rápida y los riesgos respiratorios.",
+    "technical": "El uso clínico diferencia claramente entre el CBD (modulador alostérico negativo de CB1 con propiedades anticonvulsivantes y antipsicóticas) y las formulaciones estandarizadas de Δ9-THC/nabiximols a dosis bajas. Los concentrados comerciales o ilícitos con >75–90% de Δ9-THC y <0.5% de CBD carecen del efecto modulador protector del CBD sobre la psicotomimesis y el deterioro mnésico."
+  },
+  "neurotransmitters": [
+    {
+      "id": "endocannabinoids",
+      "name": "Sistema Endocannabinoide (CB1 / CB2)",
+      "changePercent": 320,
+      "receptorTargets": ["Receptores CB1 presinápticos", "Receptores CB2"],
+      "explanation": {
+        "general": "Activa de forma global y prolongada los receptores que regulan el apetito, la percepción del tiempo, el dolor y la memoria inmediata.",
+        "technical": "Agonismo parcial no selectivo sobre CB1 (Ki ~10–40 nM), desplazando la señalización retrógrada fisiológica de anandamida (AEA) y 2-araquidonoilglicerol (2-AG)."
+      }
+    },
+    {
+      "id": "gaba",
+      "name": "GABA y Glutamato (Modulación Retrógrada)",
+      "changePercent": -45,
+      "receptorTargets": ["Terminales GABAérgicas y Glutamatérgicas en Hipocampo y Corteza"],
+      "explanation": {
+        "general": "Reduce la precisión con la que se comunican las neuronas del hipocampo y la corteza, provocando olvidos inmediatos y enlentecimiento motor.",
+        "technical": "Inhibición presináptica de la liberación vesicular de GABA y glutamato mediada por acoplamiento Gi/o de receptores CB1."
+      }
+    },
+    {
+      "id": "dopamine",
+      "name": "Dopamina (DA)",
+      "changePercent": 65,
+      "receptorTargets": ["VTA", "Núcleo Accumbens"],
+      "explanation": {
+        "general": "Genera un aumento moderado de dopamina que explica la sensación placentera inicial, pero con el uso crónico diario embota la motivación ('síndrome amotivacional').",
+        "technical": "Desinhibición indirecta de neuronas dopaminérgicas del VTA en consumo agudo; el uso crónico intensivo se asocia a una reducción de la capacidad de síntesis de dopamina estriatal."
+      }
+    }
+  ],
+  "organImpacts": {
+    "brain": {
+      "organ": "brain",
+      "overallSeverity": "high",
+      "headline": "Interferencia en la memoria a corto plazo (hipocampo), maduración prefrontal adolescente y riesgo de psicosis",
+      "explanation": {
+        "general": "El cerebro humano sigue moldeando y conectando su Corteza Prefrontal (la zona del juicio y la planificación) hasta aproximadamente los 23–25 años mediante el sistema endocannabinoide. El consumo frecuente de THC durante la adolescencia interfiere en ese cableado cerebral. Además, en el momento agudo bloquea temporalmente el Hipocampo (memoria de trabajo) y en dosis altas o en personas con predisposición genética puede desencadenar ataques de pánico, paranoia o cuadros psicóticos.",
+        "technical": "Alta densidad de receptores CB1 en hipocampo (CA1/CA3), corteza prefrontal, ganglios basales y cerebelo, pero mínima expresión en el centro respiratorio del tronco encefálico (lo que explica la ausencia de apnea letal por THC puro). Durante el neurodesarrollo adolescente, el agonismo CB1 exógeno altera la poda sináptica glutamatérgica prefrontal. En dosis elevadas de Δ9-THC o 11-OH-THC, la hiperestimulación amigdalina y estriatal precipita síntomas psicotomiméticos agudos y aumenta el riesgo de esquizofrenia en individuos vulnerables."
+      },
+      "highlightedBrainRegions": [
+        "hippocampus",
+        "prefrontal_cortex",
+        "amygdala",
+        "nucleus_accumbens"
+      ],
+      "hotspots": [
+        {
+          "id": "hippocampus_cb1",
+          "label": "Hipocampo (Alta densidad de receptores CB1)",
+          "position": [0.22, -0.15, 0.05],
+          "severity": "high",
+          "description": {
+            "general": "Interrumpe la memoria de trabajo: dificulta retener información nueva, estudiar o recordar el hilo de una conversación reciente.",
+            "technical": "Supresión de la potenciación a largo plazo (LTP) y depresión a largo plazo (LTD) en sinapsis glutamatérgicas de CA1."
+          }
+        },
+        {
+          "id": "prefrontal_adolescent",
+          "label": "Corteza Prefrontal (Neurodesarrollo)",
+          "position": [0, 0.35, 0.65],
+          "severity": "high",
+          "description": {
+            "general": "Región que termina de madurar a los ~25 años; el uso regular temprano altera la atención sostenida y la función ejecutiva.",
+            "technical": "Alteración de la maduración de interneuronas GABAérgicas parvalbúmina+ y de la poda sináptica prefrontal durante la adolescencia."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Sistema endocannabinoide y memoria a corto plazo funcionando con normalidad.",
+            "technical": "Señalización retrógrada de anandamida/2-AG y densidad de receptores CB1 basales."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "stressIndex": 0.55,
+          "description": {
+            "general": "Relajación o euforia, alteración del paso del tiempo, aumento del apetito y reducción temporal de la memoria inmediata y los reflejos.",
+            "technical": "Activación de CB1 hipocampales, cerebelosos e hipotalámicos; deterioro psicomotor y de la memoria de trabajo."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "stressIndex": 0.5,
+          "description": {
+            "general": "En usuarios habituales: insomnio, sueños muy intensos (rebote REM), irritabilidad y falta de apetito durante 1 a 2 semanas.",
+            "technical": "Downregulation transitoria de receptores CB1 corticales y rebote de sueño REM tras el cese."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "stressIndex": 0.72,
+          "description": {
+            "general": "Reducción de receptores CB1, apatía o menor motivación por recompensas cotidianas y deterioro de la atención si el inicio fue adolescente.",
+            "technical": "Internalización de receptores CB1, embotamiento de la síntesis dopaminérgica estriatal y síndrome de hiperémesis cannabinoide."
+          }
+        },
+        "overdose": {
+          "severity": "high",
+          "stressIndex": 0.85,
+          "description": {
+            "general": "Sobredosis aguda ('pálida' o intoxicación por comestibles): ataque de pánico severo, paranoia, mareo extremo, vómitos y despersonalización (sin paro respiratorio).",
+            "technical": "Toxicidad aguda por Δ9-THC / 11-OH-THC con hiperactivación amigdalina, episodio psicótico agudo transitorio, ataxia e hipotensión ortostática."
+          }
+        }
+      }
+    },
+    "lungs": {
+      "organ": "lungs",
+      "overallSeverity": "high",
+      "headline": "Inflamación bronquial por alquitrán de combustión o lesión pulmonar aguda (EVALI) en vapeadores adulterados",
+      "explanation": {
+        "general": "Aunque el THC en sí abre temporalmente los bronquios, fumar humo de cannabis quemado introduce en los pulmones monóxido de carbono, alquitrán, benceno e hidrocarburos irritantes (a menudo reteniendo el humo más tiempo en el pecho). Esto daña los cilios que limpian los bronquios, causando tos crónica y flema. Por su parte, los cartuchos de vapeo ilegales cortados con acetato de vitamina E pueden causar una neumonía química grave (EVALI).",
+        "technical": "La pirolisis vegetal genera hidrocarburos aromáticos policíclicos, amoníaco y monóxido de carbono que producen metaplasia escamosa del epitelio bronquial, pérdida de cilios y deterioro de la función bactericida de los macrófagos alveolares. El vapeo de extractos ilícitos diluidos con acetato de tocoferilo (vitamina E) desencadena injuria pulmonar aguda asociada al vapeo (EVALI) y neumonía lipoidea."
+      },
+      "simulatedRpm": 16,
+      "hotspots": [
+        {
+          "id": "bronchial_epithelium",
+          "label": "Epitelio Bronquial y Macrófagos Alveolares",
+          "position": [0.22, 0.05, 0.28],
+          "severity": "high",
+          "description": {
+            "general": "El humo caliente y el alquitrán inflaman los bronquios y destruyen los pelos microscópicos (cilios) que expulsan la mucosidad.",
+            "technical": "Bronquitis crónica hipersecretora, metaplasia epitelial e inmunosupresión local mediada por CB2 en macrófagos alveolares."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedRpm": 14,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Vías respiratorias limpias con función ciliar normal.",
+            "technical": "Aclaramiento mucociliar e intercambio gaseoso normales."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "simulatedRpm": 16,
+          "stressIndex": 0.45,
+          "description": {
+            "general": "Dilatación bronquial inicial acompañada de irritación térmica y absorción de monóxido de carbono si se fuma por combustión.",
+            "technical": "Broncodilatación mediada por CB1 e irritación aguda de la mucosa traqueobronquial con elevación de carboxihemoglobina."
+          }
+        },
+        "withdrawal": {
+          "severity": "low",
+          "simulatedRpm": 14,
+          "stressIndex": 0.3,
+          "description": {
+            "general": "Aumento temporal de la tos y expectoración mientras los cilios bronquiales se recuperan y limpian el alquitrán acumulado.",
+            "technical": "Recuperación progresiva de la motilidad ciliar y resolución de la inflamación mucosa."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "simulatedRpm": 17,
+          "stressIndex": 0.72,
+          "description": {
+            "general": "Bronquitis crónica (tos diaria, sibilancias y flema), bullas pulmonares e infecciones respiratorias más frecuentes.",
+            "technical": "Hiperplasia de células caliciformes, bronquitis crónica y formación ocasional de bullas enfisematosas apicales."
+          }
+        },
+        "overdose": {
+          "severity": "moderate",
+          "simulatedRpm": 22,
+          "stressIndex": 0.6,
+          "description": {
+            "general": "Hiperventilación por ataque de pánico (sin depresión respiratoria por THC natural, salvo que sea un cannabinoide sintético 'Spice' o vapeador con EVALI).",
+            "technical": "Taquipnea por crisis de ansiedad aguda; ausencia de depresión respiratoria bulbar con fitocannabinoides."
+          }
+        }
+      }
+    },
+    "heart": {
+      "organ": "heart",
+      "overallSeverity": "moderate",
+      "headline": "Taquicardia refleja aguda (aumento de 20 a 50 BPM) y caídas bruscas de presión arterial ('la pálida')",
+      "explanation": {
+        "general": "A pocos minutos de consumir THC, el corazón acelera sus latidos entre un 20% y un 50% durante una o dos horas. Además, dilata los vasos sanguíneos periféricos, lo que al ponerse de pie puede hacer que baje de golpe la presión arterial provocando mareo, sudor frío, palidez y desmayo (conocido popularmente como 'la pálida'). En personas con riesgo cardiovascular previo, ese pico inicial de taquicardia aumenta el riesgo de arritmias o isquemia.",
+        "technical": "Produce una respuesta autonómica bifásica: estimulación simpática inicial e inhibición vagal que inducen taquicardia sinusal dosis-dependiente (90–130 BPM) y aumento del trabajo miocárdico, seguida de vasodilatación mediada por receptores CB1 endoteliales e hipotensión ortostática (síncope vasovagal/ortostático)."
+      },
+      "simulatedBpm": 112,
+      "vasoconstriction": 0.25,
+      "hotspots": [
+        {
+          "id": "autonomic_heart",
+          "label": "Regulación Autonómica Cardíaca",
+          "position": [0.15, 0.2, 0.3],
+          "severity": "moderate",
+          "description": {
+            "general": "Aceleración inmediata del pulso que puede ser percibida como palpitaciones fuertes y desencadenar ansiedad.",
+            "technical": "Taquicardia refleja por vasodilatación periférica CB1 y descarga simpática transitoria."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedBpm": 70,
+          "vasoconstriction": 0.1,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Frecuencia cardíaca y presión arterial normales.",
+            "technical": "Ritmo sinusal y resistencia vascular periférica basales."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "simulatedBpm": 112,
+          "vasoconstriction": 0.2,
+          "stressIndex": 0.55,
+          "description": {
+            "general": "Aumento del pulso a 100–125 BPM, ojos rojos por dilatación de vasos oculares y posible bajada de presión al levantarse.",
+            "technical": "Taquicardia sinusal aguda, inyección conjuntival vasodilatadora e hipotensión postural."
+          }
+        },
+        "withdrawal": {
+          "severity": "low",
+          "simulatedBpm": 76,
+          "vasoconstriction": 0.15,
+          "stressIndex": 0.2,
+          "description": {
+            "general": "Retorno gradual al ritmo cardíaco basal.",
+            "technical": "Normalización del tono simpático-vagal."
+          }
+        },
+        "chronic": {
+          "severity": "moderate",
+          "simulatedBpm": 78,
+          "vasoconstriction": 0.35,
+          "stressIndex": 0.5,
+          "description": {
+            "general": "El cuerpo desarrolla cierta tolerancia a la taquicardia, aunque fumar expone las arterias al monóxido de carbono de la combustión.",
+            "technical": "Tolerancia parcial al efecto cronotrópico pero disfunción endotelial asociada a productos de pirolisis."
+          }
+        },
+        "overdose": {
+          "severity": "high",
+          "simulatedBpm": 138,
+          "vasoconstriction": 0.4,
+          "stressIndex": 0.75,
+          "description": {
+            "general": "Taquicardia marcada (>130 BPM), palpitaciones intensas y desmayo por caída brusca de la presión arterial ('pálida').",
+            "technical": "Taquicardia sinusal pronunciada, síncope hipotensivo ortostático y aumento transitorio del riesgo de síndrome coronario en pacientes vulnerables."
+          }
+        }
+      }
+    },
+    "liver": {
+      "organ": "liver",
+      "overallSeverity": "low",
+      "headline": "Transformación de THC comestible en 11-OH-THC (más potente) e interacciones con CYP2C9/CYP3A4",
+      "explanation": {
+        "general": "El hígado no sufre daño celular directo por el THC natural, pero cumple un rol clave cuando el cannabis se ingiere en comida o aceites ('edibles'): todo el THC pasa primero por el hígado, que lo transforma en otro compuesto llamado 11-OH-THC. Este metabolito entra al cerebro con mucha más fuerza y dura mucho más tiempo, explicando por qué las intoxicaciones con comestibles son tan intensas.",
+        "technical": "Metabolismo de primer paso hepático vía CYP2C9 y CYP3A4 que convierte el Δ9-THC oral en 11-hidroxi-Δ9-THC (en proporción ~1:1 frente a 1:10 por vía inhalada). Los polimorfismos lentos de CYP2C9 o el uso concomitante de fármacos metabolizados por CYP2C9/CYP2C19 (ej. warfarina, clobazam) generan interacciones clínicamente relevantes."
+      },
+      "toxicMetabolite": "11-hidroxi-Δ9-THC (metabolito psicoactivo potente en vía oral)",
+      "hotspots": [
+        {
+          "id": "liver_cyp2c9",
+          "label": "Metabolismo de Primer Paso (CYP2C9 / CYP3A4)",
+          "position": [0.1, 0.05, 0.32],
+          "severity": "low",
+          "description": {
+            "general": "Convierte el THC ingerido por boca en 11-OH-THC, multiplicando la intensidad y duración del efecto psicoactivo.",
+            "technical": "Hidroxilación microsomal a 11-OH-THC y posterior oxidación a THC-COOH."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Función hepática normal.",
+            "technical": "Actividad enzimática CYP2C9/CYP3A4 basal."
+          }
+        },
+        "acute": {
+          "severity": "low",
+          "stressIndex": 0.25,
+          "description": {
+            "general": "Conversión activa del THC hacia su metabolito 11-OH-THC (especialmente intensa si se consumió por vía oral).",
+            "technical": "Hidroxilación hepática de primer paso y conjugación con ácido glucurónico."
+          }
+        },
+        "withdrawal": {
+          "severity": "low",
+          "stressIndex": 0.15,
+          "description": {
+            "general": "El hígado sigue procesando lentamente el THC que va saliendo de las reservas de grasa corporal.",
+            "technical": "Eliminación biliar y renal continua de THC-COOH liberado desde compartimentos lipofílicos."
+          }
+        },
+        "chronic": {
+          "severity": "low",
+          "stressIndex": 0.3,
+          "description": {
+            "general": "Sin hepatotoxicidad directa por fitocannabinoides, aunque puede alterar el metabolismo de otros medicamentos.",
+            "technical": "Inhibición competitiva de enzimas CYP450 (particularmente por dosis altas de CBD/THC)."
+          }
+        },
+        "overdose": {
+          "severity": "moderate",
+          "stressIndex": 0.45,
+          "description": {
+            "general": "Alta producción de 11-OH-THC tras ingesta excesiva de comestibles, prolongando la intoxicación durante más de 8 a 12 horas.",
+            "technical": "Concentraciones plasmáticas elevadas y sostenidas de 11-OH-THC por absorción gastrointestinal prolongada."
+          }
+        }
+      }
+    },
+    "kidneys": {
+      "organ": "kidneys",
+      "overallSeverity": "moderate",
+      "headline": "Deshidratación renal por Síndrome de Hiperémesis Cannabinoide (vómitos cíclicos) o daño grave por cannabinoides sintéticos ('Spice/K2')",
+      "explanation": {
+        "general": "El THC natural no es tóxico directo para el riñón, pero en consumidores crónicos de altas dosis puede aparecer el Síndrome de Hiperémesis Cannabinoide: crisis de vómitos incontrolables que solo se alivian con duchas de agua muy caliente y que causan deshidratación y fallo renal agudo. Además, si el producto fue adulterado con cannabinoides sintéticos ('Spice/K2'), estos sí causan insuficiencia renal directa.",
+        "technical": "En el Síndrome de Hiperémesis Cannabinoide (CHS), la desregulación crónica de receptores CB1 y TRPV1 hipotalámicos y entéricos provoca emesis incoercible con azoemia prerrenal y lesión renal aguda por depleción de volumen. En contraste, los cannabinoides sintéticos ilegales (JWH-018, XLR-11) producen necrosis tubular aguda nefrotóxica directa."
+      },
+      "hotspots": [
+        {
+          "id": "renal_hydration",
+          "label": "Perfusión Renal y Equilibrio Hídrico",
+          "position": [0.18, -0.05, 0.25],
+          "severity": "moderate",
+          "description": {
+            "general": "Excreta lentamente los metabolitos inactivos durante semanas; vulnerable a la deshidratación severa si aparece hiperémesis cannabinoide.",
+            "technical": "Excreción de THC-COOH glucurónido y riesgo de insuficiencia renal prerrenal durante crisis de hiperémesis cannabinoide."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Función renal normal.",
+            "technical": "Filtración glomerular basal conservada."
+          }
+        },
+        "acute": {
+          "severity": "low",
+          "stressIndex": 0.15,
+          "description": {
+            "general": "Sin impacto directo en la filtración renal con cannabis natural.",
+            "technical": "Excreción urinaria inicial de metabolitos conjugados sin alteración de la TFG."
+          }
+        },
+        "withdrawal": {
+          "severity": "low",
+          "stressIndex": 0.2,
+          "description": {
+            "general": "Eliminación urinaria de metabolitos inactivos (THC-COOH) que habían quedado guardados en la grasa corporal.",
+            "technical": "Excreción urinaria prolongada de 11-nor-9-carboxi-THC durante 7 a 30+ días."
+          }
+        },
+        "chronic": {
+          "severity": "moderate",
+          "stressIndex": 0.55,
+          "description": {
+            "general": "Riesgo de deshidratación renal aguda en usuarios diarios que desarrollan el Síndrome de Hiperémesis Cannabinoide.",
+            "technical": "Lesión renal aguda prerrenal secundaria a vómitos cíclicos refractarios del Síndrome de Hiperémesis Cannabinoide (CHS)."
+          }
+        },
+        "overdose": {
+          "severity": "moderate",
+          "stressIndex": 0.6,
+          "description": {
+            "general": "Deshidratación por vómitos intensos (o fallo renal severo si se trató de un cannabinoide sintético adulterado tipo 'K2/Spice').",
+            "technical": "Depleción hidroelectrolítica emética; descartar nefrotoxicidad tubular directa si hubo exposición a agonistas completos CB1 sintéticos."
+          }
+        }
+      }
+    }
+  },
+  "timelineStages": [
+    {
+      "stage": "onset",
+      "label": "Inicio (Inhalado vs. Oral)",
+      "timeRange": "2–10 min (inhalado) | 60–120 min (comestible)",
+      "intensity": 50,
+      "rewardToneIndex": 145,
+      "description": {
+        "general": "Por vía inhalada el efecto sube en minutos; por vía oral tarda hasta 2 horas (motivo por el cual muchas personas cometen el error de comer otra dosis antes de tiempo).",
+        "technical": "Absorción alveolar rápida hacia la circulación arterial cerebral (inhalado) frente a absorción intestinal lenta y conversión hepática a 11-OH-THC (oral)."
+      }
+    },
+    {
+      "stage": "peak",
+      "label": "Pico Psicoactivo",
+      "timeRange": "30–90 min (inhalado) | 2–5 horas (oral)",
+      "intensity": 80,
+      "rewardToneIndex": 165,
+      "description": {
+        "general": "Alteración de la percepción del tiempo y la música, relajación o risa fácil, hambre intensa ('bajón'), ojos rojos, boca seca y olvidos inmediatos.",
+        "technical": "Ocupación máxima de receptores CB1 corticolímbicos, estimulación orexigénica hipotalámica y supresión de la memoria de trabajo hipocampal."
+      }
+    },
+    {
+      "stage": "offset",
+      "label": "Descenso y Somnolencia",
+      "timeRange": "2–4 horas (inhalado) | 6–12 horas (oral)",
+      "intensity": 35,
+      "rewardToneIndex": 95,
+      "description": {
+        "general": "Disminución gradual del efecto psicoactivo dejando sensación de pesadez corporal, lentitud mental y sueño.",
+        "technical": "Redistribución del Δ9-THC desde el cerebro hacia el tejido adiposo periférico."
+      }
+    },
+    {
+      "stage": "withdrawal",
+      "label": "Abstinencia en Uso Crónico",
+      "timeRange": "Día 2 al Día 14 tras suspender uso diario",
+      "intensity": 55,
+      "rewardToneIndex": 65,
+      "description": {
+        "general": "Dificultad para conciliar el sueño, sueños extremadamente vívidos o pesadillas, irritabilidad, ansiedad y falta de apetito mientras los receptores CB1 se recuperan.",
+        "technical": "Rebote de sueño REM, hiperactividad noradrenérgica/amigdalina leve y reexpresión progresiva de receptores CB1 en la membrana neuronal."
+      }
+    }
+  ],
+  "shortTermEffects": {
+    "psychological": [
+      "Relajación subjetiva, euforia leve e intensificación sensorial",
+      "Deterioro de la memoria a corto plazo (olvido inmediato) y dilatación subjetiva del tiempo",
+      "Enlentecimiento de la atención dividida y de los reflejos para conducir",
+      "En dosis altas o alta potencia: ansiedad aguda, paranoia, ataques de pánico y despersonalización"
+    ],
+    "physiological": [
+      "Taquicardia refleja (aumento de 20 a 50 latidos por minuto) e hipotensión ortostática ('la pálida')",
+      "Inyección conjuntival (enrojecimiento de los ojos por vasodilatación) y sequedad de boca",
+      "Aumento marcado del apetito (estimulación de neuronas POMC/AgRP en el hipotálamo)",
+      "Alteración de la coordinación motora fina y el equilibrio"
+    ]
+  },
+  "longTermEffects": {
+    "psychological": [
+      "Trastorno por consumo de cannabis con tolerancia y abstinencia (especialmente con extractos de alto THC)",
+      "Alteración de la atención, memoria y rendimiento ejecutivo cuando el uso regular comienza en la adolescencia",
+      "Aumento de 2 a 4 veces en el riesgo de desencadenar trastornos psicóticos o esquizofrenia en personas con vulnerabilidad previa",
+      "Apatía y reducción de la motivación intrínseca en uso diario crónico"
+    ],
+    "physiological": [
+      "Bronquitis crónica, tos y producción de flema cuando se consume fumado por combustión",
+      "Síndrome de Hiperémesis Cannabinoide (crisis repetidas de dolor abdominal y vómitos incontrolables en usuarios crónicos)",
+      "Supresión crónica del sueño REM (que provoca rebote de sueños intensos al dejar de consumir)",
+      "Alteración de la motilidad espermática y ovulatoria en consumo intensivo"
+    ]
+  },
+  "overdoseSigns": [
+    "Ataque de pánico severo, sensación inminente de muerte, paranoia intensa o alucinaciones transitorias (especialmente tras ingerir comestibles o extractos >80% THC)",
+    "Mareo intenso, palidez extrema, sudoración fría y desmayo por caída de la presión arterial ('la pálida')",
+    "Taquicardia marcada (>120–140 BPM) y temblores corporales",
+    "Náuseas y vómitos repetidos acompañados de incapacidad para mantenerse de pie (ataxia)",
+    "NOTA CLÍNICA: Si hay pérdida de consciencia profunda, convulsiones, fiebre alta o paro respiratorio, NO se trata de cannabis natural sino de adulteración con Cannabinoides Sintéticos ('Spice/K2') u otra sustancia"
+  ],
+  "interactions": [
+    {
+      "withSubstance": "Alcohol (Etanol — 'Crossfading')",
+      "riskLevel": "unsafe",
+      "effectSummary": "El alcohol duplica la absorción de THC en la sangre y multiplica los mareos, vómitos ('la pálida') y la pérdida de reflejos al volante.",
+      "explanation": {
+        "general": "Beber alcohol antes de fumar cannabis hace que el THC se absorba mucho más rápido en la sangre. La combinación multiplica el riesgo de sufrir náuseas intensas, bajada de presión y desmayo, además de anular la capacidad de conducir de forma mucho más grave que cualquiera de las dos sustancias por separado.",
+        "technical": "El etanol incrementa la absorción sistémica de Δ9-THC inhalado elevando su concentración plasmática máxima (Cmax), y produce sinergia depresora sobre el cerebelo y la corteza prefrontal."
+      }
+    },
+    {
+      "withSubstance": "Medicamentos metabolizados por CYP2C9 / CYP2C19 (Warfarina, Clobazam, Fenitoína)",
+      "riskLevel": "caution",
+      "effectSummary": "El THC y el CBD inhiben enzimas hepáticas específicas, aumentando los niveles en sangre de anticoagulantes y anticonvulsivantes.",
+      "explanation": {
+        "general": "En pacientes que toman anticoagulantes como la warfarina o ciertos antiepilépticos, el cannabis frena su eliminación en el hígado y puede provocar sangrados o exceso de sedación si no se ajusta la dosis médica.",
+        "technical": "Inhibición competitiva de CYP2C9 por Δ9-THC (elevando el INR en usuarios de warfarina) e inhibición de CYP2C19 por CBD (triplicando los niveles del metabolito activo N-desmetilclobazam)."
+      }
+    },
+    {
+      "withSubstance": "Estimulantes (Cocaína / Anfetaminas)",
+      "riskLevel": "unsafe",
+      "effectSummary": "Suma las dos taquicardias, elevando aún más la frecuencia cardíaca y el riesgo de ansiedad paranoide.",
+      "explanation": {
+        "general": "Aunque a veces se fuma cannabis intentando 'bajar' un estimulante, en realidad el THC acelera todavía más los latidos del corazón y suele disparar paranoia y ataques de pánico cuando se combina con cocaína o anfetaminas.",
+        "technical": "Adición cronotrópica positiva (taquicardia refleja CB1 + estimulación β1-adrenérgica) que incrementa la demanda miocárdica de oxígeno y potencia la psicotomimesis."
+      }
+    }
+  ],
+  "commonAdulterants": [
+    {
+      "name": "Cannabinoides Sintéticos ('Spice' / 'K2' / JWH-018 / ADB-BUTINACA)",
+      "frequency": "common",
+      "severity": "critical",
+      "purpose": "Químicos sintéticos de laboratorio rociados sobre hierbas secas o mezclados en líquidos de vapeo y gomitas ilegales.",
+      "organRisk": {
+        "general": "No tienen nada que ver con la planta natural: son compuestos entre 10 y 100 veces más potentes que el THC que se acoplan por completo a los receptores cerebrales, pudiendo causar convulsiones, psicosis violenta, infartos, fallo renal agudo y la muerte.",
+        "technical": "Agonistas completos de alta eficacia sobre CB1 (a diferencia del Δ9-THC que es agonista parcial), carentes de CBD; desencadenan excitotoxicidad, estatus epiléptico, rabdomiólisis, necrosis tubular renal e isquemia miocárdica."
+      }
+    },
+    {
+      "name": "Acetato de Vitamina E en Cartuchos de Vapeo Ilícitos",
+      "frequency": "common",
+      "severity": "critical",
+      "purpose": "Aceite espesante añadido en cartuchos de THC del mercado negro para diluir el destilado sin que pierda viscosidad.",
+      "organRisk": {
+        "general": "Es seguro en cremas o cápsulas tragadas, pero al calentarse e inhalarse en un vapeador recubre los alvéolos pulmonares como un aceite hirviendo y se descompone en gas ceteno tóxico, causando insuficiencia respiratoria grave (EVALI).",
+        "technical": "Al pirolizarse en las resistencias de vapeadores genera gas ceteno altamente reactivo y altera el surfactante pulmonar, causando lesión pulmonar aguda asociada al vapeo (EVALI) y neumonitis química/lipoidea."
+      }
+    }
+  ],
+  "myths": [
+    {
+      "myth": "Como el cannabis es una planta natural, es completamente inofensivo, no genera adicción y su potencia es igual a la de hace décadas.",
+      "reality": {
+        "general": "El tabaco, el opio y la cicuta también son plantas naturales. Además, mediante selección genética y técnicas de extracción, el cannabis actual pasó de tener un 3% de THC en los años 80 a superar el 20–25% en flores y el 80% en extractos, con un riesgo real de dependencia (~10–17%) y de cuadros de ansiedad o psicosis en jóvenes.",
+        "technical": "La potencia media de Δ9-THC se ha multiplicado por 6 a 20 veces en las últimas cuatro décadas mientras la concentración de CBD (antagonista funcional de los efectos psicotomiméticos del THC) se ha reducido a trazas cercanas a cero en muchas cepas comerciales."
+      }
+    },
+    {
+      "myth": "Los cannabinoides sintéticos ('Spice', 'K2' o ciertos vapeadores ilegales) son simplemente 'marihuana sintética' con los mismos efectos.",
+      "reality": {
+        "general": "Es una confusión mortal: mientras el THC de la planta es un activador parcial de los receptores y no causa sobredosis letales por sí solo, los cannabinoides sintéticos son químicos de laboratorio que traban el receptor al 100%, provocando convulsiones, fallo renal e infartos.",
+        "technical": "El Δ9-THC es un agonista parcial de CB1 con efecto techo, mientras que los indazol/indol-carboxamidas sintéticos son agonistas completos de eficacia máxima y afinidad hasta 100 veces superior, con alta letalidad clínica."
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Adverse Health Effects of Marijuana Use",
+      "authors": "Volkow ND, Baler RD, Compton WM, Weiss SR",
+      "source": "New England Journal of Medicine (NEJM) / NIDA",
+      "year": 2014,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24897085/",
+      "doi": "10.1056/NEJMra1402309"
+    },
+    {
+      "title": "The Contribution of Cannabis Use to Variation in the Incidence of Psychotic Disorder Across Europe (EU-GEI)",
+      "authors": "Di Forti M, Quattrone D, Freeman TP, et al.",
+      "source": "The Lancet Psychiatry",
+      "year": 2019,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30902669/",
+      "doi": "10.1016/S2215-0366(19)30048-3"
+    },
+    {
+      "title": "Vitamin E Acetate in Bronchoalveolar-Lavage Fluid Associated with EVALI",
+      "authors": "Blount BC, Karwowski MP, Shields PG, et al.",
+      "source": "New England Journal of Medicine (NEJM)",
+      "year": 2020,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31860793/",
+      "doi": "10.1056/NEJMoa1916433"
+    }
+  ]
+}
+

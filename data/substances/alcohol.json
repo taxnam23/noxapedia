@@ -1,0 +1,608 @@
+{
+  "id": "alcohol",
+  "slug": "alcohol",
+  "name": "Alcohol (Etanol)",
+  "aliases": [
+    "Alcohol etílico",
+    "Etanol",
+    "Bebidas alcohólicas destiladas y fermentadas",
+    "EtOH"
+  ],
+  "chemicalName": "Etanol (Hidroxietano)",
+  "formula": "C2H6O",
+  "molecularWeight": "46.07 g/mol",
+  "casNumber": "64-17-5",
+  "category": "depressant",
+  "origin": "natural",
+  "legalStatus": "Legal y regulado comercialmente para mayores de edad en la mayoría de los países; es la sustancia psicoactiva con mayor carga global de morbilidad y mortalidad según la OMS.",
+  "pharmacokinetics": {
+    "routesOfAdministration": [
+      "Oral (absorción gástrica ~20% e intestinal delgada ~80%)"
+    ],
+    "halfLife": "Cinética de orden cero (eliminación constante de ~7–10 g/hora o 0.015 g/dL/hora por saturación de la alcohol deshidrogenasa)",
+    "bioavailability": "Oral: 80–90% (sujeto a metabolismo de primer paso gástrico y hepático)",
+    "metabolism": "Oxidación hepática primaria (>90%) por Alcohol Deshidrogenasa (ADH) y sistema microsomal CYP2E1 (MEOS) hacia acetaldehído (altamente tóxico), seguido de oxidación por Aldehído Deshidrogenasa 2 (ALDH2) hacia acetato.",
+    "excretion": "Metabólica (90–95% oxidado a CO2 y H2O); 5–10% excretado sin cambios en aire espirado, orina y sudor."
+  },
+  "riskMetrics": {
+    "addictionPotential": 8.1,
+    "physicalHarm": 8.8,
+    "neurotoxicity": 8.2,
+    "cardiotoxicity": 7.6,
+    "hepatotoxicity": 9.8,
+    "withdrawalSeverity": 9.5,
+    "socialImpact": 9.6
+  },
+  "summary": {
+    "general": "El alcohol etílico (etanol) es un depresor del sistema nervioso central de molécula muy pequeña que atraviesa libremente todas las membranas celulares del cuerpo. Aunque al principio parece euforizante porque adormece primero la región cerebral del autocontrol, a medida que sube su concentración en sangre apaga progresivamente la coordinación motora, la memoria y los centros vitales, mientras que su transformación química en el hígado genera acetaldehído, un compuesto directamente tóxico y cancerígeno.",
+    "technical": "Depresor no selectivo del SNC que actúa como modulador alostérico positivo de los receptores ionotrópicos GABA-A e inhibidor alostérico de los receptores glutamatérgicos NMDA. Su metabolismo hepático por ADH y CYP2E1 genera acetaldehído, especies reactivas de oxígeno (ROS) y desequilibrio redox (aumento de la razón NADH/NAD+), induciendo esteatohepatitis, cirrosis y síndrome de abstinencia hiperexcitable potencialmente letal."
+  },
+  "mechanism": {
+    "general": "El cerebro mantiene su equilibrio gracias a dos sistemas principales: el GABA (que funciona como el freno que calma las neuronas) y el glutamato (que funciona como el acelerador que las mantiene activas y permite formar recuerdos). El alcohol pisa el freno GABA al máximo y al mismo tiempo desconecta el acelerador de glutamato. Por eso provoca desinhibición inicial, habla arrastrada, pérdida de reflejos y 'lagunas mentales' (apagones de memoria en el hipocampo).",
+    "technical": "Potencia la conductancia de cloruro (Cl-) en receptores GABA-A (especialmente subunidades δ extrasimápticas y α1/β/γ2 sinápticas), hiperpolarizando las membranas neuronales, e inhibe las corrientes excitatorias de calcio/sodio a través del receptor NMDA de glutamato en el hipocampo (bloqueando la potenciación a largo plazo o LTP, base de los 'blackouts'). Adicionalmente, promueve la liberación de β-endorfinas en el núcleo arqueado y dopamina en el núcleo accumbens."
+  },
+  "addictionExplanation": {
+    "general": "Cuando una persona consume alcohol con frecuencia y en grandes cantidades, el cerebro intenta compensar ese freno constante: reduce sus propios receptores de calma (GABA) y fabrica muchos más receptores de aceleración (glutamato). Si la persona deja de beber de golpe, el cerebro queda sin freno y con el acelerador trabado al máximo. Esto provoca un síndrome de abstinencia muy peligroso con temblores, ansiedad severa, alucinaciones, convulsiones y 'delirium tremens', que a diferencia de otras drogas puede causar la muerte si no recibe tratamiento médico.",
+    "technical": "La exposición crónica al etanol induce internalización y cambio de subunidades de receptores GABA-A junto con una marcada regulación al alza (upregulation) compensatoria de receptores NMDA glutamatérgicos y canales de calcio tipo L. Al interrumpir abruptamente el etanol, se produce una tormenta excitotóxica glutamatérgica sin oposición inhibitoria GABAérgica, desencadenando hiperactividad autonómica, crisis epilépticas tónico-clónicas generalizadas, neurotoxicidad por entrada masiva de Ca2+ y Delirium Tremens."
+  },
+  "neurotransmitters": [
+    {
+      "id": "gaba",
+      "name": "GABA (Inhibición principal)",
+      "changePercent": 220,
+      "receptorTargets": ["Receptores GABA-A (subunidades α1, α4, δ)"],
+      "explanation": {
+        "general": "Potencia el sistema de freno del cerebro: reduce la ansiedad al inicio, pero luego enlentece los reflejos, el equilibrio y la respiración.",
+        "technical": "Modulación alostérica positiva del complejo canal de cloro GABA-A, incrementando la duración y frecuencia de apertura del canal y deprimiendo la excitabilidad cortical y cerebelosa."
+      }
+    },
+    {
+      "id": "glutamate",
+      "name": "Glutamato (Excitación y Memoria)",
+      "changePercent": -65,
+      "receptorTargets": ["Receptores NMDA (subunidad NR2B)", "Receptores AMPA/Kainato"],
+      "explanation": {
+        "general": "Bloquea la comunicación entre neuronas encargada de guardar recuerdos nuevos, causando las lagunas mentales o 'blackouts' durante una intoxicación.",
+        "technical": "Inhibición alostérica de receptores NMDA hipocampales que suprime la potenciación a largo plazo (LTP) en CA1; su sobreexpresión crónica causa excitotoxicidad durante la abstinencia."
+      }
+    },
+    {
+      "id": "dopamine",
+      "name": "Dopamina y Endorfinas",
+      "changePercent": 150,
+      "receptorTargets": ["VTA", "Núcleo Accumbens", "Receptores MOR"],
+      "explanation": {
+        "general": "En las primeras copas estimula la liberación de dopamina y endorfinas, generando la sensación engañosa de euforia y sociabilidad.",
+        "technical": "Desinhibición de neuronas dopaminérgicas del VTA y liberación de péptidos opioides endógenos que refuerzan la conducta de consumo."
+      }
+    }
+  ],
+  "organImpacts": {
+    "liver": {
+      "organ": "liver",
+      "overallSeverity": "critical",
+      "headline": "Acumulación de acetaldehído, hígado graso (esteatosis), hepatitis alcohólica y cirrosis irreversible",
+      "explanation": {
+        "general": "El hígado recibe el impacto directo porque procesa más del 90% del alcohol ingerido. Al descomponerlo, lo transforma primero en acetaldehído, una sustancia tóxica que inflama y mata las células hepáticas mientras obliga al hígado a fabricar y acumular grasa. Con el tiempo, el tejido sano se reemplaza por cicatrices duras (fibrosis y cirrosis) que bloquean el paso de la sangre.",
+        "technical": "La oxidación por ADH y CYP2E1 genera acetaldehído (que forma aductos con proteínas y ADN), radicales libres (ROS) y un exceso de NADH que inhibe la β-oxidación de ácidos grasos y estimula la lipogénesis (esteatosis macrovesicular). La activación de células de Kupffer por endotoxinas intestinales y la transformación de células estrelladas de Ito en miofibroblastos conducen a fibrosis colágena, hipertensión portal y cirrosis."
+      },
+      "toxicMetabolite": "Acetaldehído + Especies Reactivas de Oxígeno (vía CYP2E1)",
+      "hotspots": [
+        {
+          "id": "hepatic_lobules",
+          "label": "Lobulillos Hepáticos (Zona 3 Centrolobulillar)",
+          "position": [0.15, -0.05, 0.35],
+          "severity": "critical",
+          "description": {
+            "general": "Región del hígado con mayor concentración de enzimas que convierten el alcohol en acetaldehído, donde comienzan la acumulación de grasa y la cicatrización.",
+            "technical": "Alta expresión de CYP2E1 centrolobulillar con hipoxia relativa, peroxidación lipídica, cuerpos de Mallory-Denk y fibrosis perivenular."
+          }
+        },
+        {
+          "id": "portal_vein",
+          "label": "Sistema Vena Porta",
+          "position": [-0.15, -0.2, 0.25],
+          "severity": "high",
+          "description": {
+            "general": "Cuando el hígado se llena de cicatrices (cirrosis), la sangre no puede pasar y aumenta la presión en la vena porta, provocando sangrados internos graves.",
+            "technical": "Hipertensión portal secundaria a distorsión arquitectónica nodular, generando várices esofágicas, esplenomegalia y ascitis."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Tejido hepático sano sin grasa acumulada y con enzimas funcionando con normalidad.",
+            "technical": "Parénquima hepático normofuncionante, relación NADH/NAD+ equilibrada y reservas de glutatión intactas."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "stressIndex": 0.65,
+          "description": {
+            "general": "El hígado trabaja a máxima capacidad oxidando el alcohol; se acumula acetaldehído y disminuye la producción de glucosa (riesgo de hipoglucemia).",
+            "technical": "Saturación de ADH (cinética de orden cero), inhibición de la gluconeogénesis por exceso de NADH y estrés oxidativo transitorio."
+          }
+        },
+        "withdrawal": {
+          "severity": "high",
+          "stressIndex": 0.6,
+          "description": {
+            "general": "Inflamación residual por acetaldehído (parte central de la resaca) y depleción de antioxidantes hepáticos.",
+            "technical": "Aclaramiento de acetaldehído residual, depleción de glutatión mitocondrial e inducción persistente de CYP2E1."
+          }
+        },
+        "chronic": {
+          "severity": "critical",
+          "stressIndex": 0.95,
+          "description": {
+            "general": "Progresión desde hígado graso hacia hepatitis alcohólica y cirrosis irreversible, con alto riesgo de cáncer de hígado.",
+            "technical": "Esteatohepatitis alcohólica, fibrosis en puentes, cirrosis micronodular/macronodular, hipertensión portal y riesgo de carcinoma hepatocelular."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 0.9,
+          "description": {
+            "general": "Hipoglucemia severa, acidosis metabólica y descompensación hepática aguda.",
+            "technical": "Cetoacidosis alcohólica, hipoglucemia profunda por bloqueo gluconeogénico y fallo hepático agudo sobre crónico (ACLF)."
+          }
+        }
+      }
+    },
+    "brain": {
+      "organ": "brain",
+      "overallSeverity": "critical",
+      "headline": "Bloqueo de la memoria en el hipocampo, neurotoxicidad cortical y abstinencia convulsiva",
+      "explanation": {
+        "general": "En una intoxicación aguda, el alcohol apaga por etapas el cerebro: primero la Corteza Prefrontal (pérdida de juicio), luego el Hipocampo (incapacidad de grabar recuerdos o 'blackout'), el Cerebelo (pérdida del equilibrio) y finalmente el Tronco Encefálico (coma etílico). En el consumo crónico, sumado a la falta de vitamina B1 (tiamina), provoca encogimiento cerebral y daño neurológico permanente.",
+        "technical": "Depresión rostro-caudal progresiva del SNC. El bloqueo de receptores NMDA en CA1 hipocampal impide la consolidación mnésica. El uso crónico produce neuroinflamación microglial vía TLR4, atrofia cortical frontal/cerebelosa y, ante deficiencia de tiamina, encefalopatía de Wernicke y psicosis de Korsakoff por necrosis de cuerpos mamilares y tálamo dorsomedial."
+      },
+      "highlightedBrainRegions": [
+        "prefrontal_cortex",
+        "hippocampus",
+        "amygdala",
+        "brainstem"
+      ],
+      "hotspots": [
+        {
+          "id": "hippocampus_memory",
+          "label": "Hipocampo (Consolidación de Memoria)",
+          "position": [0.22, -0.15, 0.05],
+          "severity": "high",
+          "description": {
+            "general": "Con niveles altos de alcohol en sangre, las neuronas del hipocampo dejan de registrar eventos nuevos, provocando las 'lagunas mentales'.",
+            "technical": "Inhibición de corrientes NMDA y supresión de la potenciación a largo plazo (LTP) en neuronas piramidales de CA1."
+          }
+        },
+        {
+          "id": "pfc_control",
+          "label": "Corteza Prefrontal",
+          "position": [0, 0.35, 0.65],
+          "severity": "high",
+          "description": {
+            "general": "Primera región en deprimirse: disminuye el control de impulsos, altera la evaluación de riesgos y sufre pérdida de volumen con el uso crónico.",
+            "technical": "Potenciación GABAérgica prefrontal aguda y atrofia de sustancia gris/blanca frontal en el trastorno por consumo de alcohol crónico."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Equilibrio normal entre las señales de calma (GABA) y activación (glutamato).",
+            "technical": "Balance excitatorio/inhibitorio (E/I) cortical y plasticidad sináptica hipocampal intactos."
+          }
+        },
+        "acute": {
+          "severity": "high",
+          "stressIndex": 0.75,
+          "description": {
+            "general": "Desinhibición, pérdida de coordinación motora (ataxia), enlentecimiento de reflejos y bloqueo de la memoria a corto plazo.",
+            "technical": "Hiperpolarización GABA-A generalizada, disfunción cerebelosa e inhibición NMDA hipocampal."
+          }
+        },
+        "withdrawal": {
+          "severity": "critical",
+          "stressIndex": 0.95,
+          "description": {
+            "general": "Peligro crítico: hiperexcitabilidad cerebral con temblores, agitación, alucinaciones, convulsiones y riesgo mortal de Delirium Tremens.",
+            "technical": "Tormenta excitotóxica glutamatérgica por sobreexpresión de receptores NMDA y déficit GABAérgico, con entrada neurotóxica de Ca2+."
+          }
+        },
+        "chronic": {
+          "severity": "critical",
+          "stressIndex": 0.88,
+          "description": {
+            "general": "Pérdida de volumen cerebral, deterioro de la memoria y el equilibrio, y riesgo de síndrome de Wernicke-Korsakoff.",
+            "technical": "Desmielinización del cuerpo calloso, degeneración cerebelosa vermiana y necrosis talámica/mamilar por déficit de tiamina."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Coma etílico (alcoholemia >3.0–4.0 g/L), pérdida del reflejo de náusea (riesgo de asfixia por vómito) y paro respiratorio.",
+            "technical": "Anestesia general tóxica con depresión bulbar respiratoria, abolición de reflejos protectores de vía aérea e hipotermia central."
+          }
+        }
+      }
+    },
+    "heart": {
+      "organ": "heart",
+      "overallSeverity": "high",
+      "headline": "Arritmias agudas ('Síndrome del Corazón en Fiesta'), hipertensión y miocardiopatía dilatada",
+      "explanation": {
+        "general": "Los atracones de alcohol alteran el sistema eléctrico de las aurículas del corazón, provocando arritmias repentinas incluso en personas jóvenes y sanas ('corazón de fin de semana'). A largo plazo, el alcohol y el acetaldehído debilitan las fibras del músculo cardíaco, haciendo que el corazón se agrande, se vuelva flácido y pierda fuerza para bombear sangre.",
+        "technical": "El consumo agudo intensivo ('binge drinking') acorta el período refractario auricular y eleva las catecolaminas, desencadenando fibrilación auricular paroxística ('Holiday Heart Syndrome'). El consumo crónico induce toxicidad miofibrilar directa por acetaldehído y ésteres etílicos de ácidos grasos, llevando a miocardiopatía alcohólica dilatada e insuficiencia cardíaca."
+      },
+      "simulatedBpm": 102,
+      "vasoconstriction": 0.35,
+      "hotspots": [
+        {
+          "id": "atria_conduction",
+          "label": "Aurículas y Conducción Eléctrica",
+          "position": [0.18, 0.22, 0.32],
+          "severity": "high",
+          "description": {
+            "general": "Zona donde los atracones de alcohol disparan latidos caóticos e irregulares (fibrilación auricular).",
+            "technical": "Dispersión de la refractariedad auricular y actividad desencadenada mediada por sobrecarga de calcio diastólico."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedBpm": 70,
+          "vasoconstriction": 0.1,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Ritmo cardíaco regular y fuerza de contracción normal.",
+            "technical": "Fracción de eyección ventricular izquierda y conducción auriculoventricular normales."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "simulatedBpm": 96,
+          "vasoconstriction": 0.15,
+          "stressIndex": 0.55,
+          "description": {
+            "general": "Dilatación de los vasos de la piel (sensación engañosa de calor mientras el cuerpo pierde temperatura) y aumento moderado del pulso.",
+            "technical": "Vasodilatación cutánea periférica, taquicardia refleja y depresión leve de la contractilidad miocárdica."
+          }
+        },
+        "withdrawal": {
+          "severity": "high",
+          "simulatedBpm": 124,
+          "vasoconstriction": 0.65,
+          "stressIndex": 0.82,
+          "description": {
+            "general": "Taquicardia marcada, hipertensión arterial y alto riesgo de arritmias auriculares ('corazón en fiesta').",
+            "technical": "Hiperactividad simpática adrenérgica, hipomagnesemia/hipopotasemia y fibrilación auricular paroxística."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "simulatedBpm": 88,
+          "vasoconstriction": 0.55,
+          "stressIndex": 0.85,
+          "description": {
+            "general": "Hipertensión arterial crónica y debilitamiento del músculo cardíaco (miocardiopatía alcohólica).",
+            "technical": "Miocardiopatía dilatada con dilatación biventricular, disfunción sistólica e hipertensión arterial sistémica."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "simulatedBpm": 52,
+          "vasoconstriction": 0.2,
+          "stressIndex": 0.92,
+          "description": {
+            "general": "Caída severa de la presión arterial, hipotermia y depresión del ritmo cardíaco.",
+            "technical": "Depresión miocárdica directa, colapso vasomotor e inestabilidad eléctrica favorecida por hipotermia y acidosis."
+          }
+        }
+      }
+    },
+    "lungs": {
+      "organ": "lungs",
+      "overallSeverity": "high",
+      "headline": "Depresión respiratoria en coma etílico y neumonía grave por broncoaspiración",
+      "explanation": {
+        "general": "En dosis muy altas, el alcohol deprime la respiración y al mismo tiempo apaga el reflejo de la tos y la náusea. El mayor peligro inmediato durante un coma etílico es que la persona vomite estando inconsciente y aspire el contenido ácido del estómago hacia los pulmones, causando asfixia o una neumonía química devastadora.",
+        "technical": "Abolición de los reflejos protectores laríngeos y faríngeos combinada con hipoventilación central bulbar. La broncoaspiración de contenido gástrico ácido produce neumonitis química aguda (Síndrome de Mendelson) y síndrome de distrés respiratorio agudo (SDRA)."
+      },
+      "simulatedRpm": 9,
+      "hotspots": [
+        {
+          "id": "airway_aspiration",
+          "label": "Bronquios Inferiores (Riesgo de Broncoaspiración)",
+          "position": [0.22, -0.1, 0.25],
+          "severity": "high",
+          "description": {
+            "general": "Al perder el reflejo de la tos en estado de inconsciencia, el vómito puede entrar directamente a los pulmones y bloquear el paso de aire.",
+            "technical": "Neumonitis química por aspiración gástrica e deterioro de la inmunidad alveolar de macrófagos pulmonares."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedRpm": 14,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Respiración normal y reflejos protectores de la garganta activos.",
+            "technical": "Ventilación alveolar y aclaramiento mucociliar intactos."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "simulatedRpm": 11,
+          "stressIndex": 0.4,
+          "description": {
+            "general": "Eliminación de vapores de alcohol en el aliento y relajación de los músculos de la garganta (empeora los ronquidos y la apnea).",
+            "technical": "Excreción pulmonar del 5% del etanol volátil e hipotonía de músculos dilatadores de la vía aérea superior."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "simulatedRpm": 20,
+          "stressIndex": 0.5,
+          "description": {
+            "general": "Respiración acelerada por la ansiedad y la agitación del síndrome de abstinencia.",
+            "technical": "Taquipnea e hiperventilación asociadas a alcalosis respiratoria durante la abstinencia aguda."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "simulatedRpm": 15,
+          "stressIndex": 0.7,
+          "description": {
+            "general": "Debilitamiento de las defensas pulmonares con mayor riesgo de neumonías bacterianas graves.",
+            "technical": "Disfunción de macrófagos alveolares, parálisis ciliar bronquial y susceptibilidad a Klebsiella pneumoniae y Streptococcus pneumoniae."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "simulatedRpm": 6,
+          "stressIndex": 0.98,
+          "description": {
+            "general": "Paro respiratorio o asfixia aguda por aspiración de vómito en estado de coma.",
+            "technical": "Depresión respiratoria bulbar severa y neumonitis aspirativa aguda con hipoxemia refractaria."
+          }
+        }
+      }
+    },
+    "kidneys": {
+      "organ": "kidneys",
+      "overallSeverity": "moderate",
+      "headline": "Inhibición de la hormona antidiurética (deshidratación aguda) y síndrome hepatorrenal en cirrosis",
+      "explanation": {
+        "general": "El alcohol bloquea en el cerebro la liberación de la hormona que le indica al riñón que conserve agua (hormona antidiurética). Por eso hace orinar mucho más líquido del que se tomó, provocando deshidratación y pérdida de minerales esenciales (potasio y magnesio). En etapas avanzadas de daño hepático, desencadena fallo renal severo.",
+        "technical": "Inhibe la secreción neurohipofisaria de vasopresina (ADH), suprimiendo la inserción de acuaporina-2 en los túbulos colectores renales e induciendo diuresis acuosa libre, hipovolemia, hipomagnesemia e hipopotasemia. En cirrosis avanzada, la vasodilatación esplácnica precipita vasoconstricción renal extrema (síndrome hepatorrenal)."
+      },
+      "hotspots": [
+        {
+          "id": "collecting_ducts",
+          "label": "Túbulos Colectores Renales",
+          "position": [0.18, -0.05, 0.25],
+          "severity": "moderate",
+          "description": {
+            "general": "Al faltar la hormona antidiurética, el riñón no reabsorbe el agua y deshidrata rápidamente al organismo.",
+            "technical": "Reducción de canales de agua AQP2 apicales por supresión de ADH con pérdida renal de electrolitos."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Equilibrio normal de agua y electrolitos.",
+            "technical": "Regulación osmótica mediada por vasopresina intacta."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "stressIndex": 0.55,
+          "description": {
+            "general": "Aumento marcado de la producción de orina (efecto diurético) y pérdida acelerada de agua corporal.",
+            "technical": "Inhibición aguda de ADH con diuresis osmótica/acuosa e inicio de depleción hidroelectrolítica."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "stressIndex": 0.6,
+          "description": {
+            "general": "Deshidratación celular, sed intensa y déficit de magnesio y potasio que empeora los temblores y arritmias.",
+            "technical": "Hipovolemia residual, hipomagnesemia e hipofosfatemia que reducen el umbral convulsivo y arritmogénico."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "stressIndex": 0.8,
+          "description": {
+            "general": "Deterioro renal secundario a hipertensión arterial crónica y a la cirrosis hepática (síndrome hepatorrenal).",
+            "technical": "Nefropatía por IgA secundaria a cirrosis y vasoconstricción cortical renal del síndrome hepatorrenal."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 0.9,
+          "description": {
+            "general": "Acidosis severa, fallo renal por inmovilidad o intoxicación letal si la bebida estaba adulterada con metanol.",
+            "technical": "Cetoacidosis alcohólica, necrosis tubular por rabdomiólisis posicional o toxicidad por ácido fórmico en adulteración con metanol."
+          }
+        }
+      }
+    }
+  },
+  "timelineStages": [
+    {
+      "stage": "onset",
+      "label": "Absorción y Desinhibición",
+      "timeRange": "15–45 min",
+      "intensity": 35,
+      "rewardToneIndex": 145,
+      "description": {
+        "general": "Sensación de relajación, locuacidad y disminución de la timidez al adormecerse inicialmente la corteza prefrontal.",
+        "technical": "Absorción gastroduodenal rápida; alcoholemia (BAC) 0.02–0.05 g/dL con desinhibición cortical frontal y liberación dopaminérgica."
+      }
+    },
+    {
+      "stage": "peak",
+      "label": "Intoxicación Aguda",
+      "timeRange": "45 min – 3 horas",
+      "intensity": 85,
+      "rewardToneIndex": 160,
+      "description": {
+        "general": "Enlentecimiento de reflejos, pérdida de coordinación y equilibrio, alteración del juicio y posibles lagunas de memoria.",
+        "technical": "Potenciación GABA-A máxima e inhibición NMDA hipocampal y cerebelosa (BAC >0.08–0.20 g/dL)."
+      }
+    },
+    {
+      "stage": "aftereffects",
+      "label": "Resaca y Toxicidad por Acetaldehído",
+      "timeRange": "8–24 horas",
+      "intensity": 65,
+      "rewardToneIndex": 65,
+      "description": {
+        "general": "Dolor de cabeza por deshidratación, náuseas, fatiga, inflamación por acetaldehído acumulado y 'ansiedad de rebote' (hangxiety).",
+        "technical": "Acumulación de acetaldehído, liberación de citoquinas proinflamatorias, hipoglucemia reactiva y rebote glutamatérgico leve."
+      }
+    },
+    {
+      "stage": "withdrawal",
+      "label": "Abstinencia Severa / Delirium Tremens",
+      "timeRange": "12–96 horas (en dependencia crónica)",
+      "intensity": 98,
+      "rewardToneIndex": 25,
+      "description": {
+        "general": "Temblores intensos, sudoración, taquicardia, alucinaciones visuales/táctiles, convulsiones y riesgo mortal de Delirium Tremens.",
+        "technical": "Hiperexcitabilidad NMDA descontrolada e hipofunción GABA-A con tormenta autonómica simpática y estatus epiléptico."
+      }
+    }
+  ],
+  "shortTermEffects": {
+    "psychological": [
+      "Desinhibición conductual, euforia inicial y reducción de la percepción del riesgo",
+      "Labilidad emocional (cambios bruscos entre euforia, llanto o agresividad)",
+      "Amnesia anterógrada aguda ('blackouts' o lagunas mentales sin perder la consciencia)",
+      "Ansiedad de rebote ('hangxiety') y estado depresivo al día siguiente"
+    ],
+    "physiological": [
+      "Enlentecimiento de los tiempos de reacción, ataxia (pérdida de equilibrio) y disartria (habla arrastrada)",
+      "Vasodilatación periférica cutánea con pérdida real de calor corporal (riesgo de hipotermia)",
+      "Poliuria y deshidratación por inhibición de la hormona antidiurética",
+      "Irritación de la mucosa gástrica, náuseas, vómitos e hipoglucemia"
+    ]
+  },
+  "longTermEffects": {
+    "psychological": [
+      "Trastorno por consumo de alcohol con tolerancia y abstinencia física peligrosa",
+      "Deterioro cognitivo y demencia prematura (incluyendo síndrome de Wernicke-Korsakoff)",
+      "Depresión mayor, trastornos de ansiedad crónicos e insomnio estructural",
+      "Alteración persistente del control de impulsos por daño prefrontal"
+    ],
+    "physiological": [
+      "Enfermedad hepática alcohólica: esteatosis (hígado graso), hepatitis y cirrosis",
+      "Miocardiopatía dilatada, hipertensión arterial crónica y arritmias auriculares",
+      "Pancreatitis aguda y crónica necrotizante",
+      "Aumento demostrado del riesgo de cáncer de hígado, esófago, boca, laringe, colon y mama (Grupo 1 IARC)"
+    ]
+  },
+  "overdoseSigns": [
+    "Inconsciencia o estupor profundo del que la persona no puede ser despertada (coma etílico)",
+    "Vómitos persistentes estando semiconsciente o dormido (peligro inminente de asfixia por broncoaspiración)",
+    "Respiración muy lenta (<8 por minuto) o pausas mayores a 10 segundos entre respiraciones",
+    "Piel fría, húmeda, pálida o azulada por hipotermia e hipoxia",
+    "Convulsiones (por hipoglucemia severa o abstinencia brusca)"
+  ],
+  "interactions": [
+    {
+      "withSubstance": "Benzodiacepinas, Barbitúricos u Opioides (Fentanilo / Morfina / Oxicodona)",
+      "riskLevel": "lethal",
+      "effectSummary": "Multiplicación del efecto depresor sobre el tronco encefálico, llevando al coma y paro respiratorio.",
+      "explanation": {
+        "general": "Combinar alcohol con pastillas para dormir, ansiolíticos o analgésicos opioides apaga por partida doble los centros cerebrales de la respiración y el reflejo de la tos, siendo una de las causas más frecuentes de sobredosis mortales.",
+        "technical": "Sinergia alostérica sobre el complejo receptor GABA-A (etanol + benzodiacepinas) o depresión dual GABAérgica/opioide sobre el centro respiratorio bulbar."
+      }
+    },
+    {
+      "withSubstance": "Cocaína",
+      "riskLevel": "lethal",
+      "resultingCompound": "Cocaetileno",
+      "effectSummary": "Síntesis hepática de Cocaetileno con toxicidad cardíaca y hepática drásticamente superior.",
+      "explanation": {
+        "general": "El alcohol oculta la sensación de borrachera cuando se toma cocaína, llevando a consumir cantidades extremas de ambos mientras el hígado fabrica cocaetileno, un compuesto letal para el corazón.",
+        "technical": "Transesterificación hepática por carboxilesterasa 1 hacia cocaetileno (t½ ~2.5 h), incrementando el bloqueo de canales Nav1.5 y el riesgo de muerte súbita arrítmica 18–25 veces."
+      }
+    },
+    {
+      "withSubstance": "Paracetamol (Acetaminofén)",
+      "riskLevel": "dangerous",
+      "resultingCompound": "NAPQI (metabolito hepatotóxico)",
+      "effectSummary": "Aumento de la producción del metabolito tóxico del paracetamol en el hígado, pudiendo causar fallo hepático agudo.",
+      "explanation": {
+        "general": "Tomar paracetamol de forma repetida en personas que beben alcohol con frecuencia o tras grandes ingestas hace que el hígado convierta el analgésico en una toxina que destruye las células hepáticas.",
+        "technical": "El consumo de etanol induce la enzima CYP2E1 y depleta las reservas hepáticas de glutatión (GSH), desviando el metabolismo del paracetamol hacia la acumulación de N-acetil-p-benzoquinona imina (NAPQI) y necrosis centrolobulillar."
+      }
+    }
+  ],
+  "commonAdulterants": [
+    {
+      "name": "Metanol (Alcohol metílico / Alcohol de madera)",
+      "frequency": "occasional",
+      "severity": "critical",
+      "purpose": "Adulteración ilegal o destilación clandestina defectuosa para abaratar bebidas alcohólicas falsificadas.",
+      "organRisk": {
+        "general": "El hígado convierte el metanol en formaldehído y ácido fórmico, los cuales destruyen el nervio óptico provocando ceguera irreversible y causan acidosis severa y muerte en pocas horas.",
+        "technical": "Metabolizado por ADH/ALDH hacia formaldehído y ácido fórmico, que inhibe la citocromo c oxidasa mitocondrial en la retina y los ganglios basales (putamen), provocando neuritis óptica tóxica (ceguera) y acidosis metabólica con brecha aniónica elevada."
+      }
+    }
+  ],
+  "myths": [
+    {
+      "myth": "Darse una ducha fría o tomar café fuerte baja el alcohol en sangre y permite manejar.",
+      "reality": {
+        "general": "Ni el café ni el agua fría eliminan un solo gramo de alcohol de la sangre. El hígado tarda aproximadamente una hora en eliminar cada copa estándar y nada puede acelerar esa enzima: el café solo produce un ebrio despierto con los reflejos igual de dañados.",
+        "technical": "La alcohol deshidrogenasa (ADH) se satura a concentraciones muy bajas, operando con cinética de orden cero (~7–10 g/h). Ningún estimulante adenosinérgico como la cafeína modifica el aclaramiento hepático ni revierte la disfunción cerebelosa/prefrontal."
+      }
+    },
+    {
+      "myth": "El alcohol ayuda a dormir mejor y a combatir el frío.",
+      "reality": {
+        "general": "Aunque da sueño al principio, el alcohol destruye la fase REM reparadora del sueño en la segunda mitad de la noche. Y respecto al frío, el alcohol dilata las venas de la piel haciendo que el calor interno se escape al exterior, aumentando el riesgo real de morir por hipotermia.",
+        "technical": "Suprime el sueño REM y produce fragmentación por rebote glutamatérgico en la segunda mitad de la noche. A nivel termorregulador, induce vasodilatación cutánea periférica e inhibe el centro hipotalámico del escalofrío, acelerando la pérdida de temperatura central."
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Global Status Report on Alcohol and Health and Treatment of Substance Use Disorders",
+      "authors": "World Health Organization (WHO)",
+      "source": "World Health Organization",
+      "year": 2024,
+      "url": "https://www.who.int/publications/i/item/9789240096745"
+    },
+    {
+      "title": "Alcoholic Liver Disease: Pathogenesis and New Therapeutic Targets",
+      "authors": "Gao B, Bataller R",
+      "source": "Gastroenterology",
+      "year": 2011,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21920463/",
+      "doi": "10.1053/j.gastro.2011.09.002"
+    },
+    {
+      "title": "Neurobiology of Alcohol Dependence and Withdrawal",
+      "authors": "Koob GF, Volkow ND",
+      "source": "The Lancet Psychiatry / NIDA",
+      "year": 2016,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27475769/",
+      "doi": "10.1016/S2215-0366(16)00104-8"
+    }
+  ]
+}
+
