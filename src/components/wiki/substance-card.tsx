@@ -115,7 +115,10 @@ export function SubstanceCard({
               {isTechnical ? "MODO TÉCNICO" : "MODO GENERAL"}
             </Badge>
           </div>
-          <div className="flex items-center gap-2 font-mono text-xs text-slate-400">
+          <div
+            translate="no"
+            className="notranslate flex items-center gap-2 font-mono text-xs text-slate-400"
+          >
             <span className="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-cyan-300">
               {substance.formula}
             </span>
@@ -194,7 +197,10 @@ export function SubstanceCard({
                 </span>
                 <span className="flex items-center gap-1 text-rose-200">
                   <Clock className="h-3 w-3" />
-                  t½: {substance.pharmacokinetics.halfLife.split(";")[0]}
+                  <span translate="no" className="notranslate">
+                    t½:
+                  </span>{" "}
+                  {substance.pharmacokinetics.halfLife.split(";")[0]}
                 </span>
               </div>
               <div className="grid grid-cols-1 gap-1.5 text-[11px] font-mono text-slate-300">
@@ -221,7 +227,10 @@ export function SubstanceCard({
                     {SEVERITY_LABELS[focusedOrganImpact.overallSeverity]}
                   </span>
                 </div>
-                <div className="flex items-center gap-1.5 font-mono text-[11px]">
+                <div
+                  translate="no"
+                  className="notranslate flex items-center gap-1.5 font-mono text-[11px]"
+                >
                   {focusedOrganImpact.simulatedBpm && (
                     <Badge variant="critical" className="text-[10px] py-0">
                       {focusedOrganImpact.simulatedBpm} BPM
@@ -364,7 +373,10 @@ export function SubstanceCard({
                       : `${nt.changePercent}%`}
                   </span>
                   {isTechnical && nt.receptorTargets.length > 0 && (
-                    <span className="ml-1 text-rose-300">
+                    <span
+                      translate="no"
+                      className="notranslate ml-1 text-rose-300"
+                    >
                       [{nt.receptorTargets.slice(0, 2).join(", ")}]
                     </span>
                   )}

@@ -66,8 +66,9 @@ export function ReadingModeToggle({
 
       {showShortcutHint && (
         <kbd
+          translate="no"
           title="Atajo de teclado para alternar el nivel de lectura"
-          className="hidden xl:inline-flex h-6 items-center rounded border border-slate-800 bg-slate-900/90 px-2 font-mono text-[10px] text-slate-400"
+          className="notranslate hidden xl:inline-flex h-6 items-center rounded border border-slate-800 bg-slate-900/90 px-2 font-mono text-[10px] text-slate-400"
         >
           Alt + M
         </kbd>
