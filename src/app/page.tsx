@@ -1,7 +1,7 @@
 import {
   Activity,
   Brain,
-  FlaskConical,
+  Database,
   HeartPulse,
   Microscope,
   ShieldAlert,
@@ -18,8 +18,10 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { CATEGORY_LABELS, getAllSubstances } from "@/lib/data";
 
 export default function HomePage() {
+  const substances = getAllSubstances();
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Clinical Navigation Bar */}
@@ -70,6 +72,13 @@ export default function HomePage() {
               <Badge variant="default">Open Source Science</Badge>
               <Badge variant="secondary" className="font-mono">
                 OMS / NIDA / PubMed
+              </Badge>
+              <Badge variant="low" className="font-mono">
+                <Database className="h-3 w-3" />
+                {substances.length}{" "}
+                {substances.length === 1
+                  ? "Sustancia Validada (Zod)"
+                  : "Sustancias Validadas (Zod)"}
               </Badge>
             </div>
             <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-slate-50 leading-tight">
@@ -157,6 +166,60 @@ export default function HomePage() {
               Levamisol • Xilacina • Cocaetileno • Policonsumo
             </CardContent>
           </Card>
+        </section>
+
+        {/* Validated Substances Preview from /data/substances/*.json */}
+        <section className="space-y-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-xl font-semibold text-slate-100">
+                Catálogo Científico Validado (`/data/substances/*.json`)
+              </h2>
+              <p className="text-sm text-slate-400">
+                Datos cargados estáticamente y verificados con esquemas estrictos
+                de Zod en tiempo de compilación.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {substances.map((substance) => (
+              <Card
+                key={substance.id}
+                className="border-slate-800 hover:border-cyan-500/40 transition-all"
+              >
+                <CardHeader className="pb-3">
+                  <div className="flex items-center justify-between gap-2">
+                    <Badge variant="default">
+                      {CATEGORY_LABELS[substance.category].label}
+                    </Badge>
+                    <span className="font-mono text-xs text-slate-400">
+                      {substance.formula}
+                    </span>
+                  </div>
+                  <CardTitle className="pt-2 text-xl">
+                    {substance.name}
+                  </CardTitle>
+                  <CardDescription className="font-mono text-xs text-cyan-400/90">
+                    {substance.chemicalName}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <p className="text-sm text-slate-300 line-clamp-3">
+                    {substance.summary.general}
+                  </p>
+                  <div className="flex flex-wrap gap-1.5 pt-1">
+                    <Badge variant="critical" className="font-mono text-[11px]">
+                      Adicción: {substance.riskMetrics.addictionPotential}/10
+                    </Badge>
+                    <Badge variant="high" className="font-mono text-[11px]">
+                      Cardiotoxicidad: {substance.riskMetrics.cardiotoxicity}/10
+                    </Badge>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </section>
       </main>
     </div>

@@ -1,0 +1,647 @@
+{
+  "id": "cocaine",
+  "slug": "cocaina",
+  "name": "Cocaína",
+  "aliases": [
+    "Clorhidrato de cocaína",
+    "Merca",
+    "Perico",
+    "Crack (base libre)",
+    "Pasta base / Paco (intermedio oxidado)"
+  ],
+  "chemicalName": "Benzoilmetilecgonina",
+  "formula": "C17H21NO4",
+  "molecularWeight": "303.35 g/mol",
+  "casNumber": "50-36-2",
+  "category": "stimulant",
+  "origin": "semi-synthetic",
+  "legalStatus": "Fiscalizada internacionalmente (Lista I de la Convención Única de 1961; uso médico restringido exclusivamente como anestésico tópico oftálmico/otorrinolaringológico).",
+  "pharmacokinetics": {
+    "routesOfAdministration": [
+      "Intranasal (insuflación)",
+      "Inhalada por pirolisis (Crack / Base libre)",
+      "Intravenosa"
+    ],
+    "halfLife": "45 – 90 minutos (vida media plasmática corta que impulsa la redosificación compulsiva)",
+    "bioavailability": "Intranasal: 60–80% | Fumada (Crack): ~70–90% (pico cerebral en <10 seg) | Oral: ~33%",
+    "metabolism": "Hidrólisis hepática y plasmática por colinesterasas hacia benzoilecgonina y ecgonina metil éster; transesterificación hepática por carboxilesterasa 1 (hCE1) a cocaetileno en presencia de etanol.",
+    "excretion": "Renal (85–90% como metabolitos inactivos benzoilecgonina y ecgonina metil éster; 1–5% sin cambios)."
+  },
+  "riskMetrics": {
+    "addictionPotential": 9.2,
+    "physicalHarm": 8.6,
+    "neurotoxicity": 8.1,
+    "cardiotoxicity": 9.6,
+    "hepatotoxicity": 7.4,
+    "withdrawalSeverity": 7.8,
+    "socialImpact": 8.5
+  },
+  "summary": {
+    "general": "La cocaína es un estimulante del sistema nervioso central de acción muy rápida pero de corta duración, extraído y procesado de la hoja de Erythroxylum coca. En el cuerpo actúa bloqueando la reabsorción normal de dopamina, noradrenalina y serotonina entre las neuronas, al mismo tiempo que acelera el ritmo cardíaco y estrecha las arterias que llevan sangre al corazón y al cerebro.",
+    "technical": "Alcaloide tropano éster que actúa como inhibidor competitivo no selectivo de los transportadores presinápticos de monoaminas (DAT, NET y SERT) y como bloqueador de los canales de sodio dependientes de voltaje (Nav1.5 / Nav1.7). Su perfil farmacológico combina hiperestimulación catecolaminérgica central y simpaticomimética periférica con propiedades proarrítmicas de clase IC."
+  },
+  "mechanism": {
+    "general": "En condiciones normales, las neuronas liberan dopamina para transmitir señales de motivación y placer, y enseguida la vuelven a absorber para reutilizarla y terminar la señal. La cocaína sella esos canales de reabsorción. Como resultado, la dopamina y la noradrenalina quedan atrapadas acumulándose en exceso entre las neuronas, sobreestimulando el cerebro y disparando la presión arterial y los latidos del corazón.",
+    "technical": "Se une con alta afinidad al transportador de dopamina (DAT, Ki ~0.2–0.6 μM), de noradrenalina (NET) y de serotonina (SERT), bloqueando la recaptación presináptica hacia el citosol neuronal. Esto eleva de forma aguda las concentraciones extracelulares de dopamina en el núcleo accumbens (vía mesocorticolímbica) hasta un 300%. Paralelamente, bloquea canales de sodio rápidos en el sarcolema miocárdico y en axones periféricos, prolongando el complejo QRS y el intervalo QT."
+  },
+  "addictionExplanation": {
+    "general": "Su altísimo poder adictivo se debe a la combinación de un pico extremo de dopamina y una duración muy breve (menos de una hora). Cuando el efecto cae de golpe, el cerebro queda con sus reservas agotadas y además se defiende reduciendo la cantidad de receptores de dopamina disponibles. Esto genera un estado de angustia, fatiga profunda e incapacidad de sentir placer con cosas cotidianas (anhedonia), empujando a la persona a volver a consumir inmediatamente para aliviar ese malestar.",
+    "technical": "La cinética ultrarrápida de entrada al estriado ventral genera un refuerzo dopaminérgico fásico supranormal seguido de un rápido aclaramiento plasmático (t½ ~60 min). La sobreexposición crónica induce acumulación del factor de transcripción ΔFosB en neuronas espinosas medianas del núcleo accumbens, internalización y regulación a la baja (downregulation) de receptores D2 estriatales e hipofunción glutamatérgica de la corteza prefrontal orbitofrontal y cingulada anterior, deteriorando el control inhibitorio frente al craving."
+  },
+  "prescriptionVsIllicitContext": {
+    "general": "En medicina hospitalaria solo existe un uso sumamente específico y controlado: soluciones tópicas diluidas en cirugías nasales u oculares porque adormece la zona y cierra los vasos sanguíneos para evitar sangrados. Fuera de ese uso quirúrgico puntual, la cocaína del mercado ilícito se consume en dosis sistémicas decenas de veces mayores y suele estar adulterada con compuestos tóxicos.",
+    "technical": "Clínicamente, el clorhidrato de cocaína tópico (soluciones al 4%–10%) se limita a procedimientos otorrinolaringológicos por su doble acción anestésica local (bloqueo Nav) y vasoconstrictora α1-adrenérgica. En el mercado ilícito, la administración sistémica repetida (insuflada o pirolizada como base libre) alcanza concentraciones plasmáticas cardiotóxicas y neurotóxicas, agravadas por adulterantes farmacológicamente activos como el levamisol."
+  },
+  "neurotransmitters": [
+    {
+      "id": "dopamine",
+      "name": "Dopamina (DA)",
+      "changePercent": 300,
+      "receptorTargets": ["DAT", "Receptores D1", "Receptores D2"],
+      "explanation": {
+        "general": "Al bloquearse su reabsorción, la dopamina se triplica en el circuito de recompensa cerebral, provocando euforia intensa, hiperseguridad y deseo compulsivo de repetir la dosis cuando empieza a bajar.",
+        "technical": "Inhibición del transportador DAT en terminales dopaminérgicas del área tegmental ventral (VTA) proyectadas al núcleo accumbens, generando hiperactivación de receptores D1 y subsecuente desensibilización D2."
+      }
+    },
+    {
+      "id": "norepinephrine",
+      "name": "Noradrenalina (NE)",
+      "changePercent": 250,
+      "receptorTargets": ["NET", "Receptores α1-adrenérgicos", "Receptores β1-adrenérgicos"],
+      "explanation": {
+        "general": "Dispara la respuesta de alerta física: acelera el corazón, sube bruscamente la presión arterial, dilata las pupilas y contrae los vasos sanguíneos.",
+        "technical": "Bloqueo de NET central (locus coeruleus) y periférico simpático, induciendo estimulación α1 vascular (vasoconstricción coronaria y sistémica) y β1 miocárdica (aumento de inotropismo y cronotropismo)."
+      }
+    },
+    {
+      "id": "serotonin",
+      "name": "Serotonina (5-HT)",
+      "changePercent": 180,
+      "receptorTargets": ["SERT", "5-HT1A", "5-HT2A"],
+      "explanation": {
+        "general": "Altera temporalmente el estado de ánimo y la regulación del sueño; su caída posterior contribuye a la irritabilidad y depresión del bajón.",
+        "technical": "Inhibición competitiva de SERT en proyecciones de los núcleos del rafe, contribuyendo a la desregulación afectiva y disforia durante la fase de abstinencia aguda."
+      }
+    }
+  ],
+  "organImpacts": {
+    "brain": {
+      "organ": "brain",
+      "overallSeverity": "critical",
+      "headline": "Secuestro del circuito de recompensa, hipofunción prefrontal y riesgo de ACV isquémico o hemorrágico",
+      "explanation": {
+        "general": "En el cerebro, la cocaína satura el centro del placer (Núcleo Accumbens) y con el uso repetido debilita la Corteza Prefrontal, que es la región encargada de tomar decisiones y frenar impulsos. Además, al contraer las arterias cerebrales y disparar la presión arterial, puede causar infartos o derrames cerebrales incluso en personas jóvenes.",
+        "technical": "Hiperactivación dopaminérgica mesolímbica con remodelación sináptica dendrítica en el núcleo accumbens e hipometabolismo de la corteza prefrontal dorsolateral y ventromedial. A nivel cerebrovascular, el vasoespasmo arterial inducido por catecolaminas y la hipertensión aguda incrementan drásticamente el riesgo de accidente cerebrovascular isquémico y hemorragia subaracnoidea."
+      },
+      "highlightedBrainRegions": [
+        "nucleus_accumbens",
+        "prefrontal_cortex",
+        "amygdala"
+      ],
+      "vasoconstriction": 0.8,
+      "hotspots": [
+        {
+          "id": "nac",
+          "label": "Núcleo Accumbens",
+          "position": [0.15, -0.1, 0.35],
+          "severity": "critical",
+          "description": {
+            "general": "Centro del circuito de recompensa. Recibe una inundación artificial de dopamina que graba el consumo como una necesidad biológica prioritaria.",
+            "technical": "Acumulación de dopamina extracelular por bloqueo DAT y expresión persistente de ΔFosB con reducción de densidad de receptores D2."
+          }
+        },
+        {
+          "id": "pfc",
+          "label": "Corteza Prefrontal",
+          "position": [0, 0.35, 0.65],
+          "severity": "high",
+          "description": {
+            "general": "Región del autocontrol y el juicio racional. Con el consumo repetido pierde actividad, haciendo muy difícil resistir el impulso de volver a consumir.",
+            "technical": "Hipofrontalidad metabólica y desregulación de proyecciones glutamatérgicas corticostriatales encargadas del control ejecutivo."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "vasoconstriction": 0.1,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Actividad neuronal equilibrada con niveles normales de dopamina y flujo sanguíneo cerebral estable.",
+            "technical": "Tono dopaminérgico basal fisiológico y autorregulación cerebrovascular intacta."
+          }
+        },
+        "acute": {
+          "severity": "high",
+          "vasoconstriction": 0.75,
+          "stressIndex": 0.8,
+          "description": {
+            "general": "Acumulación brusca de dopamina y noradrenalina: euforia intensa, hiperalerta y estrechamiento de los vasos sanguíneos cerebrales.",
+            "technical": "Inhibición aguda de DAT/NET/SERT con hiperperfusión límbica focal y vasoconstricción arterial cerebral."
+          }
+        },
+        "withdrawal": {
+          "severity": "high",
+          "vasoconstriction": 0.35,
+          "stressIndex": 0.7,
+          "description": {
+            "general": "Caída abrupta de dopamina por debajo de lo normal: agotamiento mental, ansiedad intensa, irritabilidad y deseo urgente de repetir la dosis.",
+            "technical": "Depleción transitoria de monoaminas sinápticas, hiperreactividad amigdalina vía CRF y estado disfórico/anhedónico."
+          }
+        },
+        "chronic": {
+          "severity": "critical",
+          "vasoconstriction": 0.65,
+          "stressIndex": 0.9,
+          "description": {
+            "general": "Pérdida de receptores de dopamina y deterioro de la corteza prefrontal: pérdida de memoria, impulsividad, paranoia y anhedonia persistente.",
+            "technical": "Downregulation de receptores D2 estriatales, atrofia de sustancia gris prefrontal y microisquemia cerebrovascular crónica."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "vasoconstriction": 0.95,
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Hipertermia maligna, convulsiones, delirio agitado y riesgo inminente de derrame o infarto cerebral por presión arterial extrema.",
+            "technical": "Crisis hipertensiva neurovascular, excitotoxicidad, estatus epiléptico y hemorragia intracerebral o subaracnoidea."
+          }
+        }
+      }
+    },
+    "heart": {
+      "organ": "heart",
+      "overallSeverity": "critical",
+      "headline": "La tormenta perfecta cardiovascular: aumenta la demanda de oxígeno mientras cierra las arterias coronarias",
+      "explanation": {
+        "general": "La cocaína es especialmente peligrosa para el corazón porque hace dos cosas opuestas al mismo tiempo: obliga al corazón a latir mucho más rápido y fuerte (necesitando más oxígeno), pero a la vez estrecha las arterias coronarias que le llevan ese oxígeno. Además, altera las señales eléctricas del músculo cardíaco, pudiendo causar arritmias mortales o infartos incluso en jóvenes sanos.",
+        "technical": "Induce isquemia miocárdica multifactorial: el estímulo β1-adrenérgico incrementa la frecuencia cardíaca y la contractilidad (mayor demanda de O2), mientras la activación α1-adrenérgica y la liberación de endotelina-1 producen vasoespasmo coronario severo y agregación plaquetaria. Simultáneamente, el bloqueo de canales Nav1.5 enlentece la despolarización ventricular (fase 0), predisponiendo a taquicardia y fibrilación ventricular."
+      },
+      "simulatedBpm": 148,
+      "vasoconstriction": 0.88,
+      "hotspots": [
+        {
+          "id": "coronary_arteries",
+          "label": "Arterias Coronarias",
+          "position": [0.25, 0.1, 0.4],
+          "severity": "critical",
+          "description": {
+            "general": "Las arterias que alimentan al propio corazón sufren espasmos y se cierran, bloqueando el paso de sangre oxigenada y provocando dolor de pecho o infarto.",
+            "technical": "Vasoespasmo coronario mediado por receptores α1-adrenérgicos, reducción de óxido nítrico endotelial y trombogénesis acelerada."
+          }
+        },
+        {
+          "id": "left_ventricle",
+          "label": "Miocardio y Ventrículo Izquierdo",
+          "position": [-0.2, -0.25, 0.35],
+          "severity": "critical",
+          "description": {
+            "general": "El músculo cardíaco trabaja forzado contra una presión arterial muy alta; con el tiempo se engrosa y pierde capacidad de bombeo.",
+            "technical": "Hipertrofia ventricular izquierda concéntrica, fibrosis intersticial miocárdica y bloqueo de conducción intraventricular (canales Nav1.5)."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedBpm": 70,
+          "vasoconstriction": 0.1,
+          "stressIndex": 0.1,
+          "description": {
+            "general": "Ritmo cardíaco en reposo normal (70 BPM) con arterias coronarias abiertas y buena oxigenación.",
+            "technical": "Ritmo sinusal normocárdico, resistencia vascular coronaria fisiológica y conducción His-Purkinje normal."
+          }
+        },
+        "acute": {
+          "severity": "critical",
+          "simulatedBpm": 148,
+          "vasoconstriction": 0.85,
+          "stressIndex": 0.88,
+          "description": {
+            "general": "Taquicardia intensa (~145–155 BPM), subida brusca de presión arterial y estrechamiento de las arterias coronarias.",
+            "technical": "Taquicardia sinusal simpaticomimética, hipertensión sistólica/diastólica y vasoespasmo coronario agudo."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "simulatedBpm": 88,
+          "vasoconstriction": 0.4,
+          "stressIndex": 0.45,
+          "description": {
+            "general": "Fatiga cardiovascular tras el sobreesfuerzo; pueden persistir palpitaciones y espasmos coronarios tardíos.",
+            "technical": "Desregulación autonómica post-exposición con riesgo residual de vasoespasmo coronario por metabolitos activos."
+          }
+        },
+        "chronic": {
+          "severity": "critical",
+          "simulatedBpm": 98,
+          "vasoconstriction": 0.7,
+          "stressIndex": 0.9,
+          "description": {
+            "general": "Agrandamiento y rigidez del corazón (miocardiopatía), aterosclerosis acelerada y daño crónico en las válvulas y arterias.",
+            "technical": "Miocardiopatía dilatada o hipertrófica inducida por catecolaminas, fibrosis miocárdica y aterosclerosis coronaria prematura."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "simulatedBpm": 185,
+          "vasoconstriction": 0.98,
+          "stressIndex": 1.0,
+          "description": {
+            "general": "Infarto agudo de miocardio, arritmia maligna (fibrilación ventricular) o rotura de la arteria aorta por presión extrema.",
+            "technical": "Oclusión coronaria espástica/trombótica, taquicardia ventricular polimórfica (Torsades/FV), disección aórtica y paro cardíaco."
+          }
+        }
+      }
+    },
+    "liver": {
+      "organ": "liver",
+      "overallSeverity": "high",
+      "headline": "Síntesis de cocaetileno (al combinarse con alcohol) y necrosis hepatocelular oxidativa",
+      "explanation": {
+        "general": "El hígado es el encargado de descomponer la cocaína. Cuando se consume junto con alcohol, el hígado fabrica una tercera sustancia nueva llamada cocaetileno, que dura mucho más tiempo en la sangre, golpea el hígado y multiplica por más de 18 el riesgo de muerte súbita cardíaca.",
+        "technical": "Metabolizada por colinesterasas y carboxilesterasas hepáticas; una fracción sufre N-demetilación oxidativa vía CYP3A4 hacia norcocaína, un metabolito hepatotóxico generador de especies reactivas de oxígeno (ROS). En presencia de etanol, la carboxilesterasa 1 cataliza la transesterificación hacia cocaetileno (t½ ~2.5 h), altamente cardiotóxico y hepatotóxico."
+      },
+      "toxicMetabolite": "Cocaetileno (con etanol) / Norcocaína",
+      "hotspots": [
+        {
+          "id": "hepatocytes",
+          "label": "Parénquima Hepático (CYP3A4 / hCE1)",
+          "position": [0.1, 0.05, 0.35],
+          "severity": "high",
+          "description": {
+            "general": "Zona donde el hígado procesa la droga; al mezclarse con alcohol produce cocaetileno, un compuesto mucho más tóxico que la cocaína sola.",
+            "technical": "Transesterificación por hCE1 a cocaetileno y peroxidación lipídica hepatocelular mediada por metabolitos N-oxidados (norcocaína)."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Función metabólica hepática normal sin acumulación de metabolitos tóxicos.",
+            "technical": "Actividad enzimática esterasa y citocromo P450 en homeostasis basal."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "stressIndex": 0.55,
+          "description": {
+            "general": "Sobrecarga enzimática para degradar la sustancia; si hay alcohol presente, comienza la formación de cocaetileno.",
+            "technical": "Hidrólisis intensa por hCE1/hCE2 y producción de norcocaína vía CYP3A4 con estrés oxidativo agudo."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "stressIndex": 0.4,
+          "description": {
+            "general": "Eliminación progresiva de metabolitos residuales como la benzoilecgonina.",
+            "technical": "Aclaramiento hepático-renal de benzoilecgonina (t½ 6–8 h) y recuperación de glutatión reducido."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "stressIndex": 0.8,
+          "description": {
+            "general": "Inflamación hepática crónica y daño celular acumulado, especialmente severo en quienes combinan cocaína y alcohol.",
+            "technical": "Necrosis centrolobulillar focal, elevación persistente de transaminasas (AST/ALT) y esteatosis microvesicular."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "stressIndex": 0.95,
+          "description": {
+            "general": "Fallo hepático agudo secundario al golpe de calor extremo (hipertermia), falta de irrigación sanguínea y rabdomiólisis.",
+            "technical": "Hepatitis isquémica hipóxica y necrosis hepatocelular masiva asociada a hipertermia maligna y coagulación intravascular diseminada."
+          }
+        }
+      }
+    },
+    "lungs": {
+      "organ": "lungs",
+      "overallSeverity": "high",
+      "headline": "Daño térmico alveolar ('pulmón de crack'), vasoconstricción pulmonar y destrucción del tabique nasal",
+      "explanation": {
+        "general": "Cuando se aspira por la nariz, el cierre repetido de los vasos sanguíneos mata el tejido del cartílago nasal hasta perforar el tabique. Cuando se fuma (crack o pasta base), los vapores calientes y residuos químicos queman los alvéolos pulmonares, provocando sangrado pulmonar, falta de aire severa y dolor torácico.",
+        "technical": "La insuflación crónica induce isquemia mucosa y necrosis avascular del septo cartilaginoso nasal. La inhalación de base libre pirolizada provoca lesión alveolar difusa, hemorragia alveolar oculta, edema pulmonar no cardiogénico, broncoespasmo e hipertensión arterial pulmonar ('crack lung')."
+      },
+      "simulatedRpm": 24,
+      "vasoconstriction": 0.75,
+      "hotspots": [
+        {
+          "id": "alveoli",
+          "label": "Alvéolos y Capilares Pulmonares",
+          "position": [0.3, -0.1, 0.25],
+          "severity": "high",
+          "description": {
+            "general": "Los sacos de aire sufren vasoconstricción e inflamación aguda, reduciendo el paso de oxígeno a la sangre.",
+            "technical": "Daño endotelial capilar pulmonar, infiltrado eosinofílico/neutrofílico y hemorragia intraalveolar."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "simulatedRpm": 14,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Respiración tranquila (14 respiraciones por minuto) con intercambio normal de oxígeno.",
+            "technical": "Ventilación alveolar y perfusión capilar pulmonar fisiológicas."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "simulatedRpm": 24,
+          "stressIndex": 0.6,
+          "description": {
+            "general": "Respiración rápida y superficial por la estimulación nerviosa; irritación directa de vías respiratorias.",
+            "technical": "Taquipnea simpaticomimética y vasoconstricción del lecho arterial pulmonar."
+          }
+        },
+        "withdrawal": {
+          "severity": "low",
+          "simulatedRpm": 16,
+          "stressIndex": 0.3,
+          "description": {
+            "general": "Congestión nasal de rebote, tos seca o expectoración oscura tras haber fumado base libre.",
+            "technical": "Rinitis medicamentosa/isquémica residual y aclaramiento mucociliar deteriorado."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "simulatedRpm": 22,
+          "stressIndex": 0.85,
+          "description": {
+            "general": "Perforación del tabique nasal, pérdida del olfato, fibrosis pulmonar e hipertensión en las arterias del pulmón.",
+            "technical": "Necrosis septal nasopalatina, hipertensión arterial pulmonar secundaria y reducción de la capacidad de difusión de CO (DLCO)."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "simulatedRpm": 32,
+          "stressIndex": 0.95,
+          "description": {
+            "general": "Edema agudo de pulmón (líquido en los pulmones), hemorragia pulmonar e insuficiencia respiratoria.",
+            "technical": "Edema pulmonar agudo cardiogénico/neurogénico, síndrome de distrés respiratorio agudo (SDRA) y hemoptisis franca."
+          }
+        }
+      }
+    },
+    "kidneys": {
+      "organ": "kidneys",
+      "overallSeverity": "high",
+      "headline": "Insuficiencia renal aguda por rabdomiólisis (destrucción muscular) y vasoconstricción renal",
+      "explanation": {
+        "general": "La hipertermia, la agitación muscular intensa y el estrechamiento de las arterias hacen que el tejido muscular se rompa y libere una proteína (mioglobina) en la sangre que tapona y destruye los filtros de los riñones, pudiendo causar fallo renal agudo.",
+        "technical": "La vasoconstricción de arterias renales aferentes reduce la tasa de filtración glomerular (TFG) y causa isquemia tubular. Adicionalmente, la hipertermia e hiperactividad muscular inducen rabdomiólisis severa con mioglobinuria, provocando necrosis tubular aguda por obstrucción de cilindros pigmentados y toxicidad directa del grupo hemo."
+      },
+      "vasoconstriction": 0.8,
+      "hotspots": [
+        {
+          "id": "renal_cortex",
+          "label": "Corteza Renal y Túbulos",
+          "position": [0.2, 0, 0.25],
+          "severity": "high",
+          "description": {
+            "general": "Los túbulos filtradores sufren falta de sangre y se bloquean con los residuos de fibras musculares dañadas.",
+            "technical": "Necrosis tubular aguda inducida por mioglobina e isquemia cortical renal vasoconstrictora."
+          }
+        }
+      ],
+      "timelineStates": {
+        "baseline": {
+          "severity": "low",
+          "vasoconstriction": 0.1,
+          "stressIndex": 0.05,
+          "description": {
+            "general": "Flujo sanguíneo renal y filtración de toxinas normales.",
+            "technical": "Tasa de filtración glomerular y perfusión cortical dentro de rangos normales."
+          }
+        },
+        "acute": {
+          "severity": "moderate",
+          "vasoconstriction": 0.7,
+          "stressIndex": 0.65,
+          "description": {
+            "general": "Disminución del flujo de sangre al riñón por el estrechamiento arterial e inicio de deshidratación.",
+            "technical": "Vasoconstricción renal simpática con caída transitoria del flujo plasmático renal."
+          }
+        },
+        "withdrawal": {
+          "severity": "moderate",
+          "vasoconstriction": 0.35,
+          "stressIndex": 0.45,
+          "description": {
+            "general": "Los riñones trabajan para eliminar los metabolitos acumulados de la droga y los adulterantes.",
+            "technical": "Excreción urinaria de benzoilecgonina, ecgonina metil éster y metabolitos de adulterantes (levamisol/fenacetina)."
+          }
+        },
+        "chronic": {
+          "severity": "high",
+          "vasoconstriction": 0.75,
+          "stressIndex": 0.82,
+          "description": {
+            "general": "Daño renal crónico por hipertensión sostenida y por adulterantes nefrotóxicos como la fenacetina.",
+            "technical": "Nefroesclerosis hipertensiva acelerada, fibrosis tubulointersticial y nefropatía por analgésicos/adulterantes."
+          }
+        },
+        "overdose": {
+          "severity": "critical",
+          "vasoconstriction": 0.95,
+          "stressIndex": 0.98,
+          "description": {
+            "general": "Fallo renal agudo por destrucción muscular masiva (rabdomiólisis) e infarto renal.",
+            "technical": "Insuficiencia renal aguda anúrica por rabdomiólisis masiva (CPK >10,000 U/L), necrosis tubular e infarto renal focal."
+          }
+        }
+      }
+    }
+  },
+  "timelineStages": [
+    {
+      "stage": "onset",
+      "label": "Inicio",
+      "timeRange": "10 seg (fumada) | 1–5 min (intranasal)",
+      "intensity": 40,
+      "rewardToneIndex": 180,
+      "description": {
+        "general": "Entrada rápida al torrente sanguíneo, adormecimiento local de mucosas y aceleración inmediata del pulso.",
+        "technical": "Absorción mucosa o alveolar rápida con cruce inmediato de la barrera hematoencefálica por alta lipofilicidad."
+      }
+    },
+    {
+      "stage": "peak",
+      "label": "Pico Agudo",
+      "timeRange": "5–30 min",
+      "intensity": 95,
+      "rewardToneIndex": 310,
+      "description": {
+        "general": "Euforia intensa, hiperactividad mental, disminución de la fatiga, taquicardia marcada y vasoconstricción coronaria.",
+        "technical": "Ocupación máxima (>60–77%) de transportadores DAT estriatales con pico de dopamina extracelular y máxima descarga simpática."
+      }
+    },
+    {
+      "stage": "offset",
+      "label": "Bajada Rápida",
+      "timeRange": "30–60 min",
+      "intensity": 50,
+      "rewardToneIndex": 90,
+      "description": {
+        "general": "El efecto estimulante desaparece rápidamente mientras el corazón sigue acelerado; aparece ansiedad y deseo de volver a consumir.",
+        "technical": "Hidrólisis plasmática acelerada por pseudocolinesterasas; disociación de DAT con persistencia de metabolitos cardiovasculares."
+      }
+    },
+    {
+      "stage": "withdrawal",
+      "label": "Bajón ('Crash') y Abstinencia",
+      "timeRange": "1–72 horas",
+      "intensity": 75,
+      "rewardToneIndex": 40,
+      "description": {
+        "general": "Agotamiento profundo, depresión aguda, irritabilidad, insomnio o hipersomnia y anhedonia (incapacidad de sentir placer).",
+        "technical": "Estado hipodopaminérgico estriatal agudo, elevación del umbral de recompensa intracraneal y activación del eje HPA/amígdala extendida."
+      }
+    }
+  ],
+  "shortTermEffects": {
+    "psychological": [
+      "Euforia breve e hiperalerta artificial",
+      "Sensación engañosa de omnipotencia y reducción de la percepción del riesgo",
+      "Irritabilidad, inquietud psicomotora e insomnio",
+      "Paranoia aguda, hipervigilancia y ataques de pánico"
+    ],
+    "physiological": [
+      "Taquicardia marcada (120–160+ BPM) e hipertensión arterial brusca",
+      "Vasoconstricción coronaria y periférica (extremidades frías, dolor torácico)",
+      "Midriasis (pupilas dilatadas) y aumento de la temperatura corporal",
+      "Anestesia local en mucosa nasal y faringe"
+    ]
+  },
+  "longTermEffects": {
+    "psychological": [
+      "Anhedonia severa (incapacidad de experimentar placer con estímulos naturales)",
+      "Deterioro del control de impulsos, memoria de trabajo y toma de decisiones",
+      "Psicosis paranoide inducida y alucinaciones táctiles (formicación)",
+      "Trastornos depresivos resistentes y ansiedad crónica"
+    ],
+    "physiological": [
+      "Miocardiopatía hipertrófica/dilatada, fibrosis cardíaca y riesgo elevado de infarto juvenil",
+      "Perforación del tabique nasal y destrucción del paladar por necrosis isquémica",
+      "Microinfartos cerebrales y atrofia prematura de corteza prefrontal",
+      "Agranulocitosis y vasculitis cutánea necrotizante (por adulteración con levamisol)"
+    ]
+  },
+  "overdoseSigns": [
+    "Dolor opresivo en el pecho que se irradia al brazo o mandíbula (síndrome coronario agudo)",
+    "Frecuencia cardíaca extrema o pulso irregular (arritmia ventricular)",
+    "Temperatura corporal peligrosamente alta (hipertermia >40 °C) con piel caliente",
+    "Convulsiones, confusión extrema, delirio agitado o pérdida súbita del conocimiento",
+    "Dolor de cabeza explosivo o parálisis facial/corporal (signo de derrame cerebral)"
+  ],
+  "interactions": [
+    {
+      "withSubstance": "Alcohol (Etanol)",
+      "riskLevel": "lethal",
+      "resultingCompound": "Cocaetileno",
+      "effectSummary": "El hígado combina ambas sustancias y crea Cocaetileno, multiplicando entre 18 y 25 veces el riesgo de muerte súbita cardíaca.",
+      "explanation": {
+        "general": "Mucha gente usa alcohol para 'bajar' la aceleración de la cocaína o viceversa. Sin embargo, al juntarse en el hígado forman un tercer compuesto llamado cocaetileno, que permanece en el cuerpo el triple de tiempo y bloquea los canales eléctricos del corazón con mucha más fuerza que la cocaína sola.",
+        "technical": "La carboxilesterasa 1 hepática (hCE1) transesterifica la cocaína en presencia de etanol produciendo cocaetileno. Este metabolito activo posee una vida media plasmática 3 a 5 veces mayor (~2.5 h), mayor afinidad por DAT y un bloqueo significativamente más potente de los canales cardíacos Nav1.5 y hERG."
+      }
+    },
+    {
+      "withSubstance": "Opioides (Heroína / Fentanilo — 'Speedball')",
+      "riskLevel": "lethal",
+      "effectSummary": "Enmascara los síntomas de sedación hasta que el efecto corto de la cocaína desaparece y sobreviene un paro respiratorio fulminante.",
+      "explanation": {
+        "general": "La estimulación de la cocaína hace creer a la persona que puede tolerar más dosis del opioide. Pero como la cocaína dura solo 45 minutos y el opioide dura varias horas, cuando se va el efecto estimulante el sistema respiratorio colapsa de golpe.",
+        "technical": "Antagonismo fisiológico aparente pero no farmacológico: la hiperestimulación simpática de la cocaína incrementa la demanda de oxígeno miocárdico mientras el agonista μ-opioide induce hipoventilación e hipoxemia. Al decaer la concentración de cocaína (t½ corta), se desenmascara la depresión respiratoria letal del tronco encefálico."
+      }
+    },
+    {
+      "withSubstance": "Otros Estimulantes (MDMA, Anfetaminas) o Antidepresivos (IMAO / ISRS)",
+      "riskLevel": "dangerous",
+      "effectSummary": "Crisis hipertensiva severa, arritmias, hipertermia maligna y síndrome serotoninérgico.",
+      "explanation": {
+        "general": "Sumar dos sustancias que elevan la dopamina, noradrenalina y serotonina sobrecarga el sistema cardiovascular y desregula el termostato del cerebro, pudiendo causar convulsiones o infarto.",
+        "technical": "Sinergia monoaminérgica y simpaticomimética que precipita tormenta catecolaminérgica, vasoespasmo coronario crítico y toxicidad serotoninérgica central (clonus, hipertermia, rabdomiólisis)."
+      }
+    }
+  ],
+  "commonAdulterants": [
+    {
+      "name": "Levamisol",
+      "frequency": "very_common",
+      "severity": "critical",
+      "purpose": "Antiparasitario veterinario usado para abultar el peso y prolongar el efecto al convertirse parcialmente en aminorex (un estimulante tipo anfetamina).",
+      "organRisk": {
+        "general": "Presente en más del 60–70% de las muestras analizadas a nivel global. Destruye los glóbulos blancos de la médula ósea (dejando al cuerpo sin defensas ante infecciones graves) y provoca necrosis (muerte del tejido y manchas negras) en orejas, nariz y piel por inflamación de los vasos sanguíneos.",
+        "technical": "Induce agranulocitosis/neutropenia severa autoinmune (asociada a HLA-B27) y vasculitis leucocitoclástica o trombótica con púrpura retiforme y necrosis cutánea. Su metabolito activo, aminorex, agrava la hipertensión arterial pulmonar."
+      }
+    },
+    {
+      "name": "Fentanilo (Contaminación cruzada o adulteración)",
+      "frequency": "common",
+      "severity": "critical",
+      "purpose": "Contaminación en mesas de fraccionamiento o adición deliberada en mercados ilícitos.",
+      "organRisk": {
+        "general": "Como el consumidor de un estimulante no tiene tolerancia física a los opioides, apenas 2 miligramos de fentanilo mezclado en el polvo pueden detener la respiración en pocos minutos.",
+        "technical": "Agonismo μ-opioide potente (50–100x morfina) en individuos sin tolerancia opioide previa, provocando apnea central rápida, rigidez torácica ('wooden chest syndrome') y paro hipóxico."
+      }
+    },
+    {
+      "name": "Fenacetina",
+      "frequency": "common",
+      "severity": "high",
+      "purpose": "Analgésico retirado del mercado médico por su toxicidad, usado por su aspecto cristalino brillante similar al clorhidrato de cocaína.",
+      "organRisk": {
+        "general": "Daña progresivamente los riñones (nefropatía), destruye glóbulos rojos reduciendo el transporte de oxígeno y está clasificada como cancerígeno para las vías urinarias.",
+        "technical": "Induce necrosis papilar renal crónica, nefritis tubulointersticial, metahemoglobinemia/anemia hemolítica oxidativa y carcinoma urotelial."
+      }
+    }
+  ],
+  "myths": [
+    {
+      "myth": "Tomar alcohol junto con cocaína compensa el efecto y reduce el peligro cardíaco.",
+      "reality": {
+        "general": "Es exactamente al revés: al juntarse en el hígado forman cocaetileno, una sustancia más tóxica y duradera que multiplica por más de 18 el riesgo de muerte súbita por infarto o arritmia.",
+        "technical": "La transesterificación hepática genera cocaetileno, el cual posee un aclaramiento mucho más lento y bloquea con mayor potencia los canales de sodio cardíacos, incrementando drásticamente la letalidad cardiovascular."
+      }
+    },
+    {
+      "myth": "Los infartos por cocaína solo le ocurren a personas mayores o que consumen todos los días desde hace años.",
+      "reality": {
+        "general": "Un infarto o derrame cerebral por cocaína puede ocurrir en la primera vez de uso y en personas menores de 25 años sin enfermedades previas, porque la droga provoca un espasmo súbito que cierra las arterias coronarias.",
+        "technical": "El vasoespasmo coronario α1-adrenérgico agudo, sumado al estado protrombótico plaquetario y al bloqueo de canales Nav1.5, puede desencadenar isquemia transmural y fibrilación ventricular independientemente de la existencia de placa aterosclerótica previa."
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Cocaine-Induced Cardiovascular Disease: Pathophysiology and Clinical Management",
+      "authors": "Schwartz BG, Rezkalla S, Kloner RA",
+      "source": "Circulation (American Heart Association)",
+      "year": 2010,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21135373/",
+      "doi": "10.1161/CIRCULATIONAHA.110.940569"
+    },
+    {
+      "title": "Neurobiologic Advances from the Brain Disease Model of Addiction",
+      "authors": "Volkow ND, Koob GF, McLellan AT",
+      "source": "New England Journal of Medicine (NEJM)",
+      "year": 2016,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26816013/",
+      "doi": "10.1056/NEJMra1511480"
+    },
+    {
+      "title": "Levamisole-Adulterated Cocaine: A Review of Clinical Toxicology and Immunology",
+      "authors": "Larocque A, Hoffman RS",
+      "source": "Clinical Toxicology",
+      "year": 2012,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22455354/",
+      "doi": "10.3109/15563650.2012.665455"
+    }
+  ]
+}
+
