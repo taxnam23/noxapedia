@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Noxapedia
 
-## Getting Started
+> **Interactive Scientific Encyclopedia & 3D Human Organ Simulator for Addictive and Psychoactive Substances.**
 
-First, run the development server:
+![Status](https://img.shields.io/badge/status-v0.1_alpha-06b6d4?style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178c6?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-emerald?style=flat-square)
+
+**Noxapedia** *(from medical Latin "noxa" + "encyclopedia")* bridges the gap between dense clinical databases (DrugBank, PubChem) and public health education. It combines rigorous pharmacology, neurobiology of addiction, and real-world toxicology with interactive 3D anatomy.
+
+---
+
+## Key Features
+
+* **Dual Reading Modes (`General` / `Technical`):** Switch instantly between clear, adult physiological explanations (zero infantilization) and clinical pharmacology (receptor binding, CYP450 pathways, $t_{1/2}$ pharmacokinetics, and toxic metabolites).
+* **Organ & Synapse Telemetry:** Explore how compounds impact the **Brain**, **Heart**, **Lungs**, **Liver**, and **Kidneys** across 5 exposure states (`baseline`, `acute`, `withdrawal`, `chronic`, `overdose`).
+* **Real-World Toxicology:** Documents street adulterants (e.g., levamisole, xylazine, illicit fentanyl), polydrug synergies (e.g., cocaethylene), and myths vs. peer-reviewed evidence.
+* **Open Git-Based Database:** Every substance lives in `/data/substances/<slug>.json` and is validated at build time with strict **Zod** schemas (`src/lib/schemas/substance.ts`).
+* **Multi-Language Support:** Built-in DOM translation switcher (`ES` | `EN` | `PT` | `FR`) that preserves chemical formulas, CAS numbers, and receptor nomenclature.
+
+---
+
+## Tech Stack
+
+* **Framework:** Next.js (App Router) + TypeScript (`strict: true`)
+* **UI & Styling:** Tailwind CSS v4 + `shadcn/ui` + Lucide Icons
+* **3D & Visualization:** Three.js (`@react-three/fiber`, `@react-three/drei`) + Recharts
+* **Data Validation:** Zod static schema validation
+
+---
+
+## Quick Start
 
 ```bash
+# 1. Install dependencies
+npm install
+
+# 2. Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 3. Validate schemas & build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing a Substance
 
-## Learn More
+All substance profiles are stored in [`/data/substances/`](./data/substances) and validated against [`src/lib/schemas/substance.ts`](./src/lib/schemas/substance.ts).
 
-To learn more about Next.js, take a look at the following resources:
+1. Duplicate an existing profile (e.g., `data/substances/cocaina.json`).
+2. Populate both `general` and `technical` explanations, organ impacts, street adulterants, and verifiable references (WHO, NIDA, PubMed DOI).
+3. Run `npm run build` to verify schema compliance.
+4. Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) and [`AGENTS.md`](./AGENTS.md) for editorial and scientific standards.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Scientific & Medical Disclaimer
 
-## Deploy on Vercel
+**Noxapedia is strictly an educational, scientific, and harm-reduction resource.** It does not provide medical advice, clinical diagnosis, or dosing instructions, nor does it promote the use or sourcing of any controlled substance.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Released under the [MIT License](./LICENSE).
