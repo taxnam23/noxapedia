@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="./public/logo.svg" alt="Noxapedia Logo" height="64" />
+</p>
+
 # Noxapedia
 
 > **Interactive Scientific Encyclopedia & 3D Human Organ Simulator for Addictive and Psychoactive Substances.**

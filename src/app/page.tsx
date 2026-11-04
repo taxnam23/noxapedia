@@ -1,5 +1,4 @@
 import {
-  Activity,
   Brain,
   Database,
   HeartPulse,
@@ -13,6 +12,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { NoxapediaLogo } from "@/components/ui/noxapedia-logo";
 import { LanguageSwitcher } from "@/components/wiki/language-switcher";
 import { ReadingModeToggle } from "@/components/wiki/reading-mode-toggle";
 import { SubstanceExplorer } from "@/components/wiki/substance-explorer";
@@ -26,31 +26,7 @@ export default function HomePage() {
       {/* Top Clinical Navigation Bar */}
       <header className="sticky top-0 z-40 border-b border-slate-800/80 bg-slate-950/80 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-2 px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-3">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-cyan-500/40 bg-cyan-500/10 text-cyan-400 shadow-sm shadow-cyan-500/20">
-              <Activity className="h-5 w-5" />
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span
-                  translate="no"
-                  className="notranslate font-mono text-lg font-bold tracking-tight text-slate-100"
-                >
-                  NOXAPEDIA
-                </span>
-                <Badge
-                  variant="default"
-                  translate="no"
-                  className="notranslate text-[10px] font-mono"
-                >
-                  v0.1 ALPHA
-                </Badge>
-              </div>
-              <p className="text-[11px] text-slate-400 hidden sm:block">
-                Atlas Neurobiológico & Simulador 3D de Sustancias Adictivas
-              </p>
-            </div>
-          </div>
+          <NoxapediaLogo />
 
           <div className="flex items-center gap-2 sm:gap-3">
             <LanguageSwitcher />
